@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SenseCraft HMI Documentation</title>
+    <meta name="description" content="Official documentation for SenseCraft HMI - No-code UI builder for e-paper/e-ink displays">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin: 2rem;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 2rem;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        p {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .language-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .language-link {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+            font-weight: 500;
+        }
+        .language-link:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        .loading {
+            margin-top: 2rem;
+            color: #999;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">S</div>
+        <h1>SenseCraft HMI</h1>
+        <p>Official documentation for SenseCraft HMI - No-code UI builder for e-paper/e-ink displays</p>
+        
+        <div class="language-links">
+            <a href="/en/" class="language-link">English</a>
+            <a href="/zh/" class="language-link">简体中文</a>
+            <a href="/ja/" class="language-link">日本語</a>
+        </div>
+        
+        <div class="loading">
+            Redirecting to English documentation...
+        </div>
+    </div>
+
+    <script>
+        // Auto-redirect to English after 2 seconds
+        setTimeout(() => {
+            window.location.href = '/en/';
+        }, 2000);
+    </script>
+</body>
+</html>

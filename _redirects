@@ -1,4 +1,8 @@
 # Cloudflare Pages redirects configuration
+
+# Redirect root to default language (English)
+/    /en/    302
+
 # Handle client-side routing for Astro
 /*    /index.html   200
 
