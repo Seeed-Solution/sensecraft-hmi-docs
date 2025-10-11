@@ -10,6 +10,7 @@ export default defineConfig({
 		starlight({
 			title: 'SenseCraft HMI for E-Paper',
 			description: 'Official documentation for SenseCraft HMI - No-code UI builder for e-paper/e-ink displays. Design interfaces for reTerminal E series with drag-and-drop simplicity.',
+			favicon: '/favicon.png',
 			social: [
 				{
 					icon: 'github',
@@ -47,6 +48,22 @@ export default defineConfig({
 				'./src/styles/custom.css',
 			],
 			head: [
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'icon',
+						type: 'image/png',
+						href: '/favicon.png',
+					},
+				},
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'shortcut icon',
+						type: 'image/png',
+						href: '/favicon.png',
+					},
+				},
 				{
 					tag: 'meta',
 					attrs: {
