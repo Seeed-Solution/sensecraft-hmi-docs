@@ -1,0 +1,47 @@
+/* SenseCraft HMI 自定义样式 */
+
+/* 自定义主题颜色 */
+:root {
+  --sl-color-accent-low: #1e3a8a;
+  --sl-color-accent: #3b82f6;
+  --sl-color-accent-high: #dbeafe;
+}
+
+/* 自定义字体 */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* 代码块样式优化 */
+.sl-markdown-content pre {
+  border-radius: 8px;
+  border: 1px solid var(--sl-color-hairline);
+}
+
+/* 按钮样式 */
+.sl-markdown-content .btn {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.sl-markdown-content .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 导航栏样式 */
+.starlight-nav {
+  backdrop-filter: blur(10px);
+}
+
+/* 侧边栏样式 */
+.sidebar {
+  border-right: 1px solid var(--sl-color-hairline);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .sl-markdown-content {
+    padding: 1rem;
+  }
+}

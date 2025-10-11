@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_astro/
+
+# Sitemap location
+Sitemap: https://docs.sensecraft-hmi.com/sitemap-index.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
