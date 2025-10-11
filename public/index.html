@@ -89,15 +89,28 @@
         </div>
         
         <div class="loading">
-            Redirecting to English documentation...
+            Detecting your language preference...
         </div>
     </div>
 
     <script>
-        // Auto-redirect to English after 2 seconds
-        setTimeout(() => {
-            window.location.href = '/en/';
-        }, 2000);
+        // Detect browser language and redirect immediately
+        function detectLanguage() {
+            const browserLang = navigator.language || navigator.userLanguage;
+            let targetLocale = 'en'; // default
+            
+            if (browserLang.startsWith('zh')) {
+                targetLocale = 'zh';
+            } else if (browserLang.startsWith('ja')) {
+                targetLocale = 'ja';
+            }
+            
+            return targetLocale;
+        }
+
+        // Redirect immediately based on browser language
+        const targetLang = detectLanguage();
+        window.location.href = `/${targetLang}/`;
     </script>
 </body>
 </html>
