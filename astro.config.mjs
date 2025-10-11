@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-	site: 'https://docs.sensecraft-hmi.com',
+	site: 'https://sensecraft-hmi-docs.seeed.cc',
 	integrations: [
 		starlight({
 			title: 'SenseCraft HMI for E-Paper',
