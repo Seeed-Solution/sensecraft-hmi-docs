@@ -37,11 +37,32 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Guides',
-					autogenerate: { directory: 'guides' },
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					items: [
+						{
+							label: 'SenseCraft HMI Overview',
+							link: '/guides/sensecraft_hmi_overview/',
+						},
+						{
+							label: 'AI Generation Function',
+							link: '/guides/sensecraft_hmi_ai_generator/',
+						},
+						{
+							label: 'Canvas Function',
+							link: '/guides/sensecraft_hmi_canvas/',
+						},
+						{
+							label: 'Gallery Function',
+							link: '/guides/sensecraft_hmi_gallery/',
+						},
+						{
+							label: 'RSS Function',
+							link: '/guides/sensecraft_hmi_rss/',
+						},
+						{
+							label: 'Web Function',
+							link: '/guides/sensecraft_hmi_web/',
+						},
+					],
 				},
 			],
 			customCss: [
