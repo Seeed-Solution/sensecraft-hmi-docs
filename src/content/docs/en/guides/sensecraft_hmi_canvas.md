@@ -216,6 +216,38 @@ Step 3. Use the properties panel to customize:
 
   - Other shape-specific properties
 
+### QR Code
+
+The QR Code component generates a scannable QR (Quick Response) code from any text or URL you provide.
+
+Step 1. Click on the "QR Code" component in the Drawing section of the component list.
+
+Step 2. The component will be placed on your canvas with a default QR code.
+
+Step 3. Click the QR icon in the component's toolbar to open the QR Code Content panel.
+
+Step 4. In the content panel, enter the text or URL you wish to encode into the "QR Code Content" input field. The QR code on the canvas will update automatically as you type.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_26.png" style={{width:400, height:'auto'}}/></div>
+
+Step 5. Use the property panel to further customize the component's size and position on the canvas.
+
+### Barcode
+
+The Barcode component generates a standard scannable barcode from text or numbers.
+
+Step 1. Click on the "Barcode" component in the Drawing section of the component list.
+
+Step 2. The component will be placed on your canvas with a default barcode and its corresponding numbers displayed below.
+
+Step 3. Click the Bar icon in the component's toolbar to open the Barcode Content panel.
+
+Step 4. In the content panel, enter the text or numbers you wish to encode into the "Barcode Content" input field. The barcode and the text beneath it will update automatically.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_27.png" style={{width:400, height:'auto'}}/></div>
+
+Step 5. Use the property panel to further customize the component's size and position on the canvas.
+
 ## Device Components
 
 The Device section contains components that automatically display data from your connected Seeed reTerminal E Series ePaper Display device sensors:
@@ -626,7 +658,7 @@ Step 1. Click the "Preview" button in the top toolbar
 
 Step 2. Review how your layout will appear on the device
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/130.png" style={{width:700, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_24.png" style={{width:400, height:'auto'}}/></div>
 
 Step 3. Make any necessary adjustments
 
@@ -644,7 +676,7 @@ Step 2. Click the "Deploy" button
 
 Step 3. Wait for the deployment process to complete
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/131.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_25.png" style={{width:400, height:'auto'}}/></div>
 
 Step 4. Your layout will appear on your connected device
 
