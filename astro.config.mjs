@@ -8,8 +8,8 @@ export default defineConfig({
 	site: 'https://sensecraft-hmi-docs.seeed.cc',
 	integrations: [
 		starlight({
-			title: 'SenseCraft HMI for E-Paper',
-			description: 'Official documentation for SenseCraft HMI - No-code UI builder for e-paper/e-ink displays. Design interfaces for reTerminal E series with drag-and-drop simplicity.',
+			title: 'SenseCraft HMI Wiki',
+			description: 'Official documentation for SenseCraft HMI - No-code UI builder for Seeed Studio displays.',
 			favicon: '/favicon.png',
 			social: [
 				{
@@ -41,6 +41,10 @@ export default defineConfig({
 						{
 							label: 'SenseCraft HMI Overview',
 							link: '/guides/sensecraft_hmi_overview/',
+						},
+						{
+							label: 'Basic Function Usage',
+							link: '/guides/sensecraft_hmi_base_fuction/',
 						},
 						{
 							label: 'AI Generation Function',

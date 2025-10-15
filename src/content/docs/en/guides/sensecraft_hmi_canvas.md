@@ -1,15 +1,15 @@
 ---
-title: Canvas Function
-description: Introduces the use of Canvas, a feature under the SenseCraft HMI platform.
+title: UI Design Function
+description: Introduces the use of UI design, a feature under the SenseCraft HMI platform.
 ---
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/141.jpg" style={{width:800, height:'auto'}}/></div>
 
 ## Introduction
 
-The Canvas function in [SenseCraft HMI](https://sensecraft.seeed.cc/hmi) is the most powerful and flexible feature of the platform, allowing you to create custom interfaces, dashboards, and data visualizations. With Canvas, you can design beautiful displays that combine static elements with dynamic data from various sources, including device sensors, weather information, stock data, and more.
+The UI Design function in [SenseCraft HMI](https://sensecraft.seeed.cc/hmi) is the most powerful and flexible feature of the platform, allowing you to create custom interfaces, dashboards, and data visualizations. With Canvas, you can design beautiful displays that combine static elements with dynamic data from various sources, including device sensors, weather information, stock data, and more.
 
-This comprehensive guide will walk you through using the Canvas function to create professional displays for your Seeed devices. From basic shapes and text to real-time data widgets and pre-made templates, you'll learn everything you need to build customized interfaces that meet your specific needs.
+This comprehensive guide will walk you through using the UI Design function to create professional displays for your Seeed devices. From basic shapes and text to real-time data widgets and pre-made templates, you'll learn everything you need to build customized interfaces that meet your specific needs.
 
 This article will use the [reTerminal E1002](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002/) as an example to explain how to use this feature on the SenseCraft HMI platform.
 
@@ -17,29 +17,23 @@ This article will use the [reTerminal E1002](https://wiki.seeedstudio.com/gettin
 
 ### Accessing the Canvas Function
 
-Step 1. Navigate to the SenseCraft HMI platform below.
-
-<div class="get_one_now_container" style={{textAlign: 'center'}}>
-    <a class="get_one_now_item" href="https://sensecraft.seeed.cc/hmi" target="_blank" rel="noopener noreferrer">
-            <strong><span><font color={'FFFFFF'} size={"4"}> SenseCraft HMI 🖱️</font></span></strong>
-    </a>
-</div><br />
+Step 1. Navigate to the **[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** platform below.
 
 Step 2. Connect your device or select an already paired device to use.
 
-Step 3. Click on the "Canvas" tab in the left sidebar
+Step 3. If you haven't created a page yet, you may need to create a new UI Design page first.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/89.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_1.png" style={{width:1000, height:'auto'}}/></div>
 
 ### Understanding the Canvas Interface
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/90.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_2.png" style={{width:1000, height:'auto'}}/></div>
 
 The Canvas interface consists of several key sections:
 
 1. **Component Sidebar**: Left panel containing all available elements categorized into Basic, Device, Data, and Templates
 
-2. **Canvas Area**: Central workspace where you design your interface
+2. **UI Design Area**: Central workspace where you design your interface
 
 3. **Toolbar**: Top bar with design tools, settings, and formatting options
 
@@ -51,7 +45,7 @@ The Canvas interface consists of several key sections:
 
 The Basic section provides fundamental elements for creating your interface layout:
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/91.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_3.png" style={{width:1000, height:'auto'}}/></div>
 
 ### Text
 
@@ -75,14 +69,13 @@ Step 4. Use the properties panel to customize:
 
   - Font family
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/92.png" style={{width:1000, height:'auto'}}/></div>
-
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_4.png" style={{width:1000, height:'auto'}}/></div>
 
 ### Data
 
 The Data component is a powerful tool for displaying dynamic information fetched from external APIs directly on your canvas. This allows you to integrate real-time data such as weather, stock prices, or any other information available through a web API.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/143.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_5.png" style={{width:1000, height:'auto'}}/></div>
 
 Step 1. Click on the "Data" component in the Basic section. A placeholder text box with the word "Data" will appear on the canvas.
 
@@ -90,12 +83,48 @@ Step 2. Drag the "Data" component to your desired position.
 
 Step 3. With the component selected, click the **Data Settings** icon (it looks like a chain link) in the toolbar to open the configuration panel.
 
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_6.png" style={{width:1000, height:'auto'}}/></div>
+
 Step 4. In the **Data Settings** panel, configure your external data source:
-   - **Remote Data URL**: Enter the full URL of the external API from which you want to fetch data.
-   - **Data Key**: Specify the exact path to the data you want to display from the API's JSON response. Use dot notation for nested objects (e.g., `current.temp_c`) and numeric indexes for arrays.
-   - **Precision**: For numerical data, set the number of decimal places you wish to display. The default is 2.
-   - **Test**: Click this button to verify that the URL and Data Key are correct and that data can be fetched successfully.
-   - **Request Headers (Optional)**: If your API requires specific headers for authentication or other purposes, you can expand this section and add them.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_7.png" style={{width:400, height:'auto'}}/></div>
+
+**4.1. Establish the Connection**
+
+This is where you tell the component where to find its information.
+
+*   **Remote Data URL:** Input the full API endpoint URL here. For instance, if you're building a stock ticker, you would enter the URL provided by your financial data API.
+*   **Request Headers (Optional):** Some APIs require authentication via headers. Use the **+ Add Custom Header** button to add necessary keys and values, such as an `Authorization` token.
+*   **Test Button:** After entering your URL, always use the **Test** button. This immediately queries the endpoint and shows you the raw JSON response. This is essential for verifying your connection and understanding the data structure you'll be working with.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_8.png" style={{width:400, height:'auto'}}/></div>
+
+After clicking the Test button, if the URL is entered correctly, the console will immediately display all return values from the test results. At this point, you can click on the desired entry with your mouse to directly obtain the specific value.
+
+**4.2. Extract the Specific Value**
+
+An API response often contains a lot of data, but you usually only need one piece of it.
+
+*   **Data Key:** Use dot notation to specify the exact path to the data you want to display. If your API returns `{"stock":{"price": 150.75}}`, your Data Key would be `stock.price` to extract the price. For data in arrays, use bracket notation like `forecast[0].temperature`.
+*   **Precision:** For numerical data, this setting controls the number of decimal places to show. Setting it to `2` will format `150.7531` as `150.75`.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_9.png" style={{width:400, height:'auto'}}/></div>
+
+**4.3. Transform the Data for Display**
+
+This section is actually an independent module. It has no inherent connection to sections 4.1 and 4.2. It provides a set of predefined, potentially frequently used data values, allowing users to apply them directly without needing to locate the API themselves.
+
+Here are the built-in transformers you can select:
+
+*   **None - No transformation:** Displays the raw, extracted value.
+*   **Date Format:** Converts a computer timestamp (e.g., `1678886400`) into a human-readable date (e.g., "2023-03-15").
+*   **Custom Function:** The ultimate tool for flexibility. Write your own JavaScript to manipulate the value. For example, `return '$' + value;` would prefix a dollar sign to a stock price.
+*   **Weather Code to Description:** A specialized function that translates numeric weather codes from an API into descriptive text like "Sunny" or "Rain."
+*   **Battery Level Status:** Intelligently converts a percentage (0-100) into a status like "High," "Medium," or "Low."
+*   **Large Number Format:** Automatically shortens large numbers for readability (e.g., `1250000` becomes "1.25M").
+*   **Relative Time:** Transforms a timestamp into a relative expression like "Updated 5 minutes ago," making your data feel more immediate.
+
+By combining these settings, you can precisely control how external data is fetched, interpreted, and presented on your canvas, creating a truly dynamic and informative display.
 
 Step 5. You can also customize the appearance of the displayed data using the property panel to adjust:
   - Font size and style
@@ -105,9 +134,9 @@ Step 5. You can also customize the appearance of the displayed data using the pr
 
 ### Image
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/94.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_10.png" style={{width:400, height:'auto'}}/></div>
 
-The Image component lets you add pictures to your canvas.
+The Image component lets you add pictures to your canvas. You can choose to upload locally or use an image link.
 
 Step 1. Click on the "Image" component
 
@@ -121,7 +150,7 @@ The Date component displays a date, time, or timestamp that can be configured in
 
 Step 1. Click on the "Date" component in the Data section
 
-Step 2. The component will automatically be placed in the upper left corner of your canvas with a default date format (usually MM/DD/YYYY)
+Step 2. The component will automatically be placed in the center of your canvas with a default date format (usually MM/DD/YYYY)
 
 Step 3. Click the calendar icon in the toolbar to open the Date Settings panel
 
@@ -131,7 +160,9 @@ Step 4. In the Date Settings panel:
 
    - Select a date format from the dropdown menu (e.g., MM/DD/YYYY, DD/MM/YYYY, YYYY-MM-DD)
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/105.png" style={{width:1000, height:'auto'}}/></div>
+   - Select your time zone in the Timezone section.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_11.png" style={{width:400, height:'auto'}}/></div>
 
 Step 5. Use the property panel to further customize:
 
@@ -144,11 +175,7 @@ Step 5. Use the property panel to further customize:
    - Background (if desired)
 
 :::note
-The date shown in the Canvas is static and represents what you've configured in the Date Settings. When deployed to your device, the Date component can either:
-
-- Display the static date you configured (useful for deadlines, event dates, etc.)
-
-- If set to dynamic mode, display the current date/time which will update automatically on the device
+Within Data Settings, there is a Use Current Time switch. By default, the switch displays OFF, indicating that the device will automatically update this component's time based on the actual time. When you press the OFF button, this function is disabled, and the time will not update automatically, instead displaying a fixed value.
 :::
 
 ### Shapes
@@ -193,10 +220,9 @@ Step 3. Use the properties panel to customize:
 
 The Device section contains components that automatically display data from your connected Seeed reTerminal E Series ePaper Display device sensors:
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/95.png" style={{width:400, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_12.png" style={{width:400, height:'auto'}}/></div>
 
-<Tabs>
-<TabItem value="Battery" label="Battery" default>
+### Battery Component
 
 The Battery component displays the current battery level of your connected device.
 
@@ -216,8 +242,7 @@ Step 3. Use the properties panel to customize:
 
   - Font family
 
-</TabItem>
-<TabItem value="Temperature" label="Temperature">
+### Temperature Component
 
 The Temperature component displays the current temperature reading from your device's sensor.
 
@@ -237,8 +262,7 @@ Step 3. Use the properties panel to customize:
 
   - Font family
 
-</TabItem>
-<TabItem value="Humidity" label="Humidity">
+### Humidity Component
 
 The Humidity component displays the current humidity reading from your device's sensor.
 
@@ -258,9 +282,29 @@ Step 3. Use the properties panel to customize:
 
   - Font family
 
-</TabItem>
-</Tabs>
+### SenseCAP Component
 
+If you have previously purchased a SenseCAP sensor, SenseCraft-HMI now supports directly retrieving sensor readings from SenseCAP nodes under your account.
+
+Step 1. Click on the "SenseCAP" component
+
+Step 2. Components will automatically be placed in the center of the canvas
+
+Step 3. Please select the sensor values you wish to display in the Properties pane.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_13.png" style={{width:400, height:'auto'}}/></div>
+
+Step 4. Use the properties panel to customize:
+
+  - Font size (default is 30px)
+
+  - Text style (bold, italic, underline)
+
+  - Alignment (left, center, right)
+
+  - Color
+
+  - Font family
 
 ## Data Components
 
@@ -272,11 +316,11 @@ The Data section contains components that connect to external data sources to di
 
 The Weather component displays current weather information for a specified location.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/99.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_14.png" style={{width:400, height:'auto'}}/></div>
 
 Step 1. Click on the "Weather" component in the Data section
 
-Step 2. The component will automatically be placed in the upper left corner of your canvas with the default text "Temperature"
+Step 2. The component will automatically be placed in the center of your canvas with the default Temperature
 
 Step 3. Using the toolbar at the top, configure the weather display options:
 
@@ -292,19 +336,15 @@ Step 3. Using the toolbar at the top, configure the weather display options:
 
 Step 4. Use the property panel to further customize the appearance
 
-:::note
-The weather data shown in the Canvas is only for display purposes and doesn't represent real-time weather. The actual weather information will only be displayed after deploying the design to your device, which will then fetch real data from weather services.
-:::
-
 ### Weather Icon
 
 The Weather Icon component displays a visual representation of the current weather conditions.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/100.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_15.png" style={{width:400, height:'auto'}}/></div>
 
 Step 1. Click on the "Weather Icon" component in the Data section
 
-Step 2. The component will automatically be placed in the upper left corner of your canvas with a default sun icon
+Step 2. The component will automatically be placed in the center of your canvas
 
 Step 3. Using the toolbar at the top, select the location (e.g., "New York") from the location field
 
@@ -312,8 +352,98 @@ Step 4. Use the property panel to customize:
    - Size and position
    - Icon style
 
+### GitHub
+
+The GitHub component displays information about a GitHub user profile.
+
+Step 1. Click on the "GitHub" component in the Data section
+
+Step 2. The component will automatically be placed in the center of your canvas with default text showing "Seeed Studio"
+
+Step 3. In the toolbar, you'll see a GitHub username field (e.g., "seeed-studio") and a dropdown menu
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_16.png" style={{width:400, height:'auto'}}/></div>
+
+Step 4. Here, you need to [request a Token from your GitHub account](https://github.com/settings/tokens). SenseCraft HMI will use this Token to retrieve information related to the GitHub name you provided for display purposes. Then enter a valid GitHub username in the field and click “Validate” in the GitHub User Configuration panel that appears.
+
+Step 5. From the dropdown menu labeled "Display Name" (or similar), select what GitHub user information you want to display:
+
+   - Display Name (shows the user's display name)
+
+   - Username (shows the user's GitHub handle)
+
+   - Followers (shows the number of followers)
+
+   - Following (shows the number of users being followed)
+
+   - Public Repos (shows the number of public repositories)
+
+   - Public Gists (shows the number of public gists)
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_18.png" style={{width:400, height:'auto'}}/></div>
+
+Step 6. Use the property panel to customize the appearance of the GitHub component
+
 :::note
-The icon displayed in the Canvas is only a placeholder. After deployment to your device, the component will fetch and display the appropriate weather icon based on the actual weather conditions for the specified location.
+- The GitHub component requires internet access on your device to fetch real-time GitHub data.
+
+- GitHub API has rate limits, so excessive refreshing may temporarily disable the component.
+:::
+
+:::tip
+Try these GitHub usernames for testing:
+
+- seeed-studio (Seeed Studio's official GitHub)
+
+- torvalds (Linus Torvalds, creator of Linux)
+
+- microsoft (Microsoft's official GitHub)
+
+- google (Google's official GitHub)
+:::
+
+### GitHub Repo
+
+The GitHub Repo component displays information about a specific GitHub repository.
+
+Step 1. Click on the "GitHub Repo" component in the Data section
+
+Step 2. The component will automatically be placed in the center of your canvas with default text showing "wiki-documents"
+
+Step 3. In the GitHub Repository Configuration panel that appears:
+
+   - You can see the current user and repository status
+
+   - Search for repositories by entering keywords or leaving the field empty to show all repositories for a user
+
+   - Manually enter a specific repository in the format "Username/Repository" (e.g., "Seeed-Studio/wiki-documents")
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_17.png" style={{width:400, height:'auto'}}/></div>
+
+Step 4. Click "Search" to find and validate the repository
+
+Step 5. From the dropdown menu in the toolbar, select what repository information you want to display:
+
+   - Name (shows the repository name)
+
+   - Full Name (shows the username/repository format)
+
+   - Stars (shows the number of stars)
+
+   - Forks (shows the number of forks)
+
+   - Watchers (shows the number of watchers)
+
+   - Description (shows the repository description)
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_20.png" style={{width:400, height:'auto'}}/></div>
+
+Step 6. Use the property panel to customize the appearance of the GitHub Repo component
+
+:::note
+- Like the GitHub user component, the GitHub Repo component requires internet access on your device to fetch data.
+
+- GitHub API has rate limits that may affect how frequently the data can be updated.
 :::
 
 ### Stock
@@ -322,11 +452,11 @@ The Stock component displays real-time stock market information for specified sy
 
 Step 1. Click on the "Stock" component in the Data section
 
-Step 2. The component will automatically be placed in the upper left corner of your canvas with a default text "AAPL" (Apple's stock symbol)
+Step 2. The component will automatically be placed in the center of your canvas with a default text "AAPL" (Apple's stock symbol)
 
 Step 3. Click the "Config" button in the toolbar to open the Stock Configuration panel
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/101.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_19.png" style={{width:400, height:'auto'}}/></div>
 
 Step 4. In the Stock Configuration panel:
 
@@ -334,7 +464,7 @@ Step 4. In the Stock Configuration panel:
 
    - Click "Search" to validate the symbol
 
-   - Enter your Twelve Data API key in the provided field
+   - Enter your Twelve Data API key in the provided field (You can refer to the tutorial [below](#getting-a-twelve-data-api-key) to learn how to obtain the API)
 
 Step 5. From the "Symbol" dropdown menu in the toolbar, select what stock data to display:
 
@@ -346,7 +476,7 @@ Step 5. From the "Symbol" dropdown menu in the toolbar, select what stock data t
 
    - Change Percent (shows the percentage change)
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/102.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_21.png" style={{width:400, height:'auto'}}/></div>
 
 Step 6. Use the property panel to customize the appearance of the stock component
 
@@ -392,115 +522,17 @@ For testing purposes, you can use common stock symbols like:
 - TSLA (Tesla)
 :::
 
-### GitHub
-
-The GitHub component displays information about a GitHub user profile.
-
-Step 1. Click on the "GitHub" component in the Data section
-
-Step 2. The component will automatically be placed in the upper left corner of your canvas with default text showing "Seeed Studio" or another placeholder
-
-Step 3. In the toolbar, you'll see a GitHub username field (e.g., "seeed-studio") and a dropdown menu
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/106.png" style={{width:1000, height:'auto'}}/></div>
-
-Step 4. Enter a valid GitHub username in the field and click "Validate" in the GitHub User Configuration panel that appears
-
-Step 5. From the dropdown menu labeled "Display Name" (or similar), select what GitHub user information you want to display:
-
-   - Display Name (shows the user's display name)
-
-   - Username (shows the user's GitHub handle)
-
-   - Followers (shows the number of followers)
-
-   - Following (shows the number of users being followed)
-
-   - Public Repos (shows the number of public repositories)
-
-   - Public Gists (shows the number of public gists)
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/107.png" style={{width:1000, height:'auto'}}/></div>
-
-Step 6. Use the property panel to customize the appearance of the GitHub component
-
-:::note
-- The GitHub component requires internet access on your device to fetch real-time GitHub data.
-
-- What you see in the Canvas is just a placeholder. The actual GitHub information will be displayed after deploying to your device.
-
-- GitHub API has rate limits, so excessive refreshing may temporarily disable the component.
-:::
-
-:::tip
-Try these GitHub usernames for testing:
-
-- seeed-studio (Seeed Studio's official GitHub)
-
-- torvalds (Linus Torvalds, creator of Linux)
-
-- microsoft (Microsoft's official GitHub)
-
-- google (Google's official GitHub)
-:::
-
-### GitHub Repo
-
-The GitHub Repo component displays information about a specific GitHub repository.
-
-Step 1. Click on the "GitHub Repo" component in the Data section
-
-Step 2. The component will automatically be placed in the upper left corner of your canvas with default text showing "wiki-documents"
-
-Step 3. In the GitHub Repository Configuration panel that appears:
-
-   - You can see the current user and repository status
-
-   - Search for repositories by entering keywords or leaving the field empty to show all repositories for a user
-
-   - Manually enter a specific repository in the format "Username/Repository" (e.g., "Seeed-Studio/wiki-documents")
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/108.png" style={{width:1000, height:'auto'}}/></div>
-
-Step 4. Click "Search" to find and validate the repository
-
-Step 5. From the dropdown menu in the toolbar, select what repository information you want to display:
-
-   - Name (shows the repository name)
-
-   - Full Name (shows the username/repository format)
-
-   - Stars (shows the number of stars)
-
-   - Forks (shows the number of forks)
-
-   - Watchers (shows the number of watchers)
-
-   - Description (shows the repository description)
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/109.png" style={{width:1000, height:'auto'}}/></div>
-
-Step 6. Use the property panel to customize the appearance of the GitHub Repo component
-
-:::note
-- Like the GitHub user component, the GitHub Repo component requires internet access on your device to fetch data.
-
-- The Canvas displays placeholder text. Actual repository information will only appear after deployment to your device.
-
-- GitHub API has rate limits that may affect how frequently the data can be updated.
-:::
-
 ### YouTube
 
 The YouTube component displays information and statistics about a YouTube channel.
 
 Step 1. Click on the "YouTube" component in the Data section
 
-Step 2. The component will automatically be placed in the upper left corner of your canvas with default text showing "No API key configured"
+Step 2. The component will automatically be placed in the center of your canvas with default text showing "SeeedStudio"
 
 Step 3. In the YouTube Configuration panel that appears:
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/110.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_22.png" style={{width:400, height:'auto'}}/></div>
 
    - Enter a YouTube Channel ID (e.g., "UC_x5XG1OV2P6uZZ5FSM9Ttw") in the YouTube Channel field
 
@@ -508,7 +540,7 @@ Step 3. In the YouTube Configuration panel that appears:
 
    - Enter your YouTube Data API Key in the provided field
 
-   - Click the "Google Cloud Console" link to get a free API key if you don't have one
+   - Click the "Google Cloud Console" link to [get a free API key](#getting-a-youtube-data-api-key) if you don't have one
 
 Step 4. From the dropdown menu in the toolbar, select what channel information you want to display:
 
@@ -528,7 +560,7 @@ Step 4. From the dropdown menu in the toolbar, select what channel information y
 
    - Custom URL (shows the custom URL if available)
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/111.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/canvas_23.png" style={{width:400, height:'auto'}}/></div>
 
 Step 5. Use the property panel to customize the appearance of the YouTube component
 
@@ -565,308 +597,6 @@ Step 8. Paste this API key into the "YouTube Data API Key" field in the YouTube 
 
 - Some statistics (like exact subscriber counts) may be rounded or approximated based on YouTube's policies.
 :::
-
-## Templates
-
-Templates provide pre-designed layouts that combine multiple components into a cohesive, ready-to-use display. They save time and ensure professional results without having to design layouts from scratch.
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/113.png" style={{width:350, height:'auto'}}/></div>
-
-### Weather Display Template
-
-The Weather Display Template offers a complete weather dashboard showing current conditions and a 7-day forecast for any city.
-
-Step 1. Click on the "Weather Display" template in the Templates section
-
-Step 2. In the "Configure Template: Weather Display" dialog that appears:
-
-   - Select your preferred temperature unit (Celsius °C or Fahrenheit °F)
-
-   - Enter a city name in the "City Name" field
-
-   - Click "Search" to verify the city exists in the weather database
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/114.png" style={{width:800, height:'auto'}}/></div>
-
-Step 3. After a successful search, click "OK" to proceed
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/115.png" style={{width:700, height:'auto'}}/></div>
-
-Step 4. A "Template Preview" window will appear showing:
-
-   - Left panel with current date, weather condition, temperature, high/low, and humidity
-
-   - Right panel with city name and 7-day forecast including condition icons and temperature ranges
-
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/116.png" style={{width:700, height:'auto'}}/></div>
-
-Step 5. Review the preview and note:
-
-   - The template will replace all current elements on your canvas
-
-   - All template elements will be given unique IDs to avoid conflicts
-
-   - You can modify the template after applying it to the canvas
-
-Step 6. Click "Apply to Canvas" to add the template to your workspace
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/117.png" style={{width:1000, height:'auto'}}/></div>
-
-Step 7. The Weather Display template is now on your canvas, ready for deployment or further customization
-
-:::note
-- The Weather Display template uses real-time weather API data that requires internet connectivity on your device.
-
-- The template is fully customizable after being applied to your canvas - you can resize, reposition, or modify any element.
-
-- Weather data automatically updates according to the refresh interval set in your project settings.
-:::
-
-### Stock Dashboard Template
-
-The Stock Dashboard Template provides a clean, professional display of real-time stock market data including price, daily change, and percentage change.
-
-Step 1. Click on the "Stock Dashboard" template in the Templates section
-
-Step 2. In the "Configure Template: Stock Dashboard" dialog that appears:
-
-   - Enter your [Twelve Data API Key](#getting-a-twelve-data-api-key) in the field provided (masked for security)
-
-   - Enter a stock symbol (e.g., "AAPL" for Apple Inc.) in the Stock Symbol field
-
-   - Click "Search" to find the stock
-
-Step 3. After searching, a list of matching stocks appears. Select your desired stock from the results (e.g., "AAPL Apple Inc.")
-
-Step 4. Click "OK" to confirm your selection
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/118.png" style={{width:700, height:'auto'}}/></div>
-
-Step 5. A "Template Preview" window will appear showing:
-
-   - Left panel with the stock symbol in large text
-
-   - Right panel displaying the current stock price, price change, and percentage change
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/119.png" style={{width:700, height:'auto'}}/></div>
-
-Step 6. Review the preview and note:
-
-   - The template will replace all current elements on your canvas
-
-   - All template elements will be given unique IDs to avoid conflicts
-
-   - You can modify the template after applying it to the canvas
-
-Step 7. Click "Apply to Canvas" to add the template to your workspace
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/120.png" style={{width:1000, height:'auto'}}/></div>
-
-:::note
-- The Stock Dashboard template requires internet access on your device to fetch real-time market data.
-
-- Stock market data is delayed by at least 15 minutes on the free tier of Twelve Data.
-
-- Data refreshes according to your project's refresh interval settings.
-
-- Market data is only available during trading hours for the respective exchanges.
-:::
-
-### GitHub Profile Template
-
-The GitHub Profile Template creates a comprehensive dashboard displaying a GitHub user's profile information and selected repositories with their statistics.
-
-Step 1. Click on the "GitHub Profile" template in the Templates section
-
-
-Step 2. In the "Configure Template: GitHub Profile" dialog that appears:
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/121.png" style={{width:800, height:'auto'}}/></div>
-
-   - Enter a GitHub username in the required field (e.g., "seeed-studio")
-
-   - Optionally enter keywords in the Repository Search field to filter repositories
-
-   - Leave the search field empty to show all repositories from the user
-
-Step 3. Click the "Search all '[username]' repositories" button to retrieve the user's repositories
-
-Step 4. From the list of repositories displayed, select up to 3 repositories you want to showcase
-
-   - Each repository shows its name, description, primary programming language, and star count
-
-   - You can use the filter field to narrow down the repository list
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/122.png" style={{width:700, height:'auto'}}/></div>
-
-Step 5. Click "OK" to confirm your selections
-
-Step 6. A "Template Preview" window will appear showing:
-
-   - The GitHub user's display name at the top
-
-   - "Github" label with follower count
-
-   - A horizontal divider line
-
-   - Selected repositories with their names and star counts
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/123.png" style={{width:700, height:'auto'}}/></div>
-
-Step 7. Review the preview and note:
-
-   - The template will replace all current elements on your canvas
-
-   - All template elements will be given unique IDs to avoid conflicts
-
-   - You can modify the template after applying it to the canvas
-
-Step 8. Click "Apply to Canvas" to add the template to your workspace
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/124.png" style={{width:1000, height:'auto'}}/></div>
-
-:::note
-- Unlike other templates that may require API keys, the GitHub Profile template uses GitHub's public API and doesn't require authentication.
-
-- The template has two search modes clearly explained in the interface:
-
-  1. User only: Enter just the username to show all repositories
-
-  2. User + keywords: Enter username and specific keywords to filter repositories
-
-- Repository selection is limited to 3 to ensure optimal display on smaller screens.
-
-- Some GitHub statistics may be approximated (like follower counts over 1,000 shown as "1.0K").
-:::
-
-### YouTube Channel Stats Template
-
-The YouTube Channel Stats Template showcases a YouTube channel's branding, slogan, and subscriber count in a clean, modern design.
-
-Step 1. Click on the "YouTube Channel Stats" template in the Templates section
-
-Step 2. In the "Configure Template: YouTube Channel Stats" dialog that appears:
-
-   - Enter your [YouTube Data API Key](#getting-a-youtube-data-api-key) (masked for security)
-
-   - Enter a YouTube Channel Identifier in one of the supported formats:
-
-     * Channel ID: 24-character string starting with "UC" (e.g., UC_x5XG1OV2P6uZZ5FSM9Ttw)
-     * @Handle: Channel handle starting with @ (e.g., @seeedstudiosz)
-     * Channel URL: Full YouTube URL (e.g., youtube.com/@seeedstudiosz)
-
-Step 3. Click "Validate Channel" to verify the channel exists and retrieve its data
-
-Step 4. If validation is successful, you'll see a confirmation message (e.g., "Found channel: Seeed Studio • 20.4K")
-
-Step 5. Click "OK" to proceed
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/125.png" style={{width:800, height:'auto'}}/></div>
-
-Step 6. A "Template Preview" window will appear showing:
-
-   - Left panel with the channel name and slogan/description in a stylish black background
-
-   - Right panel with "YouTube" label, subscriber count, and "Subscribers" text
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/126.png" style={{width:800, height:'auto'}}/></div>
-
-Step 7. Review the preview and note:
-
-   - The template will replace all current elements on your canvas
-
-   - All template elements will be given unique IDs to avoid conflicts
-
-   - You can modify the template after applying it to the canvas
-
-Step 8. Click "Apply to Canvas" to add the template to your workspace
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/127.png" style={{width:1000, height:'auto'}}/></div>
-
-
-:::note
-- The YouTube Channel Stats template requires internet access on your device to fetch channel data.
-
-- YouTube Data API has quotas and rate limits that may affect usage.
-
-- The template automatically retrieves the channel's slogan or description when available.
-
-- For channels with a large number of subscribers, the count may be abbreviated (e.g., "1.2M" for 1,200,000).
-:::
-
-## Advanced Canvas Features
-
-### Debugging and JSON Editing
-
-SenseCraft HMI Canvas provides advanced debugging capabilities:
-
-Step 1. Click the debug icon in the toolbar
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/128.png" style={{width:400, height:'auto'}}/></div>
-
-Step 2. A modal will open showing the current layout data in JSON format
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/129.png" style={{width:700, height:'auto'}}/></div>
-
-Step 3. You can:
-
-   - View the JSON structure of your layout
-
-   - Click "Manual Edit JSON" to directly modify the layout code
-
-   - Click "Copy to Clipboard" to save the JSON for backup or sharing
-
-   - Click "Generate HTML" to create an HTML version of your layout
-
-This feature is particularly useful for:
-
-- Understanding how your layout is structured
-
-- Making precise adjustments that might be difficult in the visual editor
-
-- Creating backups of complex layouts
-
-- Sharing layouts with others
-
-### Import Export and Share
-
-SenseCraft HMI provides convenient Import and Export functions that allow you to easily save, share, and restore your design work. These two features are located in the top toolbar of the interface, clearly identified by their icons.
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/142.png" style={{width:1000, height:'auto'}}/></div>
-
-#### Exporting Designs
-
-The Export function allows you to save your current UI design as a file:
-
-**Step 1.** After completing your interface design, click the **Export** button (outward arrow icon) in the top toolbar.
-
-**Step 2.** In the file save dialog that appears, choose a save location and name your file.
-
-**Step 3.** Click "Save" to complete the export process.
-
-Your design will be saved as a JSON file containing all interface information, which can be used for backup or sharing.
-
-#### Importing Designs
-
-The Import function enables you to load previously exported designs or templates:
-
-**Step 1.** Click the **Import** button (inward arrow icon) in the top toolbar.
-
-**Step 2.** In the file selection dialog, locate and select your previously exported design file.
-
-**Step 3.** Click "Open" and the selected design will load into your current workspace.
-
-:::tip
-The import operation will replace the current workspace content. It's recommended to export your current design before importing to prevent data loss.
-:::
-
-These features are particularly useful for:
-- Backing up designs before making major changes
-- Sharing interface designs with team members
-- Transferring projects between different devices
-- Quickly starting new projects using pre-made templates
-
 
 ### AI Layout Generator
 
