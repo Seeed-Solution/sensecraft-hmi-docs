@@ -93,7 +93,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'keywords',
-						content: 'e-paper, e-ink, HMI, reTerminal E, ESP32-S3, no-code, UI builder, electronic paper display, low power display, IoT dashboard',
+						content: 'Seeed Studio, e-paper, e-ink, ESP32, ESP32-S3, Home Assistant, TRMNL alternative, HMI, reTerminal E, no-code, UI builder, electronic paper display, IoT dashboard, Seeed e-paper, smart home display',
 					},
 				},
 				{
@@ -120,8 +120,10 @@ export default defineConfig({
 						'@type': 'SoftwareApplication',
 						'name': 'SenseCraft HMI',
 						'applicationCategory': 'DeveloperApplication',
-						'operatingSystem': 'Web',
-						'description': 'No-code UI builder for e-paper and e-ink displays',
+						'operatingSystem': 'ESP32-S3',
+						'description': 'No-code UI builder for e-paper displays. Build interfaces for Seeed reTerminal E, compatible with Home Assistant. Open-source TRMNL alternative.',
+						'keywords': 'ESP32, ESP32-S3, e-paper, e-ink, Home Assistant, TRMNL, Seeed Studio',
+						'softwareRequirements': 'ESP32-S3 microcontroller, E-paper display',
 						'offers': {
 							'@type': 'Offer',
 							'price': '0',
@@ -132,6 +134,14 @@ export default defineConfig({
 							'name': 'Seeed Studio',
 							'url': 'https://www.seeedstudio.com',
 						},
+						'featureList': [
+							'Drag-and-drop UI designer',
+							'ESP32-S3 optimized',
+							'Home Assistant integration',
+							'Low power consumption',
+							'Open-source alternative to TRMNL',
+							'7.5" and 7.3" e-paper support'
+						],
 					}),
 				},
 			],
