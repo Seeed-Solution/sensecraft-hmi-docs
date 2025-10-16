@@ -11,7 +11,7 @@ pages_build_output_dir = "dist"
 # Auto-deployment settings
 [env.production.vars]
 NODE_VERSION = "18"
-PUBLIC_SITE_URL = "https://docs.sensecraft-hmi.com"
+PUBLIC_SITE_URL = "https://sensecraft-hmi-docs.seeed.cc"
 
 # Build settings for auto-deployment
 [build]
