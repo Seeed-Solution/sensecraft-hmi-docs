@@ -1,6 +1,6 @@
 ---
-description: Introduces the use of AI generation, a feature under the SenseCraft HMI platform.
 title: AI Generation Function
+description: Introduces the use of AI generation, a feature under the SenseCraft HMI platform.
 ---
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/65.jpg" style={{width:700, height:'auto'}}/></div>

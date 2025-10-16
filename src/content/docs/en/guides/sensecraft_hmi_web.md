@@ -17,30 +17,27 @@ This article will use the [reTerminal E1002](https://wiki.seeedstudio.com/gettin
 
 ### Accessing the Web Function
 
-Step 1. Navigate to the SenseCraft HMI platform below.
+Step 1. Navigate to the SenseCraft HMI platform below.<br>
+[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)<br>
+Step 2. Connect your device or select an already paired device to use.<br>
+Step 3. Click on the **Web Content** in the left sidebar<br>
 
-<div class="get_one_now_container" style={{textAlign: 'center'}}>
-    <a class="get_one_now_item" href="https://sensecraft.seeed.cc/hmi" target="_blank" rel="noopener noreferrer">
-            <strong><span><font color={'FFFFFF'} size={"4"}> SenseCraft HMI 🖱️</font></span></strong>
-    </a>
-</div><br />
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/web_start_1.png" style={{width:1000, height:'auto'}}/></div>
 
-Step 2. Connect your device or select an already paired device to use.
+step 4. Enter a web page URL, for example
 
-Step 3. Click on the "Web" tab in the left sidebar
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/83.png" style={{width:1000, height:'auto'}}/></div>
+```url
+https://www.windy.com/
+```
 
 ### Understanding the Web Interface
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/82.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/web_start_2.png" style={{width:1000, height:'auto'}}/></div>
 
 The Web interface consists of three main sections:
 
-1. **URL Configuration Panel**: Located on the right side, where you can enter web addresses
-
+1. **URL Configuration Panel**: Located on the top, where you can enter web addresses
 2. **Display Area**: The main section where web content will be displayed after preview or deployment
-
 3. **Control Buttons**: Located at the top, including Preview, Save, and Deploy options
 
 When first accessing the Web function, the display area will be empty until you configure and preview a web page.
@@ -49,30 +46,27 @@ When first accessing the Web function, the display area will be empty until you 
 
 ### Adding a Web Page
 
-Step 1. Locate the Web Configuration panel on the right side of the screen
-
-Step 2. Find the "URL" input field
-
-Step 3. Enter a valid web address in the field (e.g., https://weather.gov/)
+Step 1. Locate the Web Configuration panel on the top of the screen<br>
+Step 2. Find the **URL** input field<br>
+Step 3. Enter a valid web address in the field (e.g., https://www.windy.com/)<br>
 
 :::tip
 Make sure to include the complete URL including the https:// or http:// prefix.
 :::
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/84.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/web_configurate_1.png" style={{width:1000, height:'auto'}}/></div>
 
-Step 4. Click the "Set" button to validate the URL
+Step 4. Click the **Set** button to validate the URL
 
 ### Previewing Web Content
 
 Unlike other functions in SenseCraft HMI, the Web function requires an explicit preview step to display content:
 
-Step 1. After entering and setting a URL, click the "Preview" button in the top toolbar
+Step 1. After entering and setting a URL, click the **Preview** button in the top toolbar
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/86.png" style={{width:1000, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/web_configurate_2.png" style={{width:1000, height:'auto'}}/></div>
 
-Step 2. Wait for the web page to load in the display area
-
+Step 2. Wait for the web page to load in the display area<br>
 Step 3. Check if the web content displays correctly and is appropriate for your device's screen size
 
 :::note
@@ -83,13 +77,11 @@ The preview step is crucial as it allows you to verify that the web content will
 
 Once you've previewed and confirmed the web content looks good:
 
-Step 1. Click the "Save" button to store your web configuration
+Step 1. Click the **Save** button to store your web configuration<br>
+Step 2. Click **Deploy** to send the configuration to your connected device<br>
+Step 3. Wait for the deployment confirmation message<br>
 
-Step 2. Click "Deploy" to send the configuration to your connected device
-
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/87.png" style={{width:1000, height:'auto'}}/></div>
-
-Step 3. Wait for the deployment confirmation message
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/web_configurate_3.png" style={{width:1000, height:'auto'}}/></div>
 
 After successful deployment, your device will display the configured web page.
 
@@ -101,21 +93,18 @@ Not all websites are designed for small displays or embedded devices. Here are t
 
 1. **Choose mobile-responsive websites**:
 
-- Sites designed for mobile devices will typically display better on smaller screens
-
-- Look for sites with adaptive layouts that work well at your device's resolution
+    - Sites designed for mobile devices will typically display better on smaller screens
+    - Look for sites with adaptive layouts that work well at your device's resolution
 
 2. **Consider simple, lightweight pages**:
 
-- Complex websites with heavy JavaScript may load slowly or consume more resources
-
-- Static pages typically perform better than dynamic web applications
+    - Complex websites with heavy JavaScript may load slowly or consume more resources
+    - Static pages typically perform better than dynamic web applications
 
 3. **Avoid sites requiring authentication**:
 
-- Login sessions may expire, requiring manual intervention
-
-- Some authentication methods may not work well on embedded devices
+    - Login sessions may expire, requiring manual intervention
+    - Some authentication methods may not work well on embedded devices
 
 ### Recommended Web Content Types
 
@@ -123,35 +112,27 @@ Here are some web content types that work particularly well with SenseCraft HMI'
 
 1. **Weather dashboards**:
 
-- [Weather.gov](https://weather.gov)
-
-- [Windy.com](https://www.windy.com/)
-
-- [AccuWeather](https://www.accuweather.com/)
+    - [Weather.gov](https://weather.gov)<br>
+    - [Windy.com](https://www.windy.com/)<br>
+    - [AccuWeather](https://www.accuweather.com/)<br>
 
 2. **Monitoring dashboards**:
 
-- Grafana dashboards
-
-- Home automation control panels
-
-- System status pages
+    - Grafana dashboards<br>
+    - Home automation control panels<br>
+    - System status pages<br>
 
 3. **Information displays**:
 
-- Transit schedules
-
-- Flight information
-
-- Meeting room availability
+    - Transit schedules<br>
+    - Flight information<br>
+    - Meeting room availability<br>
 
 4. **Documentation or reference**:
 
-- Local wikis
-
-- Procedure guides
-
-- Quick reference information
+    - Local wikis<br>
+    - Procedure guides<br>
+    - Quick reference information<br>
 
 ## Creating Custom Web Content
 
@@ -207,23 +188,19 @@ To display custom web content, you'll need to host it somewhere accessible to yo
 
 1. **Local network server**:
 
-- Set up a simple web server on your local network
-
-- Use tools like XAMPP, NGINX, or a Raspberry Pi running a web server
+    - Set up a simple web server on your local network
+    - Use tools like XAMPP, NGINX, or a Raspberry Pi running a web server
 
 2. **Free static hosting services**:
 
-- [GitHub Pages](https://pages.github.com/)
-
-- [Netlify](https://www.netlify.com/)
-
-- [Vercel](https://vercel.com/)
+    - [GitHub Pages](https://pages.github.com/)
+    - [Netlify](https://www.netlify.com/)
+    - [Vercel](https://vercel.com/)
 
 3. **Cloud services with free tiers**:
 
-- [Firebase Hosting](https://firebase.google.com/products/hosting)
-
-- [AWS S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
+    - [Firebase Hosting](https://firebase.google.com/products/hosting)
+    - [AWS S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
 
 ## Special Use Cases
 
@@ -233,23 +210,20 @@ The Web function can be used to display resources on your local network:
 
 1. **Home automation dashboards**:
 
-- Home Assistant: `http://homeassistant.local:8123`
-
-- OpenHAB: `http://openhab.local:8080`
+    - Home Assistant: `http://homeassistant.local:8123`
+    - OpenHAB: `http://openhab.local:8080`
 
 2. **Network monitoring tools**:
 
-- Router admin panels
-
-- Network monitoring dashboards
+    - Router admin panels
+    - Network monitoring dashboards
 
 3. **Local media servers**:
 
-- Plex status page
+    - Plex status page
+    - NAS web interfaces
 
-- NAS web interfaces
-
-:::warning
+:::tip
 For security reasons, be cautious when displaying administrative interfaces on publicly visible devices.
 :::
 
@@ -309,45 +283,34 @@ If you want to display multiple web pages in rotation:
 
 1. **Web page doesn't load**:
 
-- Verify the URL is correct and includes the http:// or https:// prefix. Sometimes obviously entered the correct URL, but still can not preview, you can try to add “/” at the end of the URL, there may be a miraculous effect.
-
-- Check if the page is accessible by testing in a regular browser
-
-- Ensure your device has internet connectivity
-
-- Some websites may block embedding or have security restrictions
+    - Verify the URL is correct and includes the http:// or https:// prefix. Sometimes obviously entered the correct URL, but still can not preview, you can try to add “/” at the end of the URL, there may be a miraculous effect.
+    - Check if the page is accessible by testing in a regular browser
+    - Ensure your device has internet connectivity
+    - Some websites may block embedding or have security restrictions
 
 2. **Content displays incorrectly**:
 
-- The website may not be optimized for your device's screen size
-
-- Try a mobile-specific version of the site if available
-
-- Consider creating a custom page specifically for your display dimensions
+    - The website may not be optimized for your device's screen size
+    - Try a mobile-specific version of the site if available
+    - Consider creating a custom page specifically for your display dimensions
 
 3. **Performance issues**:
 
-- Complex websites with animations or heavy JavaScript may run slowly
-
-- Try simpler pages or custom-built alternatives
-
-- Some websites may use more memory than your device can handle
+    - Complex websites with animations or heavy JavaScript may run slowly
+    - Try simpler pages or custom-built alternatives
+    - Some websites may use more memory than your device can handle
 
 4. **Deployment fails**:
 
-- Ensure your device is properly connected to SenseCraft HMI
-
-- Check your device's internet connection
-  
-- Restart your device and try deploying again
+    - Ensure your device is properly connected to SenseCraft HMI
+    - Check your device's internet connection
+    - Restart your device and try deploying again
 
 5. **Content needs frequent refresh**:
 
-- Some dynamic content may not auto-update
-  
-- Consider setting a refresh interval in a custom page, or
-  
-- Periodically redeploy the configuration
+    - Some dynamic content may not auto-update
+    - Consider setting a refresh interval in a custom page, or
+    - Periodically redeploy the configuration
 
 ## Best Practices
 
@@ -357,21 +320,18 @@ When using the Web function, keep these security considerations in mind:
 
 1. **Avoid sensitive information**:
 
-- Don't display pages containing personal or confidential information on publicly visible devices
-  
-- Be cautious with admin panels or control interfaces
+    - Don't display pages containing personal or confidential information on publicly visible devices
+    - Be cautious with admin panels or control interfaces
 
 2. **Use HTTPS when possible**:
 
-- Prefer secure (https://) URLs over non-secure (http://) ones
-  
-- This helps protect the data transmitted to your device
+    - Prefer secure (https://) URLs over non-secure (http://) ones
+    - This helps protect the data transmitted to your device
 
 3. **Consider network isolation**:
 
-- For displays showing internal resources, consider using a separate network
-  
-- Use firewall rules to limit what your device can access
+    - For displays showing internal resources, consider using a separate network
+    - Use firewall rules to limit what your device can access
 
 ### Maintenance Tips
 
@@ -379,21 +339,18 @@ To keep your web displays running smoothly:
 
 1. **Periodic checks**:
 
-- Regularly verify that the displayed content is still working correctly
-
-- Websites can change their layouts or URLs without notice
+    - Regularly verify that the displayed content is still working correctly
+    - Websites can change their layouts or URLs without notice
 
 2. **Update bookmarks**:
 
-- Keep a list of useful URLs for your displays
-
-- Test alternatives in case your preferred sites change
+    - Keep a list of useful URLs for your displays
+    - Test alternatives in case your preferred sites change
 
 3. **Create backups**:
 
-- For critical displays, create and host backup pages that can be quickly deployed
-
-- This ensures continuity if a primary web resource becomes unavailable
+    - For critical displays, create and host backup pages that can be quickly deployed
+    - This ensures continuity if a primary web resource becomes unavailable
 
 ## Conclusion
 
@@ -405,4 +362,3 @@ Remember that not all web content is suited for small displays or embedded devic
 
 - [SenseCraft HMI Platform](https://sensecraft.seeed.cc/hmi)
 - [Compatible Devices - reTerminal E Series](https://wiki.seeedstudio.com/reterminal_e10xx_main_page/)
-
