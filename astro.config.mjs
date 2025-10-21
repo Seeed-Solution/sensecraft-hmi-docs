@@ -8,7 +8,7 @@ export default defineConfig({
 	site: 'https://sensecraft-hmi-docs.seeed.cc',
 
 	redirects: {
-    '/': '//en/guides/sensecraft-hmi-overview/',
+    '/': '/en/',
   	},
 	integrations: [
 		starlight({
@@ -39,14 +39,9 @@ export default defineConfig({
 			},
 			lastUpdated: true,
 			sidebar: [
-				// { label: 'SenseCraft HMI Wiki', link: '/en/guides/sensecraft-hmi-overview/' },
 				{
 					label: 'Guides',
 					items: [
-						{
-							label: 'SenseCraft HMI Overview',
-							link: '/guides/sensecraft-hmi-overview/',
-						},
 						{
 							label: 'Getting Started',
 							link: '/guides/getting-started/',
