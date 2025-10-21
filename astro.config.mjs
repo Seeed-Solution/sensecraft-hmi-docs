@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
@@ -6,6 +6,10 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	output: 'static',
 	site: 'https://sensecraft-hmi-docs.seeed.cc',
+
+	redirects: {
+    '/': '//en/guides/sensecraft-hmi-overview/',
+  	},
 	integrations: [
 		starlight({
 			title: 'SenseCraft HMI Wiki',
@@ -35,6 +39,7 @@ export default defineConfig({
 			},
 			lastUpdated: true,
 			sidebar: [
+				// { label: 'SenseCraft HMI Wiki', link: '/en/guides/sensecraft-hmi-overview/' },
 				{
 					label: 'Guides',
 					items: [
