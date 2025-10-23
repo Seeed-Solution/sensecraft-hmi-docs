@@ -37,90 +37,166 @@ export default defineConfig({
 					lang: 'ja',
 				},
 			},
-			lastUpdated: true,
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						{
-							label: 'Getting Started',
-							link: '/guides/getting-started/',
-						},
+		lastUpdated: true,
+		sidebar: [
+			{
+				label: 'Guides',
+				translations: {
+					'zh-CN': '指南',
+					'ja': 'ガイド',
+				},
+				items: [
+					{
+						label: 'Getting Started',
+						link: '/guides/getting-started/',
+					translations: {
+						'zh-CN': '快速入门',
+						'ja': 'はじめに',
+					},
+					},
 					{
 						label: 'Firmware Update and Flashing',
 						link: '/guides/firmware-update/',
+						translations: {
+							'zh-CN': '固件更新和刷写',
+							'ja': 'ファームウェアアップデートとフラッシュ',
+						},
 					},
 					{
 						label: 'Workspace Interface & Templates',
 						link: '/guides/workspace-interface/',
+						translations: {
+							'zh-CN': '工作区界面和模板',
+							'ja': 'ワークスペースインターフェースとテンプレート',
+						},
 					},
 					{
 						label: 'Advanced Tools',
 						link: '/guides/advanced-tools/',
+						translations: {
+							'zh-CN': '高级工具',
+							'ja': '高度なツール',
+						},
 					},
 					{
 						label: 'AI Generation Function',
 						link: '/guides/sensecraft-hmi-ai-generator/',
+						translations: {
+							'zh-CN': 'AI 生成功能',
+							'ja': 'AI 生成機能',
+						},
 					},
-						{
-							label: 'Gallery Function',
-							link: '/guides/sensecraft-hmi-gallery/',
+					{
+						label: 'Gallery Function',
+						link: '/guides/sensecraft-hmi-gallery/',
+						translations: {
+							'zh-CN': '图库功能',
+							'ja': 'ギャラリー機能',
 						},
-						{
-							label: 'Canvas Function',
-							link: '/guides/sensecraft-hmi-canvas/',
+					},
+					{
+						label: 'Canvas Function',
+						link: '/guides/sensecraft-hmi-canvas/',
+						translations: {
+							'zh-CN': 'UI 设计功能',
+							'ja': 'UI 設計機能',
 						},
-						{
-							label: 'RSS Function',
-							link: '/guides/sensecraft-hmi-rss/',
+					},
+					{
+						label: 'RSS Function',
+						link: '/guides/sensecraft-hmi-rss/',
+						translations: {
+							'zh-CN': 'RSS 功能',
+							'ja': 'RSS 機能',
 						},
-						{
-							label: 'Web Function',
-							link: '/guides/sensecraft-hmi-web/',
+					},
+					{
+						label: 'Web Function',
+						link: '/guides/sensecraft-hmi-web/',
+						translations: {
+							'zh-CN': '网页功能',
+							'ja': 'Web 機能',
 						},
-						{
-							label: 'Deploying to Your Device',
-							link: '/guides/deploying-to-device/',
+					},
+					{
+						label: 'Deploying to Your Device',
+						link: '/guides/deploying-to-device/',
+						translations: {
+							'zh-CN': '部署到设备',
+							'ja': 'デバイスへのデプロイ',
 						},
-					],
+					},
+				],
+			},
+			{
+				label: 'Video Guide',
+				translations: {
+					'zh-CN': '视频指南',
+					'ja': 'ビデオガイド',
 				},
-				{
-					label: 'Video Guide',
-					items: [
-						{
-							label: 'Video Guide',
-							link: '/video-guide/',
+				items: [
+					{
+						label: 'Video Guide',
+						link: '/video-guide/',
+						translations: {
+							'zh-CN': '视频指南',
+							'ja': 'ビデオガイド',
 						},
-					],
+					},
+				],
+			},
+			{
+				label: 'Supported Hardware',
+				translations: {
+					'zh-CN': '支持的硬件',
+					'ja': 'サポートされているハードウェア',
 				},
-				{
-					label: 'Supported Hardware',
-					items: [
-						{
-							label: 'Supported Hardware',
-							link: '/supported-hardware/',
+				items: [
+					{
+						label: 'Supported Hardware',
+						link: '/supported-hardware/',
+						translations: {
+							'zh-CN': '支持的硬件',
+							'ja': 'サポートされているハードウェア',
 						},
-					],
+					},
+				],
+			},
+			{
+				label: 'Pricing',
+				translations: {
+					'zh-CN': '价格',
+					'ja': '価格',
 				},
-				{
-					label: 'Pricing',
-					items: [
-						{
-							label: 'Pricing',
-							link: '/pricing/',
+				items: [
+					{
+						label: 'Pricing',
+						link: '/pricing/',
+						translations: {
+							'zh-CN': '价格',
+							'ja': '価格',
 						},
-					],
+					},
+				],
+			},
+			{
+				label: 'Release Notes',
+				translations: {
+					'zh-CN': '发布说明',
+					'ja': 'リリースノート',
 				},
-				{
-					label: 'Release Notes',
-					items: [
-						{
-							label: 'Release Notes',
-							link: '/release-notes/',
+				items: [
+					{
+						label: 'Release Notes',
+						link: '/release-notes/',
+						translations: {
+							'zh-CN': '发布说明',
+							'ja': 'リリースノート',
 						},
-					],
-				},
-			],
+					},
+				],
+			},
+		],
 			customCss: [
 				'./src/styles/custom.css',
 			],

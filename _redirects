@@ -6,4 +6,3 @@
 
 # Redirect old paths if needed
 # /old-path    /new-path    301
-/   /en/guides/sensecraft-hmi-overview/   301!

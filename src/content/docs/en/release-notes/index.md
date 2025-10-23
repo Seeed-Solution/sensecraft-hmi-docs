@@ -5,17 +5,30 @@ description: SenseCraft HMI platform iteration records and version history
 
 This page contains the iteration records and version history of the SenseCraft HMI platform.
 
-## v1.0 - 2025-xx-xx
+## v1.0 - 2025-10-24
 
-### Major Updates
-- **Redesigned page layout** with enhanced page list functionality, creating Dashboard designs like Keynote
-- **Added ePaper DIY Kit - EE04 support** for 7.3" and 7.5" displays
-- **Added TRMNL 7.5" (OG) DIY Kit support**
-- **Enhanced device monitoring** with last online time and estimated next refresh time
-- **Added landscape orientation** with two UI layout options
-- **Integrated SenseCAP sensor data** for comprehensive IoT monitoring
-- **Template system** supporting design template import and export
-- **New Tools page** with various image dithering algorithms and export functionality
+**Re-Designed Layout & Pagelist for Easier Creation**
+
+- New UI layout for easier navigation
+- Add pagelist feature, create multiple UIs like keynotes slides
+- Add page libraries, save all your UIs
+
+**Enhanced UI Editor and Data Integration**
+
+- Support for both horizontal and vertical canvas layouts
+- Support UI template import and export
+- Directly pull live SenseCAP data from your account
+- Add device last online time and next refresh time
+
+**Expanded Hardware Support**
+
+- Support ePaper DIY Kit-EE04, compatible with 7.3'' and 7.5'' displays
+- Support TRMNL 7.5'' (OG) DIY Kit with 7.5'' display
+
+**Firmware Flash and Image Processing Tool Page**
+
+- Supports flashing both SenseCraft HMI firmware and TRMNL firmware
+- Add dithering tool to process image and export directly to x.c files
 
 ## v0.6
 

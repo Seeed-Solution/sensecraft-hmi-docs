@@ -1,36 +1,174 @@
 ---
-title: SenseCraft HMI ドキュメント
-description: SenseCraft HMI の包括的なドキュメント - 強力なヒューマンマシンインターフェースを簡単に構築
-template: splash
-hero:
-  tagline: SenseCraft HMI で強力なヒューマンマシンインターフェースを構築
-  image:
-    file: '../../../assets/houston.webp'
-  actions:
-    - text: はじめる
-      link: /ja/guides/example/
-      icon: right-arrow
-    - text: GitHub で見る
-      link: https://github.com/Seeed-Solution/sensecraft-hmi-docs
-      icon: external
-      variant: minimal
+title: SenseCraft HMI 概要
+description: SenseCraft HMI の紹介、reTerminal シリーズ向けに構築されたヒューマンコンピュータインタラクションページプラットフォーム。
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## SenseCraft HMI の使用を開始
+## はじめに
+
+**[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** は、Seeed Studio の強力なクラウドベースのインターフェース設計プラットフォームで、**コーディング不要**でスクリーンベースのデバイス向けに専門的なビジュアルインターフェースを作成できます。
+
+直感的なドラッグアンドドロップエディター、既製のテンプレート、AI 駆動の設計機能により、SenseCraft HMI はシームレスな UI 設計とデプロイを実現し、あなたの想像を現実に変えます。
+
+
+<div style={{textAlign:'center', margin: '2.5rem 0'}}>
+  <img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/23.png" 
+       style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'12px', boxShadow:'0 8px 24px rgba(0,0,0,0.12)'}}/>
+</div>
+
+**特徴：**
+ - ノーコードインターフェースビルダー
+ - AI 駆動設計
+ - リアルタイムデータ統合
+ - 複数のハードウェアをサポート
+ - すぐに使えるテンプレート
+ - ワンクリックデプロイ
+
+## はじめに
+
+<div style="margin-top:2rem; display:flex; justify-content:flex-start;">
+  <ol style="list-style:none; padding:0; margin:0; position:relative; text-align:left;">
+    
+    <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">1</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">[SenseCraft HMI](https://sensecraft.seeed.cc/hmi) にアクセスして登録</div>
+      </div>
+    </li>
+
+    <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">2</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">デバイスを接続して機能を選択</div>
+      </div>
+    </li>
+
+    <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">3</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">インターフェースを設計してカスタマイズ</div>
+      </div>
+    </li>
+
+        <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">4</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">ターゲットハードウェアに直接デプロイ</div>
+      </div>
+    </li>
+
+  </ol>
+</div>
+
+##  ドキュメント
+
+### SenseCraft HMI の使用方法
+
+<CardGrid>
+  <Card title="はじめに" icon="open-book">
+    SenseCraft HMI アカウントの作成とプラットフォームへのアクセス方法を学びます。
+    
+    [ガイドを読む →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/getting-started/)
+  </Card>
+  
+  <Card title="ファームウェアアップデート" icon="rocket">
+    電子ペーパーディスプレイデバイスのファームウェアを更新およびフラッシュする完全ガイド。
+    
+    [ガイドを読む →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/firmware-update/)
+  </Card>
+  
+  <Card title="ワークスペースインターフェース" icon="laptop">
+    コアツールバーと機能の理解と使用に関する包括的なガイド。
+    
+    [ガイドを読む →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/workspace-interface/)
+  </Card>
+  
+  <Card title="高度なツール" icon="setting">
+    ファームウェアフラッシャーと画像ディザリングツールの使用方法を学びます。
+    
+    [ガイドを読む →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/advanced-tools/)
+  </Card>
+  
+  <Card title="デバイスへのデプロイ" icon="rocket">
+    SenseCraft HMI プロジェクトをデプロイするためのステップバイステップガイド。
+    
+    [ガイドを読む →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/deploying-to-device/)
+  </Card>
+</CardGrid>
+
+### 機能ドキュメント
+
+<CardGrid>
+  <Card title="AI 生成機能" icon="star">
+    自然言語で欲しいものを説明するだけで、美しいレイアウトと画像を作成します。
+    
+    [詳細を見る →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/sensecraft-hmi-ai-generator/)
+  </Card>
+  
+  <Card title="ギャラリー機能" icon="document">
+    ディスプレイをデジタルフォトフレームに変換します。
+    
+    [詳細を見る →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/sensecraft-hmi-gallery/)
+  </Card>
+  
+  <Card title="キャンバス機能" icon="pencil">
+    静的要素と動的データを組み合わせたカスタムインターフェースを設計します。
+    
+    [詳細を見る →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/sensecraft-hmi-canvas/)
+  </Card>
+  
+  <Card title="RSS 機能" icon="list-format">
+    ニュースアウトレットやブログから自動更新されるコンテンツを表示します。
+    
+    [詳細を見る →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/sensecraft-hmi-rss/)
+  </Card>
+  
+  <Card title="Web 機能" icon="external">
+    デバイス上でウェブコンテンツやダッシュボードを直接表示します。
+    
+    [詳細を見る →](https://sensecraft-hmi-docs.seeed.cc/ja/guides/sensecraft-hmi-web/)
+  </Card>
+</CardGrid>
+
+##  その他のリソース
 
 <CardGrid stagger>
-	<Card title="クイックスタート" icon="rocket">
-		ガイドを確認して、SenseCraft HMI の使用を開始する方法を学びましょう。
-	</Card>
-	<Card title="API リファレンス" icon="code">
-		完全な API リファレンスドキュメントを探索し、利用可能なすべての機能を理解しましょう。
-	</Card>
-	<Card title="サンプルプロジェクト" icon="lightbulb">
-		実際のサンプルを通じて、強力な HMI アプリケーションの構築方法を学びましょう。
-	</Card>
-	<Card title="コミュニティサポート" icon="people">
-		コミュニティに参加して、ヘルプを取得し、経験を共有しましょう。
-	</Card>
+  <Card title="💻 サポートされているハードウェア" icon="laptop">
+    サポートされているデバイスとハードウェア要件の完全なリスト。
+    
+    [ハードウェアを見る →](https://sensecraft-hmi-docs.seeed.cc/ja/supported-hardware/)
+  </Card>
+  
+  <Card title="🎥 ビデオガイド" icon="star">
+    SenseCraft HMI プラットフォームのステップバイステップビデオチュートリアル。
+    
+    [ビデオを見る →](https://sensecraft-hmi-docs.seeed.cc/ja/video-guide/)
+  </Card>
+  
+  <Card title="💰 価格" icon="information">
+    現在の価格情報とプラン。
+    
+    [価格を見る →](https://sensecraft-hmi-docs.seeed.cc/ja/pricing/)
+  </Card>
+  
+  <Card title="📋 リリースノート" icon="document">
+    SenseCraft HMI プラットフォームの最新アップデートとバージョン履歴。
+    
+    [更新を見る →](https://sensecraft-hmi-docs.seeed.cc/ja/release-notes/)
+  </Card>
 </CardGrid>
+
+---
+
+##  クイックリンク
+
+<div style={{display:'flex', gap:'0.5rem', marginTop:'1.5rem', flexWrap:'wrap'}}>
+  <a href="https://sensecraft.seeed.cc/hmi" style={{display:'inline-block', padding:'1.5rem 3.0rem', background:'#004966', color:'white', borderRadius:'8px', textDecoration:'none', fontWeight:'bold', transition:'transform 0.2s'}}>
+    🌐 SenseCraft HMI を起動
+  </a>
+  <br/>
+  <a href="https://wiki.seeedstudio.com/reterminal_e10xx_main_page/" style={{display:'inline-block', padding:'1.5rem 3.0rem', background:'#004966', color:'white', borderRadius:'8px', textDecoration:'none', fontWeight:'bold', transition:'transform 0.2s'}}>
+    📱 互換デバイスを見る
+  </a>
+</div>

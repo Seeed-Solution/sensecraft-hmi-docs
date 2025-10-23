@@ -9,7 +9,7 @@ Currently, SenseCraft HMI is in **Beta** and is **free** to use.
 
 ### AI Generation Limits
 
-- **Daily Limit**: 5 AI generations per account per day
+- **Daily Limit**: Each account is limited to 10 AI-generated creations per day, including 5 image generation/adjustments and 5 canvas generation/adjustments
 - **Reset Time**: Limits reset every 24 hours
 
 ### Image Upload Guidelines

@@ -1,36 +1,174 @@
 ---
-title: SenseCraft HMI 文档
-description: SenseCraft HMI 官方文档 - 专为 Seeed Studio 显示屏设计的无代码 UI 构建器
-template: splash
-hero:
-  tagline: 专为 reTerminal E 系列设计的无代码电子纸 HMI 平台
-  image:
-    file: '../../../assets/houston.webp'
-  actions:
-    - text: 开始使用
-      link: /zh/guides/sensecraft-hmi-overview/
-      icon: right-arrow
-    - text: 在 GitHub 上查看
-      link: https://github.com/Seeed-Solution/sensecraft-hmi-docs
-      icon: external
-      variant: minimal
+title: SenseCraft HMI 概览
+description: 介绍 SenseCraft HMI，专为 reTerminal 系列构建的人机交互页面平台。
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## 开始使用 SenseCraft HMI
+## 简介
+
+**[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** 是 Seeed Studio 强大的云端界面设计平台，让您能够为屏幕设备创建专业的可视化界面，**无需编程**。
+
+通过直观的拖放编辑器、预构建模板和 AI 驱动的设计能力，SenseCraft HMI 实现了无缝的 UI 设计和部署，将您的想象变为现实。
+
+
+<div style={{textAlign:'center', margin: '2.5rem 0'}}>
+  <img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/23.png" 
+       style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'12px', boxShadow:'0 8px 24px rgba(0,0,0,0.12)'}}/>
+</div>
+
+**功能特性：**
+ - 无代码界面构建器
+ - AI 驱动设计
+ - 实时数据集成
+ - 支持多种硬件
+ - 即用型模板
+ - 一键部署
+
+## 开始使用
+
+<div style="margin-top:2rem; display:flex; justify-content:flex-start;">
+  <ol style="list-style:none; padding:0; margin:0; position:relative; text-align:left;">
+    
+    <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">1</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">访问 [SenseCraft HMI](https://sensecraft.seeed.cc/hmi) 并注册</div>
+      </div>
+    </li>
+
+    <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">2</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">连接设备并选择功能</div>
+      </div>
+    </li>
+
+    <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">3</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">设计和定制您的界面</div>
+      </div>
+    </li>
+
+        <li style="display:flex; align-items:center; gap:0.5rem; position:relative;">
+      <div style="background:#8FC31F; color:white; width:25px; height:25px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:bold; font-size:18px;">4</div>
+      <div style="display:flex; flex-direction:column; justify-content:center;">
+        <div style="font-weight:bold; color:#8FC31F;">直接部署到目标硬件</div>
+      </div>
+    </li>
+
+  </ol>
+</div>
+
+##  文档
+
+### 如何使用 SenseCraft HMI
+
+<CardGrid>
+  <Card title="快速入门" icon="open-book">
+    了解如何创建您的 SenseCraft HMI 账户并访问平台。
+    
+    [阅读指南 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/getting-started/)
+  </Card>
+  
+  <Card title="固件更新" icon="rocket">
+    完整指南：为您的电子纸显示设备更新和刷写固件。
+    
+    [阅读指南 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/firmware-update/)
+  </Card>
+  
+  <Card title="工作区界面" icon="laptop">
+    全面指南：理解和使用核心工具栏和功能。
+    
+    [阅读指南 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/workspace-interface/)
+  </Card>
+  
+  <Card title="高级工具" icon="setting">
+    了解如何使用固件刷写工具和图像抖动工具。
+    
+    [阅读指南 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/advanced-tools/)
+  </Card>
+  
+  <Card title="部署到设备" icon="rocket">
+    部署 SenseCraft HMI 项目的分步指南。
+    
+    [阅读指南 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/deploying-to-device/)
+  </Card>
+</CardGrid>
+
+### 功能文档
+
+<CardGrid>
+  <Card title="AI 生成功能" icon="star">
+    通过简单描述您想要的内容，使用自然语言创建精美的布局和图像。
+    
+    [了解更多 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/sensecraft-hmi-ai-generator/)
+  </Card>
+  
+  <Card title="图库功能" icon="document">
+    将您的显示屏变成数字相框。
+    
+    [了解更多 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/sensecraft-hmi-gallery/)
+  </Card>
+  
+  <Card title="画布功能" icon="pencil">
+    设计结合静态元素和动态数据的自定义界面。
+    
+    [了解更多 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/sensecraft-hmi-canvas/)
+  </Card>
+  
+  <Card title="RSS 功能" icon="list-format">
+    显示来自新闻媒体和博客的自动更新内容。
+    
+    [了解更多 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/sensecraft-hmi-rss/)
+  </Card>
+  
+  <Card title="网页功能" icon="external">
+    在您的设备上直接显示网页内容和仪表板。
+    
+    [了解更多 →](https://sensecraft-hmi-docs.seeed.cc/zh/guides/sensecraft-hmi-web/)
+  </Card>
+</CardGrid>
+
+##  其他资源
 
 <CardGrid stagger>
-	<Card title="快速开始" icon="rocket">
-		查看我们的指南，了解如何开始使用 SenseCraft HMI。
-	</Card>
-	<Card title="API 参考" icon="code">
-		探索完整的 API 参考文档，了解所有可用功能。
-	</Card>
-	<Card title="示例项目" icon="lightbulb">
-		通过实际示例学习如何构建强大的 HMI 应用程序。
-	</Card>
-	<Card title="社区支持" icon="people">
-		加入我们的社区，获取帮助并分享经验。
-	</Card>
+  <Card title="💻 支持的硬件" icon="laptop">
+    支持设备和硬件要求的完整列表。
+    
+    [查看硬件 →](https://sensecraft-hmi-docs.seeed.cc/zh/supported-hardware/)
+  </Card>
+  
+  <Card title="🎥 视频指南" icon="star">
+    SenseCraft HMI 平台的分步视频教程。
+    
+    [观看视频 →](https://sensecraft-hmi-docs.seeed.cc/zh/video-guide/)
+  </Card>
+  
+  <Card title="💰 价格" icon="information">
+    当前价格信息和套餐。
+    
+    [查看价格 →](https://sensecraft-hmi-docs.seeed.cc/zh/pricing/)
+  </Card>
+  
+  <Card title="📋 发布说明" icon="document">
+    SenseCraft HMI 平台的最新更新和版本历史。
+    
+    [查看更新 →](https://sensecraft-hmi-docs.seeed.cc/zh/release-notes/)
+  </Card>
 </CardGrid>
+
+---
+
+##  快速链接
+
+<div style={{display:'flex', gap:'0.5rem', marginTop:'1.5rem', flexWrap:'wrap'}}>
+  <a href="https://sensecraft.seeed.cc/hmi" style={{display:'inline-block', padding:'1.5rem 3.0rem', background:'#004966', color:'white', borderRadius:'8px', textDecoration:'none', fontWeight:'bold', transition:'transform 0.2s'}}>
+    🌐 启动 SenseCraft HMI
+  </a>
+  <br/>
+  <a href="https://wiki.seeedstudio.com/reterminal_e10xx_main_page/" style={{display:'inline-block', padding:'1.5rem 3.0rem', background:'#004966', color:'white', borderRadius:'8px', textDecoration:'none', fontWeight:'bold', transition:'transform 0.2s'}}>
+    📱 查看兼容设备
+  </a>
+</div>
