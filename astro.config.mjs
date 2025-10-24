@@ -12,7 +12,7 @@ export default defineConfig({
   	},
 	integrations: [
 		starlight({
-			title: 'SenseCraft HMI Wiki',
+			title: 'SenseCraft HMI',
 			description: 'Official documentation for SenseCraft HMI - No-code UI builder for Seeed Studio displays.',
 			favicon: '/favicon.png',
 			social: [
