@@ -18,7 +18,7 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     }
     
     // Redirect to the appropriate guide page
-    const targetPath = `/${targetLocale}/guides/ensecraft-hmi-overview/`;
+    const targetPath = `/${targetLocale}`;
     return context.redirect(targetPath, 302);
   }
   
