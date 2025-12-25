@@ -6,7 +6,7 @@ description: SenseCraft HMI platform iteration records and version history
 ## SenseCraft HMI v1.2.0 Release Notes 
 Update time: 2025.12.25
 
-Highlights
+**Highlights**
 - New Homepage with Rich Templates – Ready-to-use designs for weather, calendars, crypto, stocks, quotes, and more.
 - New Architecture – Design your UI before hardware arrives. The platform now clearly separates Workspace (design), Device (deployment), Tools and AI Gen (Beta).
 - Expanded Data Sources – Live integration with ZenQuotes, Google Calendar, CoinMarketCap, Todoist, and others.
@@ -19,26 +19,30 @@ Highlights
 
 
 
-New Platform Layout
+**New Platform Layout**
 - Home – Browse templates and apply your favorites to your canvas
 - Workspace – Design UI pages and playlists
 - Device – Manage connected devices
 - Tools – Firmware Flasher, image dithering
 - AI Gen (Beta) – AI-powered image and layout generation
 
-Improvements
+**Improvements**
 - Improved 4-level grayscale dithering (2.9" displays)
 - Fixed pairing code issue (XIAO EE04)
 - Smoother canvas rotation
 - Better preview rendering
 
-Get Involved
-Join our Discord to vote on templates, report bugs, and help shape our roadmap. Discord Channel: https://discord.com/invite/Jj2CBXCjtf 
+**Get Involved**
+
+Join our Discord to vote on templates, report bugs, and help shape our roadmap. 
+
+Discord Channel: https://discord.com/invite/Jj2CBXCjtf 
 
 🎄 Merry Christmas!
 
 🧑‍🎄 Team SenseCraft HMI
 
+---
 
 ## SenseCraft HMI v1.1.0 Release Notes 
 Update time: 2025.11.20
@@ -54,6 +58,7 @@ Supported Display Types:
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/update1.png" style={{width:800, height:'auto'}}/></div>
 
+---
 ## SenseCraft HMI v1.0 Release Notes 
 Update time: 2025.10.24
 
@@ -80,10 +85,13 @@ Update time: 2025.10.24
 - Supports flashing both SenseCraft HMI firmware and TRMNL firmware
 - Add dithering tool to process image and export directly to x.c files
 
+---
+
 ## SenseCraft HMI v0.6 Release Notes 
 Update time: 2025.9.23
 
-### Initial Release
+**Initial Release**
+
 - **Device support**: reTerminal E1001 and E1002
 - **Page types**: Individual gallery, canvas, RSS, and web page support
 - **Firmware management**: Online firmware flashing and updates
