@@ -53,6 +53,15 @@ export default defineConfig({
 				},
 			},
 			{
+				label: 'Supported Hardware',
+				link: '/supported_hardware/',
+				translations: {
+					'zh-CN': '支持的硬件',
+					'ja': 'サポートされているハードウェア',
+					'es': 'Hardware compatible',
+				},
+			},
+			{
 				label: 'Guides',
 				translations: {
 					'zh-CN': '指南',
@@ -70,15 +79,6 @@ export default defineConfig({
 						},
 					},
 					{
-						label: 'AI Generation',
-						link: '/guides/ai_gen/',
-						translations: {
-							'zh-CN': 'AI 生成',
-							'ja': 'AI 生成',
-							'es': 'Generación con IA',
-						},
-					},
-					{
 						label: 'Workspace',
 						link: '/guides/workspace/',
 						translations: {
@@ -87,16 +87,16 @@ export default defineConfig({
 							'es': 'Espacio de trabajo',
 						},
 					},
+					{
+						label: 'AI Generation',
+						link: '/guides/ai_gen/',
+						translations: {
+							'zh-CN': 'AI 生成',
+							'ja': 'AI 生成',
+							'es': 'Generación con IA',
+						},
+					},
 				],
-			},
-			{
-				label: 'Supported Hardware',
-				link: '/supported_hardware/',
-				translations: {
-					'zh-CN': '支持的硬件',
-					'ja': 'サポートされているハードウェア',
-					'es': 'Hardware compatible',
-				},
 			},
 			{
 				label: 'Release Notes',
