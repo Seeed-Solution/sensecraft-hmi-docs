@@ -62,7 +62,7 @@ Click the send button again to generate a new version based on your latest feedb
 **Step 7. Loop Optimization**
 Repeat this iterative process until you are satisfied with the result. -->
 
-**Step 5.** View Details**
+**Step 5. View Details**
 Click the generated thumbnail to view a larger preview on the right for more details.
 
 
@@ -125,6 +125,13 @@ Click the **"Add to My Page"** button. The layout will be saved as a new page in
 <div style={{textAlign:'center'}}>
   <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_ai_gen_6.png" style={{width:400, height:'auto'}}/>
 </div> 
+
+---
+
+## AI Generation Limits
+
+- **Daily Limit**: Each account is limited to 10 AI-generated creations per day, including 5 image generation/adjustments and 5 canvas generation/adjustments
+- **Reset Time**: Limits reset every 24 hours
 
 ---
 
