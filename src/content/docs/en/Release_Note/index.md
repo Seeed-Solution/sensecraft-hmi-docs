@@ -233,7 +233,7 @@ We've expanded compatibility to support the newly released EE04 DIY Kit, offerin
 Supported Display Types:
 • Monochrome (black & white)
 • 4-color displays
-• 6-color displays (E Ink Spectra 6 Full-color) 
+• 6-color displays (E Ink Spectra 6 Full-color)
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/update1.png" style={{width:800, height:'auto'}}/></div>
 
