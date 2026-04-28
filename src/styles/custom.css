@@ -56,6 +56,47 @@ body {
   height: 100%;
 }
 
+.get_one_now_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0 1rem;
+}
+
+.get_one_now_item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  padding: 0.7rem 1.1rem;
+  border-radius: 6px;
+  background: #96cc3f;
+  border: 2px solid #ffffff;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.get_one_now_item,
+.get_one_now_item span,
+.get_one_now_item strong,
+.get_one_now_item font {
+  color: #ffffff !important;
+}
+
+.get_one_now_item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(150, 204, 63, 0.22);
+}
+
+.get_one_now_item:visited {
+  color: #ffffff;
+}
+
 /* 响应式优化 */
 @media (max-width: 768px) {
   .sl-markdown-content {

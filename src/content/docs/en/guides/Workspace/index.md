@@ -5,23 +5,23 @@ title: Workspace Guide
 
 <!-- <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/weather.jpg" style={{width:800, height:'auto'}}/></div> -->
 
-The Workspace is divided into four main sections: **Data**, **Basic**, **Component**, and **My_widgets**. Each section integrates a variety of default components, allowing you to design and customize your interface. While we offer seamless, out-of-the-box integration with standard data sources like Google Calendar, YouTube, and GitHub, our capabilities extend far beyond these native connectors.
+The Workspace is divided into four main sections: **Data**, **Basic**, **Component**, and **My widgets**. Each section includes a variety of built-in components, allowing you to design and customize your interface. While we offer seamless, out-of-the-box integration with standard data sources like Google Calendar, YouTube, and GitHub, our capabilities extend far beyond these native connectors.
 
 ---
 
 ## Create new design
 
-**Step 1.** Click **Workspace** on the left sidebar to enter the workspace canvas. Your previous saves will be stored here.
+**Step 1.** Click **Workspace** on the left sidebar to enter the workspace canvas. Your previous designs will be listed here.
 
 **Step 2.** Click the **+ New** button in the top-left corner to create a new canvas. Alternatively, hover your mouse over "Workspace" to reveal the quick-add button.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_1.png" style={{width:800, height:'auto'}}/></div>
 
-**Step 3.** In the pop-up window, select **New\_Design** to start a fresh project, or use the **Import Image** option below to bring in an existing graphic.
+**Step 3.** In the pop-up window, select **New Design** to start a fresh project, or use the **Import Image** option below to bring in an existing graphic.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_2.png" style={{width:800, height:'auto'}}/></div>
 
-**Step 4.** After selecting **New_Design**, give your project a name, select the target device from the device list, and click the **Confirm** button. A blank canvas will appear, and you can now begin designing your custom interface.
+**Step 4.** After selecting **New Design**, give your project a name, select the target device from the device list, and click the **Confirm** button. A blank canvas will appear, and you can now begin designing your custom interface.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_3.png" style={{width:800, height:'auto'}}/></div>
 
@@ -31,7 +31,7 @@ The Workspace is divided into four main sections: **Data**, **Basic**, **Compone
 
 ## Data
 
-This is one of the standout features of SenseCraft, allowing you to easily link external data. Whether using our provided standard application data interfaces or custom data sources, you can build powerful visual dashboards.
+This is one of the standout features of SenseCraft, allowing you to easily connect external data. Whether you use our built-in data connectors or custom data sources, you can build powerful visual dashboards.
 
 --- 
 
@@ -40,7 +40,7 @@ This is one of the standout features of SenseCraft, allowing you to easily link 
 
 The **Device Sensors** function allows you to read data from device sensors and display it directly on your screen.
 
-**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left, find the **Device Sensors** component.
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **Device Sensors** component.
 
 **Step 2.** Select the device you want to monitor and click the **Load Sensor Data** button. The **Available Fields** will appear on the right.
 
@@ -50,21 +50,21 @@ The **Device Sensors** function allows you to read data from device sensors and 
 
 **Step 4.** In the tree structure, check the data fields you want to display. The selected data will automatically appear on the canvas to the right.
 
-**Step 5.** Click the **Apply** button on the top right corner of the canvas to push the data to device.
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 --- 
 
 ### HTML Function
 
-The html function allows you to display web content directly on your screen-based devices. This powerful feature transforms your device into a dedicated web display, capable of showing dashboards, monitoring systems, documentation, or any web content you need. 
+The **HTML** function allows you to display web content directly on your screen-based devices. This powerful feature transforms your device into a dedicated web display, capable of showing dashboards, monitoring systems, documentation, or any web content you need.
 
-**Step 1.** inside the **New Design** canvas, click the **Data** tab on the left , find the **HTML** component.
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **HTML** component.
 
-**Step 2.** Enter the API address (URL) from which you want to fetch data into the component configuration box. For example
+**Step 2.** Enter the API address (URL) from which you want to fetch data into the component configuration box. For example:
 
-```url
-https://www.windy.com/
-```
+:::note[Example URL]
+[https://www.windy.com/](https://www.windy.com/)
+:::
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_7.png" style={{width:800, height:'auto'}}/></div>
 
@@ -76,34 +76,35 @@ Alternatively, click **File Upload** to upload your own custom HTML file.
 
 **Step 4.** In the tree structure, check the data fields you want to display. The selected data will automatically appear on the canvas to the right.
 
-**Step 5.** Click the **Apply** button on the top right corner of the canvas to push the data to device.
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 ---
 ### RSS Function
 
 The RSS function allows you to transform your screen-based devices into real-time information displays. By connecting to RSS feeds from news outlets, blogs, weather services, and more, you can create dynamic displays that automatically update with the latest content. 
 
-**Step 1.** inside the **New Design** canvas, click the **Data** tab on the left , find the **RSS_Feed** component.
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **RSS Feed** component.
 
-**Step 2.** Enter the API address (URL) from which you want to fetch data into the component configuration box. For example
+**Step 2.** Enter the API address (URL) from which you want to fetch data into the component configuration box. For example:
 
-```url
-https://feeds.bbci.co.uk/news/world/rss.xml
-```
+:::note[Example URL]
+[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
+:::
+
 **Step 3.** The system will automatically parse the data returned by the API and expand it below in a **Tree Structure**.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
 
 **Step 4.** In the tree structure, check the data fields you want to display. The selected data will automatically appear on the canvas to the right.
 
-**Step 5.** Click the **Apply** button on the top right corner of the canvas to push the data to device.
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 ---
 ### External Data Source 
 
 The **External Data Source** component allows you to fetch external data using APIs and visualize it on your dashboard.
 
-**Step 1.** inside the **New Design** canvas, click the **Data** tab on the left and locate the **External Data Source** component at the bottom.
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and locate the **External Data Source** component at the bottom.
 
 **Step 2.** Enter the API address (URL) from which you want to fetch data into the component configuration box.
 
@@ -113,7 +114,7 @@ The **External Data Source** component allows you to fetch external data using A
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/w4.jpg" style={{width:800, height:'auto'}}/></div>
 
-**Step 5.** Click the **Apply** button on the top right corner of the canvas to push the data to device.
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 
 <table style={{border: 'none', width: '100%'}}>
@@ -142,9 +143,9 @@ In addition to pulling external data, we provide the **Push to SenseCraft** comp
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/w8.jpg" style={{width:800, height:'auto'}}/></div>
 
-**Step 4.** Use basic text function to add some description to those data.
+**Step 4.** Use the basic text function to add labels or descriptions to the data.
 
-**Step 5.** Click the **Apply** button on the top right corner of the canvas to push the data to device.
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/w9.jpg" style={{width:800, height:'auto'}}/></div>
 
@@ -195,8 +196,8 @@ Using the **Calendar** component as an example:
 
 ---
 
-## My_widgets
+## My widgets
 
-The **My_widgets** section is for your custom components. If you use a specific data source frequently, you can click the **Add to My Widgets** button in the bottom right corner. This saves the data component to your personal widget library, allowing you to drag and drop it directly next time without re-configuring the API.
+The **My widgets** section is for your custom components. If you use a specific data source frequently, you can click the **Add to My Widgets** button in the bottom-right corner. This saves the data component to your personal widget library, allowing you to drag and drop it directly next time without reconfiguring the API.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_worksp_advance_2.png" style={{width:800, height:'auto'}}/></div>

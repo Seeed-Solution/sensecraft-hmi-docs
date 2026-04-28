@@ -12,8 +12,8 @@ SenseCraft HMI supports a growing range of ePaper display devices. Below is the 
 | reTerminal E1001 | 7.5" | Monochrome (4-level grayscale) | 800×480 |
 | reTerminal E1002 | 7.3" | Full color (Spectra 6) | 800×480 |
 | reTerminal E1003 | 10.3" | Monochrome (16-level grayscale) | 1404×1872 |
-| reTerminal E1004 | 13.3" | Full color (Spectra 6) | 1600×1200 |
-| XIAO EE02 ePaper DIY Kit | 13.3" | Full color (Spectra 6) |
+| reTerminal E1004 | 13.3" | Full color (Spectra 6) | 1200×1600 |
+| XIAO EE02 ePaper DIY Kit | 13.3" | Full color (Spectra 6) | 1200×1600 |
 | XIAO EE03 ePaper DIY Kit | 10.3" | Monochrome (16-level grayscale) | 1404×1872 |
 | XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | multi-color | 200x200-800×480 |
 | TRMNL 7.5" (OG) DIY Kit | 7.5" | Monochrome (4-level grayscale) | 800×480 |
@@ -26,10 +26,20 @@ SenseCraft HMI supports a growing range of ePaper display devices. Below is the 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/24.jpg" style={{width:700, height:'auto'}}/></div><br />
 
 <div class="get_one_now_container" style={{textAlign: 'center'}}>
-  <a class="get_one_now_item" href="https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001" target="_blank" rel="noopener noreferrer">
+  <a
+    class="get_one_now_item"
+    href="https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <strong><span><font color={'FFFFFF'} size={"3"}>reTerminal E1001 Wiki</font></span></strong>
   </a>
-  <a class="get_one_now_item" href="https://www.seeedstudio.com/reTerminal-E1001-p-6534.html" target="_blank" rel="noopener noreferrer">
+  <a
+    class="get_one_now_item"
+    href="https://www.seeedstudio.com/reTerminal-E1001-p-6534.html"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <strong><span><font color={'FFFFFF'} size={"4"}>Get One Now</font></span></strong>
   </a>
 </div><br />
@@ -212,7 +222,7 @@ Powered by **XIAO ESP32-S3 Plus**, the ePaper driver board EE03 supports **10.3 
 
 Powered by **XIAO ESP32-S3** Plus, the display board EE04 supports both **24-pin** and **50-pin** ePaper displays. It features a JST 2.0 mm battery connector with power switch, built-in charging IC, and comes with one reset and three user buttons. Well-suited for low-power ePaper projects such as digital signage, electronic labels, and portable information boards.
 
-#### Featrue
+#### Features
 
 - **Powered by XIAO ESP32-S3 Plus:** Works immediately when connected to a compatible ePaper display.
 - **Versatile Display Support:** Compatible with a wide range of ePaper screens, supporting both 24-Pin and 50-Pin interfaces with easy switching via jumper caps.

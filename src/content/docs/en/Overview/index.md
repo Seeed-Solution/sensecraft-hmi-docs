@@ -25,7 +25,11 @@ title: Overview
 ### Pricing
 
 SenseCraft HMI is currently in **Beta** and is **free** to use.
-   
+
+While our platform is free to use, AI generation features are subject to certain usage limits.
+
+- **Daily Limit**: Each account is limited to 10 AI-generated creations per day, including 5 image generation/adjustments and 5 canvas generation/adjustments.
+- **Reset Time**: Limits reset every 24 hours.
 ---
 ### Platform Registration
 
@@ -61,6 +65,6 @@ SenseCraft HMI uses the unified SenseCraft account system. You can sign in with 
 | :--- | :--- |
 | **[Overview](/en/overview/)** | Platform introduction, features, pricing, supported hardware, registration, and quick start guide. |
 | **[Supported Hardware](/en/supported_hardware/)** | A complete list of compatible devices with purchase links and shortcuts to featured showcases/cases. |
-| **[Guides](/en/guides/getting_started/)** | Comprehensive tutorials covering quick start, device management, firmware flashing, canvas desginer , and AI generation. |
+| **[Guides](/en/guides/getting_started/)** | Comprehensive tutorials covering quick start, device management, firmware flashing, canvas designer, and AI generation. |
 | **[Release Notes](/en/release_note/)** | Version history, latest updates, and changelogs. |
 
