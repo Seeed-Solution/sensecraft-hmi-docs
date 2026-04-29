@@ -54,9 +54,175 @@ The **Device Sensors** function allows you to read data from device sensors and 
 
 --- 
 
+### Weather Function
+
+The **Weather** function allows you to create live weather displays for a selected city. You can quickly generate a ready-made layout with preset fields, or fine-tune the displayed data and units for a more customized result.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **Weather** component.
+
+**Step 2.** Enter the city name you want to query in the first field.
+
+**Step 3.** Use **Quick presets** to select a default weather layout and field combination. In the **Units** section, choose the measurement units you want to display. If needed, switch to **Advanced** for more detailed customization.
+
+**Step 4.** Click **Load Data** to generate a preview on the right. After confirming the result, click **Confirm** to place the weather layout on the canvas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_weather.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+--- 
+
+### Stock Function
+
+The **Stock** function lets you display real-time stock information on your page. You can look up a stock by symbol and choose whether to show the current price or a K-line chart.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **Stock** component.
+
+**Step 2.** Enter your Stock API key in the first field. If you do not already have one, use the link provided in the interface to view the API key instructions.
+
+**Step 3.** In the **Stock Symbol** field, enter the stock symbol you want to track. Then choose the display type in the **Display** section, such as **Current Price** or **K-line Chart**.
+
+**Step 4.** Click **Search** to generate a preview on the right. After reviewing the result, click **Confirm** to add the stock layout to the canvas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_stock.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+--- 
+
+### CoinMarketCap Function
+
+The **CoinMarketCap** function lets you display cryptocurrency market data in your design. By entering a crypto symbol, you can quickly generate a live data widget for the asset you want to follow.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **CoinMarketCap** component.
+
+**Step 2.** Enter your CoinMarketCap API key in the first field. If you do not already have one, use the link provided in the interface to check how to obtain it.
+
+**Step 3.** In the **Cryptocurrency Symbol** field, enter the crypto symbol you want to monitor.
+
+**Step 4.** Click **Search** to generate a preview on the right. After reviewing the result, click **Confirm** to place the cryptocurrency layout on the canvas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_coinmarketmap.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+
+--- 
+
+### GitHub Function
+
+The **GitHub** function lets you display user or repository information directly in your layout, such as profile stats, repo metadata, and activity-related fields.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **GitHub** component.
+
+**Step 2.** Enter your GitHub API key in the first field. If you do not already have one, use the link provided in the interface to check how to obtain it.
+
+**Step 3.** In the **GitHub User** field, enter the GitHub username you want to monitor.
+
+**Step 4.** Select **User Info** to display profile-related data. After entering the username, available fields will appear on the right for quick selection.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_github1.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** You can also select **Repository Info**. Enter a repository name, click **Search**, then choose a repository from the results. Available repository fields will appear on the right.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_github2.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 6.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+
+--- 
+
+
+### YouTube Function
+
+The **YouTube** function lets you display channel-level data such as channel name, subscriber metrics, and other supported public fields.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **YouTube** component.
+
+**Step 2.** Enter your YouTube API key in the first field. If you do not already have one, use the link provided in the interface to check how to obtain it.
+
+**Step 3.** Enter a **Channel ID** or **Handle** in the input field below.
+
+**Step 4.** Click **Search** to load channel data. After reviewing the preview on the right, click **Confirm** to place the channel information layout on the canvas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_youtube.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+--- 
+
+
+### ZenQuotes Function
+
+The **ZenQuotes** function lets you add inspirational quotes to your design, with optional filtering by type, author, or keyword.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **ZenQuotes** component.
+
+**Step 2.** Enter your API key if available. This function can still work in basic mode even without an API key.
+
+**Step 3.** If you entered an API key, you can further refine results using **Quote Type**, **Filter by Author**, and **Keyword**.
+
+**Step 4.** Click **Load Quotes** to generate a preview on the right. After reviewing the result, click **Confirm** to place the quote layout on the canvas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_zenquotes.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+--- 
+
+
+
+### Todoist Function
+
+The **Todoist** function lets you display task data from your Todoist account, making it easy to build productivity dashboards on ePaper screens.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **Todoist** component.
+
+**Step 2.** Enter your Todoist API key in the first field. If you do not already have one, use the link provided in the interface to check how to obtain it.
+
+**Step 3.** Optionally configure available task filters (for example, task type or query fields) based on your use case.
+
+**Step 4.** Click **Load All Tasks** to generate a task preview on the right. After reviewing the result, click **Confirm** to place the task layout on the canvas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_todolist.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+--- 
+
+
+### Google Calendar Function
+
+The **Google Calendar** function lets you display calendar events from your Google account, including event type and time-range based filtering.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **Google Calendar** component.
+
+**Step 2.** If you signed in with Google, your calendar may already be linked. You can also click **Re-authorize with Google** to reconnect, or click **Revoke Authorization** to remove access.
+
+**Step 3.** Configure filters such as **Event Type** and **Time Range** to narrow down which events are displayed.
+
+**Step 4.** Click **Load Data** to generate a preview on the right. After reviewing the result, click **Confirm** to place the calendar layout on the canvas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_caelndar.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+
+--- 
+
+
+
+
 ### HTML Function
 
-The **HTML** function allows you to display web content directly on your screen-based devices. This powerful feature transforms your device into a dedicated web display, capable of showing dashboards, monitoring systems, documentation, or any web content you need.
+The **HTML** function allows you to display web content directly on your ePaper display devices. This powerful feature transforms your device into a dedicated web display, capable of showing dashboards, monitoring systems, documentation, or any web content you need.
 
 **Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **HTML** component.
 
