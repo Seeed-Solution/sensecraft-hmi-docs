@@ -5,7 +5,7 @@ description: Introduction to AI Generation features within the SenseCraft HMI pl
 
 ## Introduction
 
-[SenseCraft HMI](https://sensecraft.seeed.cc/hmi) is Seeed Studio's interactive interface design platform specifically created for screen-based products. One of its most powerful features is the **AI Generation** function, which allows you to create beautiful display layouts and images by simply describing what you want in natural language.
+[SenseCraft HMI](https://sensecraft.seeed.cc/hmi) is Seeed Studio's interactive interface design platform specifically created for display-based devices. One of its most powerful features is the **AI Generation** function, which allows you to create beautiful display layouts and images by simply describing what you want in natural language.
 
 ---
 
@@ -67,7 +67,7 @@ Click the generated thumbnail to view a larger preview on the right for more det
 
 
 **Step 6. Add to Workspace**
-Click the **"Add to My Page"** button at the top to add this image to your page list.
+Click the **"Add to My Page"** button. The image will be saved as a new page in your workspace.
 
 
 

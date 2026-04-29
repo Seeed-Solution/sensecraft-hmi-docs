@@ -9,6 +9,7 @@ export default defineConfig({
 
 	redirects: {
     '/': '/en/',
+    '/en': '/en/overview/',
   	},
 	integrations: [
 		starlight({

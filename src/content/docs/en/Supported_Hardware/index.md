@@ -7,7 +7,7 @@ SenseCraft HMI supports a growing range of ePaper display devices. Below is the 
 
 ## Compatibility Table
 
-| Device | Display_Size | Colors | Resolution |
+| Device | Display Size | Colors | Resolution |
 |---|---|---|---|
 | reTerminal E1001 | 7.5" | Monochrome (4-level grayscale) | 800×480 |
 | reTerminal E1002 | 7.3" | Full color (Spectra 6) | 800×480 |
@@ -15,7 +15,7 @@ SenseCraft HMI supports a growing range of ePaper display devices. Below is the 
 | reTerminal E1004 | 13.3" | Full color (Spectra 6) | 1200×1600 |
 | XIAO EE02 ePaper DIY Kit | 13.3" | Full color (Spectra 6) | 1200×1600 |
 | XIAO EE03 ePaper DIY Kit | 10.3" | Monochrome (16-level grayscale) | 1404×1872 |
-| XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | multi-color | 200x200-800×480 |
+| XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | Multi-color | 200×200 to 800×480 |
 | TRMNL 7.5" (OG) DIY Kit | 7.5" | Monochrome (4-level grayscale) | 800×480 |
 
 ---
@@ -126,18 +126,11 @@ The reTerminal E1004 features a **13.3-inch full-color ePaper display** powered 
 <table align="center">
     <tr>
         <th>XIAO ePaper Display Board EE02</th>
-        <th>13.3" spectra™ 6 E-Ink Display</th>
     </tr>
     <tr>
-    <td><div align="center"><img width ={300} src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/2/-/2-xiao-epaper-display-board-ee02.jpg"/></div>
+    <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee02.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
-        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-Display-Board-ESP32-S3-EE02-p-6639.html" target="_blank">
-                <strong><span><font color={'FFFFFF'} size={"4"}> Get One Now 🖱️</font></span></strong>
-        </a>
-    </div></td>
-    <td><div align="center"><img width ={300} src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-100088646-13.3-elnk-spectra-6-color-display.jpg"/></div>
-    <div class="get_one_now_container" style={{textAlign: 'center'}}>
-        <a class="get_one_now_item" href="https://www.seeedstudio.com/13-3inch-Six-Color-eInk-ePaper-Display-with-1200x1600-Pixels-p-6569.html" target="_blank">
+        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> Get One Now 🖱️</font></span></strong>
         </a>
     </div></td>
@@ -166,18 +159,11 @@ The **EE02** is a high-performance **ESP32-S3** driver board optimized for **13.
 <table align="center">
     <tr>
         <th>XIAO ePaper Display Board EE03</th>
-        <th>10.3" Monochrome ePaper Display</th>
     </tr>
     <tr>
-    <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/Epaper/EE03/1.jpg"/></div>
+    <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee03.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
-        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-Display-Board-ESP32-S3-EE03-p-6638.html" target="_blank">
-                <strong><span><font color={'FFFFFF'} size={"4"}> Get One Now 🖱️</font></span></strong>
-        </a>
-    </div></td>
-    <td><div align="center"><img width ={300} src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/2/-/2-100071485-10.3-monochrome-epaper-display.jpg"/></div>
-    <div class="get_one_now_container" style={{textAlign: 'center'}}>
-        <a class="get_one_now_item" href="https://www.seeedstudio.com/10-3inch-Monochrome-eInk-ePaper-Display-with-1404x1872-Pixels-p-6568.html?qid=BB9L37_r6uwit7x_1772441061474" target="_blank">
+        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> Get One Now 🖱️</font></span></strong>
         </a>
     </div></td>
@@ -187,12 +173,12 @@ The **EE02** is a high-performance **ESP32-S3** driver board optimized for **13.
 
 #### Introduction
 
-Powered by **XIAO ESP32-S3 Plus**, the ePaper driver board EE03 supports **10.3 Monochrome ePaper Display**. It features a JST 2.0 mm battery connector with power switch, built-in charging IC, and comes with one reset and three user buttons. Well-suited for low-power ePaper projects such as digital photo frames and information boards.
+Powered by **XIAO ESP32-S3 Plus**, the ePaper driver board EE03 supports **10.3-inch high-refresh ePaper display**. It features a JST 2.0 mm battery connector with power switch, built-in charging IC, and comes with one reset and three user buttons. It is well suited for low-power ePaper projects such as digital photo frames and information boards.
 
 #### Features
 
 - **Built in XIAO ESP32-S3 Plus:** Works immediately when connected to a compatible ePaper display.
-- **Dedicated 10.3" Monochrome ePaper Display Support:** Specifically designed for 10.3" high-speed refresh epaper display, ensuring quick setup and stable operation.
+- **Dedicated 10.3" Monochrome ePaper Display Support:** Specifically designed for 10.3" high-speed refresh ePaper display, ensuring quick setup and stable operation.
 - **High-Speed Refresh Enabled:** Integrated T-CON timing control ensures precise high-speed driving, while the onboard SHT40 provides real-time temperature sensing for waveform compensation.
 - **BAT Connector with Switch:** Provides simple battery connection and integrates a switch, enabling efficient power management and energy savings.
 - **User-Friendly Buttons:** Features 1 reset button and 3 user-programmable buttons, providing flexibility for project acceleration and customizable functions.
@@ -208,9 +194,9 @@ Powered by **XIAO ESP32-S3 Plus**, the ePaper driver board EE03 supports **10.3 
         <th>XIAO ePaper Display Board EE04</th>
     </tr>
     <tr>
-    <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/Epaper/EE04/EE04_2.jpg"/></div>
+    <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee04.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
-        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-Display-Board-EE04-p-6560.html" target="_blank">
+        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-EE04-DIY-Bundle-Kit.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> Get One Now 🖱️</font></span></strong>
         </a>
     </div></td>
@@ -220,7 +206,7 @@ Powered by **XIAO ESP32-S3 Plus**, the ePaper driver board EE03 supports **10.3 
 
 #### Introduction
 
-Powered by **XIAO ESP32-S3** Plus, the display board EE04 supports both **24-pin** and **50-pin** ePaper displays. It features a JST 2.0 mm battery connector with power switch, built-in charging IC, and comes with one reset and three user buttons. Well-suited for low-power ePaper projects such as digital signage, electronic labels, and portable information boards.
+Powered by **XIAO ESP32-S3** Plus, the display board EE04 supports both **24-pin** and **50-pin** ePaper displays. It features a JST 2.0 mm battery connector with power switch, built-in charging IC, and comes with one reset and three user buttons. It is well suited for low-power ePaper projects such as digital signage, electronic labels, and portable information boards.
 
 #### Features
 
@@ -244,11 +230,11 @@ Powered by **XIAO ESP32-S3** Plus, the display board EE04 supports both **24-pin
 
 #### Introduction
 
-The **TRMNL 7.5" (OG) DIY Kit** is an open-hardware ePaper kit with a 7.5-inch monochrome display. SenseCraft HMI can be flashed onto this kit as a fully no-code alternative to the default TRMNL firmware.
+The **TRMNL 7.5" (OG) DIY Kit** is an open-hardware ePaper kit with a 7.5-inch monochrome display. SenseCraft HMI can be flashed onto this kit as a no-code alternative to the default TRMNL firmware.
 
 #### Features
 
-- **TRMNL BYOD Compatibility**: Official kit for building TRMNL 7.5'' OG device with 375+ plugins and 8 no-code layouts (e.g., Calendar, Shopify, GitHub)
+- **TRMNL BYOD Compatibility**: Official kit for building TRMNL 7.5" OG device with 375+ plugins and 8 no-code layouts (e.g., Calendar, Shopify, GitHub)
 - **7.5" E-Ink Display**: 800×480 monochrome display with partial refresh (0.34s) and full refresh (3.5s)
 - **Energy-Efficient Design**: 2000mAh battery provides up to 3 months of operation in deep sleep mode (6-hour refresh interval)
 - **Dual Ecosystem Support**: Compatible with Home Assistant (via ESPHome) and Arduino IDE for custom development
