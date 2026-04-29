@@ -47,7 +47,7 @@ Wait while the AI processes your request. This typically takes 10–30 seconds d
   <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_ai_gen_2.png" style={{width:400, height:'auto'}}/>
 </div> 
 
-<!-- 
+
 **Step 5. Iterative Refinement**
 Once the image is generated, you can refine it through conversation with the AI. For example:
 * "Make the colors more vibrant."
@@ -57,16 +57,14 @@ Once the image is generated, you can refine it through conversation with the AI.
 **Step 6. Update Results**
 Click the send button again to generate a new version based on your latest feedback.
 
-![Image 3]
-
 **Step 7. Loop Optimization**
-Repeat this iterative process until you are satisfied with the result. -->
+Repeat this iterative process until you are satisfied with the result.
 
-**Step 5. View Details**
+**Step 8. View Details**
 Click the generated thumbnail to view a larger preview on the right for more details.
 
 
-**Step 6. Add to Workspace**
+**Step 9. Add to Workspace**
 Click the **"Add to My Page"** button. The image will be saved as a new page in your workspace.
 
 
@@ -103,7 +101,7 @@ Click the send button to start the process and wait for the AI to build the comp
   <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_ai_gen_5.png" style={{width:400, height:'auto'}}/>
 </div> 
 
-<!-- 
+
 **Step 4. Layout Fine-Tuning**
 After the initial layout is generated, you can adjust positions or styles through conversation. For example:
 * "Move the temperature display to the top right."
@@ -112,7 +110,7 @@ After the initial layout is generated, you can adjust positions or styles throug
 * "Add a clock at the top center."
 
 **Step 5. Refresh Layout**
-Click the send button again, and the AI will rearrange or modify components based on your feedback. -->
+Click the send button again, and the AI will rearrange or modify components based on your feedback.
 
 **Step 6. Preview Details**
 Click the thumbnail and check the component layout in the right-side detail panel.
