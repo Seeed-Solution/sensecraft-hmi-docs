@@ -51,6 +51,25 @@ Workspace 主要分为四个区域：**Data**、**Basic**、**Component** 和 **
 
 --- 
 
+
+### SenseCAP Function
+
+**SenseCAP** 功能可连接您的 SenseCAP 账户，并读取关联传感器的实时数据。
+
+**步骤 1.** 在 **New Design** 画布中，点击左侧的 **Data** 标签，找到 **SenseCAP** 组件。
+
+**步骤 2.** 在 Access ID 输入框中输入您的 SenseCAP Access ID。
+
+**步骤 3.** 在 Access Key 输入框中输入您的 SenseCAP Access Key。
+
+**步骤 4.** 在 **Devices** 列表中选择您要监控的设备，右侧会显示对应的传感器数据。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_sensecap.png" style={{width:800, height:'auto'}}/></div>
+
+**步骤 5.** 点击画布右上角的 **Apply** 按钮，将数据推送到设备。
+
+--- 
+
 ### Weather Function
 
 **Weather** 功能可以为指定城市创建实时天气显示。您可以快速生成一个预设布局，也可以自行细化展示的数据和单位。
@@ -199,6 +218,28 @@ Workspace 主要分为四个区域：**Data**、**Basic**、**Component** 和 **
 
 --- 
 
+### RSS Function
+
+RSS 功能可将您的设备变成实时信息显示终端。通过接入新闻媒体、博客、天气服务等 RSS 源，您可以创建一个会自动更新最新内容的动态显示页面。
+
+**步骤 1.** 在 **New Design** 画布中，点击左侧的 **Data** 标签，找到 **RSS Feed** 组件。
+
+**步骤 2.** 在组件配置框中输入要获取数据的 API 地址（URL）。例如：
+
+:::note[示例 URL]
+[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
+:::
+
+**步骤 3.** 系统会自动解析返回的数据，并以下方 **Tree Structure** 的形式展开。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
+
+**步骤 4.** 在树状结构中勾选您要显示的数据字段，所选内容会自动出现在右侧画布中。
+
+**步骤 5.** 点击画布右上角的 **Apply** 按钮，将数据推送到设备。
+
+---
+
 ### HTML Function
 
 **HTML** 功能允许您直接在 ePaper 显示设备上显示网页内容。借助这一功能，您的设备可以作为专用网页显示终端，用于展示仪表板、监控系统、文档或任何您需要的网页内容。
@@ -224,27 +265,46 @@ Workspace 主要分为四个区域：**Data**、**Basic**、**Component** 和 **
 **步骤 5.** 点击画布右上角的 **Apply** 按钮，将数据推送到设备。
 
 ---
-### RSS Function
 
-RSS 功能可将您的设备变成实时信息显示终端。通过接入新闻媒体、博客、天气服务等 RSS 源，您可以创建一个会自动更新最新内容的动态显示页面。
 
-**步骤 1.** 在 **New Design** 画布中，点击左侧的 **Data** 标签，找到 **RSS Feed** 组件。
+### HackerNews Function
 
-**步骤 2.** 在组件配置框中输入要获取数据的 API 地址（URL）。例如：
+**HackerNews** 功能可将 Hacker News 的热门内容快速引入您的设计中。您可以选择不同的内容来源，并按需控制加载数量，适合制作技术资讯类信息看板。
 
-:::note[示例 URL]
-[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
-:::
+**步骤 1.** 在 **New Design** 画布中，点击左侧的 **Data** 标签，找到 **HackerNews** 组件。
 
-**步骤 3.** 系统会自动解析返回的数据，并以下方 **Tree Structure** 的形式展开。
+**步骤 2.** 在 **Data Source** 下拉框中选择内容来源，例如 **Top Stories**、**Newest**、**Best**、**Ask HN**、**Show HN** 或 **Job**。
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
+**步骤 3.** 在 **Number of Stories** 中选择需要加载的条目数量。
 
-**步骤 4.** 在树状结构中勾选您要显示的数据字段，所选内容会自动出现在右侧画布中。
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_HackerNews.png" style={{width:800, height:'auto'}}/></div>
+
+**步骤 4.** 点击下方的 **Load Data** 按钮，系统会在右侧生成预览。确认结果无误后，点击 **Confirm** 将该内容添加到页面中。
 
 **步骤 5.** 点击画布右上角的 **Apply** 按钮，将数据推送到设备。
 
 ---
+
+### Reddit Function
+
+**Reddit** 功能可帮助您将指定社区中的帖子内容展示到页面中。您可以选择目标 Subreddit、排序方式以及加载数量，用于制作兴趣社区、资讯聚合或主题更新类页面。
+
+**步骤 1.** 在 **New Design** 画布中，点击左侧的 **Data** 标签，找到 **Reddit** 组件。
+
+**步骤 2.** 在 **Subreddit** 输入框中填写目标社区名称，无需添加 `r/` 前缀，例如 **gadgets**。
+
+**步骤 3.** 在 **Sort** 栏中选择排序方式，例如 **Hot**、**New**、**Top** 或 **Rising**。
+
+**步骤 4.** 在 **Number of Stories** 中选择需要加载的帖子数量。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_Reddit.png" style={{width:800, height:'auto'}}/></div>
+
+**步骤 5.** 点击下方的 **Load Data** 按钮，系统会在右侧生成预览。确认结果无误后，点击 **Confirm** 将该内容添加到页面中。
+
+**步骤 6.** 点击画布右上角的 **Apply** 按钮，将数据推送到设备。
+
+---
+
 ### External Data Source 
 
 **External Data Source** 组件可通过 API 获取外部数据，并将其可视化展示在仪表板中。
@@ -273,6 +333,7 @@ RSS 功能可将您的设备变成实时信息显示终端。通过接入新闻�
 </table>
 
 ---
+
 ### Push Data to SenseCraft
 
 除了拉取外部数据，我们还提供 **Push to SenseCraft** 组件。该组件允许您从硬件程序，例如 Arduino 或 ESP32 代码，主动向平台推送数据。

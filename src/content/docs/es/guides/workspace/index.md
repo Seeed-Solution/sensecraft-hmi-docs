@@ -51,6 +51,24 @@ La función **Device Sensors** te permite leer datos de sensores del dispositivo
 
 --- 
 
+### SenseCAP Function
+
+La función **SenseCAP** te permite conectar tu cuenta de SenseCAP y leer datos en tiempo real de los sensores vinculados.
+
+**Paso 1.** Dentro del lienzo **New Design**, haz clic en la pestaña **Data** de la izquierda y localiza el componente **SenseCAP**.
+
+**Paso 2.** Introduce tu **Access ID** de SenseCAP en el campo correspondiente.
+
+**Paso 3.** Introduce tu **Access Key** de SenseCAP en el campo correspondiente.
+
+**Paso 4.** En la lista **Devices**, selecciona el dispositivo que deseas monitorizar. A la derecha aparecerán los datos del sensor correspondientes.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_sensecap.png" style={{width:800, height:'auto'}}/></div>
+
+**Paso 5.** Haz clic en el botón **Apply** en la esquina superior derecha del lienzo para enviar los datos al dispositivo.
+
+--- 
+
 ### Weather Function
 
 La función **Weather** te permite crear vistas meteorológicas en tiempo real para una ciudad seleccionada. Puedes generar rápidamente un diseño predefinido o ajustar con más detalle los datos y las unidades mostradas.
@@ -199,6 +217,27 @@ La función **Google Calendar** te permite mostrar eventos de tu cuenta de Googl
 
 --- 
 
+### RSS Function
+
+La función RSS permite convertir tu dispositivo en una pantalla de información en tiempo real. Al conectarlo a feeds RSS de medios de noticias, blogs, servicios meteorológicos y más, puedes crear pantallas dinámicas que se actualicen automáticamente con el contenido más reciente.
+
+**Paso 1.** Dentro del lienzo **New Design**, haz clic en la pestaña **Data** de la izquierda y localiza el componente **RSS Feed**.
+
+**Paso 2.** Introduce en el cuadro de configuración la dirección API (URL) desde la que quieres obtener los datos. Por ejemplo:
+
+:::note[URL de ejemplo]
+[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
+:::
+
+**Paso 3.** El sistema analizará automáticamente los datos devueltos y los expandirá debajo en una **Tree Structure**.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
+
+**Paso 4.** En la estructura en árbol, marca los campos de datos que quieras mostrar. El contenido seleccionado aparecerá automáticamente en el lienzo de la derecha.
+
+**Paso 5.** Haz clic en el botón **Apply** en la esquina superior derecha del lienzo para enviar los datos al dispositivo.
+
+---
 ### HTML Function
 
 La función **HTML** te permite mostrar contenido web directamente en dispositivos con pantallas ePaper. Esta potente función convierte tu dispositivo en una pantalla web dedicada, capaz de mostrar paneles, sistemas de monitorización, documentación o cualquier contenido web que necesites.
@@ -224,25 +263,42 @@ También puedes hacer clic en **File Upload** para subir tu propio archivo HTML.
 **Paso 5.** Haz clic en el botón **Apply** en la esquina superior derecha del lienzo para enviar los datos al dispositivo.
 
 ---
-### RSS Function
 
-La función RSS permite convertir tu dispositivo en una pantalla de información en tiempo real. Al conectarlo a feeds RSS de medios de noticias, blogs, servicios meteorológicos y más, puedes crear pantallas dinámicas que se actualicen automáticamente con el contenido más reciente.
+### HackerNews Function
 
-**Paso 1.** Dentro del lienzo **New Design**, haz clic en la pestaña **Data** de la izquierda y localiza el componente **RSS Feed**.
+La función **HackerNews** te permite incorporar rápidamente contenido destacado de Hacker News en tu diseño. Puedes elegir distintas fuentes de contenido y controlar cuántos elementos cargar, por lo que resulta ideal para paneles de noticias tecnológicas.
 
-**Paso 2.** Introduce en el cuadro de configuración la dirección API (URL) desde la que quieres obtener los datos. Por ejemplo:
+**Paso 1.** Dentro del lienzo **New Design**, haz clic en la pestaña **Data** de la izquierda y localiza el componente **HackerNews**.
 
-:::note[URL de ejemplo]
-[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
-:::
+**Paso 2.** En el menú desplegable **Data Source**, selecciona una fuente de contenido como **Top Stories**, **Newest**, **Best**, **Ask HN**, **Show HN** o **Job**.
 
-**Paso 3.** El sistema analizará automáticamente los datos devueltos y los expandirá debajo en una **Tree Structure**.
+**Paso 3.** En **Number of Stories**, selecciona cuántos elementos deseas cargar.
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_HackerNews.png" style={{width:800, height:'auto'}}/></div>
 
-**Paso 4.** En la estructura en árbol, marca los campos de datos que quieras mostrar. El contenido seleccionado aparecerá automáticamente en el lienzo de la derecha.
+**Paso 4.** Haz clic en el botón **Load Data** de la parte inferior para generar una vista previa a la derecha. Cuando confirmes que el resultado es correcto, haz clic en **Confirm** para añadir el contenido a la página.
 
 **Paso 5.** Haz clic en el botón **Apply** en la esquina superior derecha del lienzo para enviar los datos al dispositivo.
+
+---
+
+### Reddit Function
+
+La función **Reddit** te ayuda a mostrar publicaciones de una comunidad específica en tu página. Puedes elegir el subreddit objetivo, el método de ordenación y la cantidad de publicaciones que se cargarán para páginas de comunidad, agregación de noticias o actualizaciones temáticas.
+
+**Paso 1.** Dentro del lienzo **New Design**, haz clic en la pestaña **Data** de la izquierda y localiza el componente **Reddit**.
+
+**Paso 2.** En el campo **Subreddit**, introduce el nombre de la comunidad de destino sin el prefijo `r/`, por ejemplo **gadgets**.
+
+**Paso 3.** En la sección **Sort**, elige un método de ordenación como **Hot**, **New**, **Top** o **Rising**.
+
+**Paso 4.** En **Number of Stories**, selecciona cuántas publicaciones deseas cargar.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_Reddit.png" style={{width:800, height:'auto'}}/></div>
+
+**Paso 5.** Haz clic en el botón **Load Data** de la parte inferior para generar una vista previa a la derecha. Cuando confirmes que el resultado es correcto, haz clic en **Confirm** para añadir el contenido a la página.
+
+**Paso 6.** Haz clic en el botón **Apply** en la esquina superior derecha del lienzo para enviar los datos al dispositivo.
 
 ---
 ### External Data Source 

@@ -13,8 +13,8 @@ SenseCraft HMI supports a growing range of ePaper display devices. Below is the 
 | reTerminal E1002 | 7.3" | Full color (Spectra 6) | 800×480 |
 | reTerminal E1003 | 10.3" | Monochrome (16-level grayscale) | 1404×1872 |
 | reTerminal E1004 | 13.3" | Full color (Spectra 6) | 1200×1600 |
-| XIAO EE02 ePaper DIY Kit | 13.3" | Full color (Spectra 6) | 1200×1600 |
-| XIAO EE03 ePaper DIY Kit | 10.3" | Monochrome (16-level grayscale) | 1404×1872 |
+| XIAO ePaper DIY Kit EE02 | 13.3" | Full color (Spectra 6) | 1200×1600 |
+| XIAO ePaper DIY Kit EE03 | 10.3" | Monochrome (16-level grayscale) | 1404×1872 |
 | XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | Multi-color | 200×200 to 800×480 |
 | TRMNL 7.5" (OG) DIY Kit | 7.5" | Monochrome (4-level grayscale) | 800×480 |
 

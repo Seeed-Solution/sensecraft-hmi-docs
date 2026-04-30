@@ -13,8 +13,8 @@ SenseCraft HMI 支持越来越多的 ePaper 显示设备。以下是按产品系
 | reTerminal E1002 | 7.3" | 全彩（Spectra 6） | 800×480 |
 | reTerminal E1003 | 10.3" | 单色（16 级灰度） | 1404×1872 |
 | reTerminal E1004 | 13.3" | 全彩（Spectra 6） | 1200×1600 |
-| XIAO EE02 ePaper DIY Kit | 13.3" | 全彩（Spectra 6） | 1200×1600 |
-| XIAO EE03 ePaper DIY Kit | 10.3" | 单色（16 级灰度） | 1404×1872 |
+| XIAO ePaper DIY Kit EE02 | 13.3" | 全彩（Spectra 6） | 1200×1600 |
+| XIAO ePaper DIY Kit EE03 | 10.3" | 单色（16 级灰度） | 1404×1872 |
 | XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | 多色 | 200×200 至 800×480 |
 | TRMNL 7.5" (OG) DIY Kit | 7.5" | 单色（4 级灰度） | 800×480 |
 

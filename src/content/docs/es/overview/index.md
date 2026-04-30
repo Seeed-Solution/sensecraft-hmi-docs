@@ -62,7 +62,7 @@ SenseCraft HMI utiliza el sistema unificado de cuentas SenseCraft. Puedes inicia
 
 | Sección | Descripción |
 | :--- | :--- |
-| **[Descripción general](/es/overview/)** | Introducción a la plataforma, funciones, precios, hardware compatible, registro y guía de inicio rápido. |
+| **[Descripción general](/es/overview/)** | Introducción a la plataforma, funciones, precios, registro y guía de inicio rápido. |
 | **[Hardware compatible](/es/supported_hardware/)** | Lista completa de dispositivos compatibles con enlaces de compra y accesos rápidos a demostraciones/casos destacados. |
 | **[Guías](/es/guides/getting_started/)** | Tutoriales completos sobre inicio rápido, gestión de dispositivos, flasheo de firmware, diseñador de lienzo y generación con IA. |
 | **[Notas de versión](/es/release_note/)** | Historial de versiones, últimas actualizaciones y changelogs. |

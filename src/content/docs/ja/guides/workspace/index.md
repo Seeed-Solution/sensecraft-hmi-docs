@@ -51,6 +51,24 @@ Workspace は主に **Data**、**Basic**、**Component**、**My widgets** の 4 
 
 --- 
 
+### SenseCAP Function
+
+**SenseCAP** 機能を使うと、SenseCAP アカウントに接続して、紐付けられたセンサーのリアルタイムデータを取得できます。
+
+**ステップ 1.** **New Design** キャンバス内で左側の **Data** タブをクリックし、**SenseCAP** コンポーネントを探します。
+
+**ステップ 2.** 対応する入力欄に SenseCAP の **Access ID** を入力します。
+
+**ステップ 3.** 対応する入力欄に SenseCAP の **Access Key** を入力します。
+
+**ステップ 4.** **Devices** リストから監視したいデバイスを選択すると、右側に対応するセンサーデータが表示されます。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_sensecap.png" style={{width:800, height:'auto'}}/></div>
+
+**ステップ 5.** キャンバス右上の **Apply** ボタンをクリックし、データをデバイスへ反映します。
+
+--- 
+
 ### Weather Function
 
 **Weather** 機能では、指定した都市のライブ天気表示を作成できます。プリセットフィールドを使った既成レイアウトをすばやく生成することも、表示データや単位を細かく調整することもできます。
@@ -199,6 +217,27 @@ Workspace は主に **Data**、**Basic**、**Component**、**My widgets** の 4 
 
 --- 
 
+### RSS Function
+
+RSS 機能を使うと、デバイスをリアルタイム情報表示端末へ変えることができます。ニュース、ブログ、天気サービスなどの RSS フィードに接続することで、最新コンテンツを自動更新する動的表示を作成できます。
+
+**ステップ 1.** **New Design** キャンバス内で左側の **Data** タブをクリックし、**RSS Feed** コンポーネントを探します。
+
+**ステップ 2.** コンポーネント設定欄に、取得したいデータの API アドレス（URL）を入力します。例：
+
+:::note[URL 例]
+[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
+:::
+
+**ステップ 3.** システムが返されたデータを自動解析し、下部に **Tree Structure** として展開します。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
+
+**ステップ 4.** ツリー構造で表示したいデータフィールドにチェックを入れると、選択内容が自動的に右側キャンバスへ表示されます。
+
+**ステップ 5.** キャンバス右上の **Apply** ボタンをクリックし、データをデバイスへ反映します。
+
+---
 ### HTML Function
 
 **HTML** 機能では、Web コンテンツを ePaper ディスプレイデバイス上に直接表示できます。この強力な機能により、ダッシュボード、監視システム、ドキュメント、その他任意の Web コンテンツを表示する専用端末としてデバイスを活用できます。
@@ -224,25 +263,42 @@ Workspace は主に **Data**、**Basic**、**Component**、**My widgets** の 4 
 **ステップ 5.** キャンバス右上の **Apply** ボタンをクリックし、データをデバイスへ反映します。
 
 ---
-### RSS Function
 
-RSS 機能を使うと、デバイスをリアルタイム情報表示端末へ変えることができます。ニュース、ブログ、天気サービスなどの RSS フィードに接続することで、最新コンテンツを自動更新する動的表示を作成できます。
+### HackerNews Function
 
-**ステップ 1.** **New Design** キャンバス内で左側の **Data** タブをクリックし、**RSS Feed** コンポーネントを探します。
+**HackerNews** 機能を使うと、Hacker News の注目コンテンツをすばやくデザインに取り込めます。コンテンツソースを選び、読み込む件数も調整できるため、技術ニュース系の情報ボードに適しています。
 
-**ステップ 2.** コンポーネント設定欄に、取得したいデータの API アドレス（URL）を入力します。例：
+**ステップ 1.** **New Design** キャンバス内で左側の **Data** タブをクリックし、**HackerNews** コンポーネントを探します。
 
-:::note[URL 例]
-[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
-:::
+**ステップ 2.** **Data Source** のドロップダウンで、**Top Stories**、**Newest**、**Best**、**Ask HN**、**Show HN**、**Job** などのソースを選択します。
 
-**ステップ 3.** システムが返されたデータを自動解析し、下部に **Tree Structure** として展開します。
+**ステップ 3.** **Number of Stories** で読み込む件数を選択します。
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_HackerNews.png" style={{width:800, height:'auto'}}/></div>
 
-**ステップ 4.** ツリー構造で表示したいデータフィールドにチェックを入れると、選択内容が自動的に右側キャンバスへ表示されます。
+**ステップ 4.** 下部の **Load Data** ボタンをクリックすると、右側にプレビューが生成されます。内容を確認したら **Confirm** をクリックしてページへ追加します。
 
 **ステップ 5.** キャンバス右上の **Apply** ボタンをクリックし、データをデバイスへ反映します。
+
+---
+
+### Reddit Function
+
+**Reddit** 機能を使うと、指定したコミュニティの投稿をページ上に表示できます。対象の Subreddit、並び順、読み込む投稿数を選べるため、コミュニティ表示、情報集約、トピック更新ページに向いています。
+
+**ステップ 1.** **New Design** キャンバス内で左側の **Data** タブをクリックし、**Reddit** コンポーネントを探します。
+
+**ステップ 2.** **Subreddit** 入力欄に、`r/` を付けずに対象コミュニティ名を入力します。例：**gadgets**。
+
+**ステップ 3.** **Sort** セクションで、**Hot**、**New**、**Top**、**Rising** などの並び順を選択します。
+
+**ステップ 4.** **Number of Stories** で読み込む投稿数を選択します。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_Reddit.png" style={{width:800, height:'auto'}}/></div>
+
+**ステップ 5.** 下部の **Load Data** ボタンをクリックすると、右側にプレビューが生成されます。内容を確認したら **Confirm** をクリックしてページへ追加します。
+
+**ステップ 6.** キャンバス右上の **Apply** ボタンをクリックし、データをデバイスへ反映します。
 
 ---
 ### External Data Source 

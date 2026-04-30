@@ -13,8 +13,8 @@ SenseCraft HMI es compatible con una gama cada vez mayor de dispositivos con pan
 | reTerminal E1002 | 7.3" | Color completo (Spectra 6) | 800×480 |
 | reTerminal E1003 | 10.3" | Monocromo (16 niveles de escala de grises) | 1404×1872 |
 | reTerminal E1004 | 13.3" | Color completo (Spectra 6) | 1200×1600 |
-| XIAO EE02 ePaper DIY Kit | 13.3" | Color completo (Spectra 6) | 1200×1600 |
-| XIAO EE03 ePaper DIY Kit | 10.3" | Monocromo (16 niveles de escala de grises) | 1404×1872 |
+| XIAO ePaper DIY Kit EE02 | 13.3" | Color completo (Spectra 6) | 1200×1600 |
+| XIAO ePaper DIY Kit EE03 | 10.3" | Monocromo (16 niveles de escala de grises) | 1404×1872 |
 | XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | Multicolor | 200×200 a 800×480 |
 | TRMNL 7.5" (OG) DIY Kit | 7.5" | Monocromo (4 niveles de escala de grises) | 800×480 |
 
