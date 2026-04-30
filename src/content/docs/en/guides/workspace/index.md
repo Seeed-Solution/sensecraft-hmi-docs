@@ -54,6 +54,24 @@ The **Device Sensors** function allows you to read data from device sensors and 
 
 --- 
 
+### SenseCAP Function
+
+The **SenseCAP** function lets you connect your SenseCAP account and read real-time data from the linked sensors.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **SenseCAP** component.
+
+**Step 2.** Enter your SenseCAP **Access ID** in the corresponding input field.
+
+**Step 3.** Enter your SenseCAP **Access Key** in the corresponding input field.
+
+**Step 4.** In the **Devices** list, select the device you want to monitor. The corresponding sensor data will appear on the right.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_sensecap.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+--- 
+
 ### Weather Function
 
 The **Weather** function allows you to create live weather displays for a selected city. You can quickly generate a ready-made layout with preset fields, or fine-tune the displayed data and units for a more customized result.
@@ -215,11 +233,28 @@ The **Google Calendar** function lets you display calendar events from your Goog
 **Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 
---- 
+---
+### RSS Function
 
+The RSS function allows you to transform your screen-based devices into real-time information displays. By connecting to RSS feeds from news outlets, blogs, weather services, and more, you can create dynamic displays that automatically update with the latest content. 
 
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **RSS Feed** component.
 
+**Step 2.** Enter the API address (URL) from which you want to fetch data into the component configuration box. For example:
 
+:::note[Example URL]
+[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
+:::
+
+**Step 3.** The system will automatically parse the data returned by the API and expand it below in a **Tree Structure**.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 4.** In the tree structure, check the data fields you want to display. The selected data will automatically appear on the canvas to the right.
+
+**Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+---
 ### HTML Function
 
 The **HTML** function allows you to display web content directly on your ePaper display devices. This powerful feature transforms your device into a dedicated web display, capable of showing dashboards, monitoring systems, documentation, or any web content you need.
@@ -245,25 +280,41 @@ Alternatively, click **File Upload** to upload your own custom HTML file.
 **Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 ---
-### RSS Function
+### HackerNews Function
 
-The RSS function allows you to transform your screen-based devices into real-time information displays. By connecting to RSS feeds from news outlets, blogs, weather services, and more, you can create dynamic displays that automatically update with the latest content. 
+The **HackerNews** function lets you quickly bring trending Hacker News content into your design. You can choose different content sources and control how many items to load, making it suitable for technology news dashboards.
 
-**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **RSS Feed** component.
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **HackerNews** component.
 
-**Step 2.** Enter the API address (URL) from which you want to fetch data into the component configuration box. For example:
+**Step 2.** In the **Data Source** dropdown, select a content source such as **Top Stories**, **Newest**, **Best**, **Ask HN**, **Show HN**, or **Job**.
 
-:::note[Example URL]
-[https://feeds.bbci.co.uk/news/world/rss.xml](https://feeds.bbci.co.uk/news/world/rss.xml)
-:::
+**Step 3.** In **Number of Stories**, choose how many items you want to load.
 
-**Step 3.** The system will automatically parse the data returned by the API and expand it below in a **Tree Structure**.
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_HackerNews.png" style={{width:800, height:'auto'}}/></div>
 
-<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_6.png" style={{width:800, height:'auto'}}/></div>
-
-**Step 4.** In the tree structure, check the data fields you want to display. The selected data will automatically appear on the canvas to the right.
+**Step 4.** Click the **Load Data** button below to generate a preview on the right. After confirming the result, click **Confirm** to add the content to the page.
 
 **Step 5.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
+
+---
+
+### Reddit Function
+
+The **Reddit** function helps you display posts from a specified community on your page. You can choose the target subreddit, sort method, and number of posts to load for community, news aggregation, or topic update pages.
+
+**Step 1.** Inside the **New Design** canvas, click the **Data** tab on the left and find the **Reddit** component.
+
+**Step 2.** In the **Subreddit** input field, enter the target community name without the `r/` prefix, for example **gadgets**.
+
+**Step 3.** In the **Sort** section, choose a sorting method such as **Hot**, **New**, **Top**, or **Rising**.
+
+**Step 4.** In **Number of Stories**, choose how many posts you want to load.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_workspace_Reddit.png" style={{width:800, height:'auto'}}/></div>
+
+**Step 5.** Click the **Load Data** button below to generate a preview on the right. After confirming the result, click **Confirm** to add the content to the page.
+
+**Step 6.** Click the **Apply** button in the top-right corner of the canvas to push the data to the device.
 
 ---
 ### External Data Source 
