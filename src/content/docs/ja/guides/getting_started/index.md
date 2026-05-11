@@ -1,6 +1,9 @@
 ---
 title: はじめに
 description: SenseCraft HMI で最初のデバイスをペアリングし、デバイス状態を確認し、必要に応じてファームウェアを更新するための実践ガイド。
+last_update:
+  data:11/05/2026
+  author:dimo
 ---
 
 <a id="overview"></a>

@@ -1,6 +1,9 @@
 ---
 title: 发布说明
 description: SenseCraft HMI 平台迭代记录与版本历史
+last_update:
+  data:11/05/2026
+  author:dimo
 ---
 
 <a id="latest-update"></a>

@@ -1,6 +1,9 @@
 ---
 title: 対応ハードウェア
 description: SenseCraft HMI と互換性のあるデバイスの完全一覧。仕様、製品プレビュー、今後の対応予定を含みます。
+last_update:
+  data:11/05/2026
+  author:dimo
 ---
 
 SenseCraft HMI は、対応する ePaper ディスプレイデバイスのラインアップを着実に拡大しています。以下に、製品シリーズごとの完全な互換性一覧を示します。

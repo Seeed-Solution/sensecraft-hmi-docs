@@ -1,6 +1,9 @@
 ---
 description: Aprende a usar el espacio de trabajo de SenseCraft HMI, incluyendo dibujo básico, componentes avanzados, integración de datos y widgets personalizados.
 title: Canvas Designer
+last_update:
+  data:11/05/2026
+  author:dimo
 ---
 
 <!-- <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/weather.jpg" style={{width:800, height:'auto'}}/></div> -->
