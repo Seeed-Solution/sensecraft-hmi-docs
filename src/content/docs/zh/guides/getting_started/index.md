@@ -3,7 +3,7 @@ title: 快速开始
 description: 一份实用指南，帮助您在 SenseCraft HMI 中配对第一台设备、查看设备状态并在需要时更新固件。
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 <a id="overview"></a>

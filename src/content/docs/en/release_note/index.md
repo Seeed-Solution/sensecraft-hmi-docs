@@ -3,7 +3,7 @@ title: Release Notes
 description: SenseCraft HMI platform iteration records and version history
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 <a id="latest-update"></a>

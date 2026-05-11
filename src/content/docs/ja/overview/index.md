@@ -3,7 +3,7 @@ description: SenseCraft HMI の紹介。ePaper ディスプレイ向けのノー
 title: 概要
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 **[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** は、Seeed Studio が ePaper ディスプレイ向けに特化して構築したクラウドベースの UI デザインプラットフォームです。これを使えば、コードを書かなくても、ページの作成、内容の調整、デバイスへのデプロイをすばやく行えます。

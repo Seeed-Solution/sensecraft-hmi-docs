@@ -3,7 +3,7 @@ title: 支持的硬件
 description: SenseCraft HMI 兼容设备完整列表，包括规格、产品预览和计划支持情况。
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 SenseCraft HMI 支持越来越多的 ePaper 显示设备。以下是按产品系列整理的完整兼容性概览。

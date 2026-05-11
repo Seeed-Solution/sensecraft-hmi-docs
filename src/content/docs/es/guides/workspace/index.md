@@ -3,7 +3,7 @@ description: Aprende a usar el espacio de trabajo de SenseCraft HMI, incluyendo 
 title: Canvas Designer
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 <!-- <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/weather.jpg" style={{width:800, height:'auto'}}/></div> -->
