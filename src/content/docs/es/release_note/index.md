@@ -2,7 +2,7 @@
 title: Notas de versión
 description: Historial de iteraciones y versiones de la plataforma SenseCraft HMI
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 

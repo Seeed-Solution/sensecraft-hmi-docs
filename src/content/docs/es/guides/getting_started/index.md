@@ -2,7 +2,7 @@
 title: Primeros pasos
 description: Una guía práctica para emparejar tu primer dispositivo, comprobar su estado y actualizar el firmware en SenseCraft HMI cuando sea necesario.
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 

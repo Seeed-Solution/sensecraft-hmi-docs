@@ -2,7 +2,7 @@
 title: リリースノート
 description: SenseCraft HMI プラットフォームの更新履歴とバージョン履歴
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 

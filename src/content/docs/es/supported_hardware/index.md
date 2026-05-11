@@ -2,7 +2,7 @@
 title: Hardware compatible
 description: Lista completa de dispositivos compatibles con SenseCraft HMI, incluyendo especificaciones, vistas previas de producto y soporte planificado.
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 

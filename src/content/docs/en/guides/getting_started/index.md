@@ -2,7 +2,7 @@
 title: Getting Started
 description: A practical guide to pairing your first device, checking device status, and updating firmware in SenseCraft HMI.
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 
