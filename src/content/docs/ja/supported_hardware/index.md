@@ -2,7 +2,7 @@
 title: 対応ハードウェア
 description: SenseCraft HMI と互換性のあるデバイスの完全一覧。仕様、製品プレビュー、今後の対応予定を含みます。
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 

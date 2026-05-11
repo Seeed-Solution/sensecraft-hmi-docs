@@ -2,7 +2,7 @@
 title: 支持的硬件
 description: SenseCraft HMI 兼容设备完整列表，包括规格、产品预览和计划支持情况。
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 

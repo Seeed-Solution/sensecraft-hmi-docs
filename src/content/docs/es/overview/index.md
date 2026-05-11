@@ -2,7 +2,7 @@
 description: Introducción a SenseCraft HMI, una plataforma de UI sin código para pantallas ePaper. Conoce sus funciones, registro, actualización de firmware y cómo desplegar tu primera página.
 title: Descripción general
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 

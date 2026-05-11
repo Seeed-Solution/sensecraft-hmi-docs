@@ -2,7 +2,7 @@
 title: AI Generation
 description: Introducción a las funciones de generación con IA dentro de la plataforma SenseCraft HMI.
 last_update:
-  data:11/05/2026
+  date: 11/05/2026
   author:dimo
 ---
 
