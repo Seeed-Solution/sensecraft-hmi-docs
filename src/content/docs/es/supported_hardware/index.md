@@ -1,6 +1,9 @@
 ---
 title: Hardware compatible
 description: Lista completa de dispositivos compatibles con SenseCraft HMI, incluyendo especificaciones, vistas previas de producto y soporte planificado.
+last_update:
+  data:11/05/2026
+  author:dimo
 ---
 
 SenseCraft HMI es compatible con una gama cada vez mayor de dispositivos con pantallas ePaper. A continuación se muestra la vista completa de compatibilidad, organizada por series de producto.

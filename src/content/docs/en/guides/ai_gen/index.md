@@ -1,7 +1,11 @@
 ---
 title: AI Generation
 description: Introduction to AI Generation features within the SenseCraft HMI platform.
+last_update:
+  data:11/05/2026
+  author:dimo
 ---
+
 
 <a id="overview"></a>
 

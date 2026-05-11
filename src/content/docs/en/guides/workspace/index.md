@@ -1,6 +1,9 @@
 ---
 description: Learn how to use the SenseCraft HMI Canvas Designer, including basic drawing, advanced components, data integration, and custom widgets.
 title: Canvas Designer
+last_update:
+  data:11/05/2026
+  author:dimo
 ---
 
 <a id="overview"></a>
