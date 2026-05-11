@@ -6,20 +6,23 @@ description: Lista completa de dispositivos compatibles con SenseCraft HMI, incl
 SenseCraft HMI es compatible con una gama cada vez mayor de dispositivos con pantallas ePaper. A continuación se muestra la vista completa de compatibilidad, organizada por series de producto.
 
 ## Tabla de compatibilidad
+<a id="compatibility-table"></a>
 
 | Dispositivo | Tamaño de pantalla | Colores | Resolución |
 |---|---|---|---|
-| reTerminal E1001 | 7.5" | Monocromo (4 niveles de escala de grises) | 800×480 |
-| reTerminal E1002 | 7.3" | Color completo (Spectra 6) | 800×480 |
-| reTerminal E1003 | 10.3" | Monocromo (16 niveles de escala de grises) | 1404×1872 |
-| reTerminal E1004 | 13.3" | Color completo (Spectra 6) | 1200×1600 |
-| XIAO ePaper DIY Kit EE02 | 13.3" | Color completo (Spectra 6) | 1200×1600 |
-| XIAO ePaper DIY Kit EE03 | 10.3" | Monocromo (16 niveles de escala de grises) | 1404×1872 |
-| XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | Multicolor | 200×200 a 800×480 |
-| TRMNL 7.5" (OG) DIY Kit | 7.5" | Monocromo (4 niveles de escala de grises) | 800×480 |
+| [reTerminal E1001](https://www.seeedstudio.com/reTerminal-E1001-p-6534.html) | 7.5" | Monocromo (4 niveles de escala de grises) | 800×480 |
+| [reTerminal E1002](https://www.seeedstudio.com/reTerminal-E1002-p-6533.html) | 7.3" | Color completo (Spectra 6) | 800×480 |
+| [reTerminal E1003](https://www.seeedstudio.com/catalogsearch/result/?q=e1003) | 10.3" | Monocromo (16 niveles de escala de grises) | 1404×1872 |
+| [reTerminal E1004](https://www.seeedstudio.com/reTerminal-E1004-p-6692.html) | 13.3" | Color completo (Spectra 6) | 1200×1600 |
+| [XIAO ePaper DIY Kit EE02](https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html) | 13.3" | Color completo (Spectra 6) | 1200×1600 |
+| [XIAO ePaper DIY Kit EE03](https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html) | 10.3" | Monocromo (16 niveles de escala de grises) | 1404×1872 |
+| [XIAO ePaper DIY Kit EE04](https://www.seeedstudio.com/XIAO-ePaper-EE04-DIY-Bundle-Kit.html) | 1.54"/2.13"/2.9"/4.2"/4.26"/5.83"/7.3"/7.5" | Varía según el panel | Varía según el panel |
+| [XIAO ePaper DIY Kit EE05](https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-ESP32-S3-EE05.html) | Compatible con varios tamaños ePaper de 24 pines | Varía según el panel | Varía según el panel |
+| [TRMNL 7.5" (OG) DIY Kit](https://www.seeedstudio.com/TRMNL-7-5-Inch-OG-DIY-Kit-p-6481.html) | 7.5" | Monocromo (4 niveles de escala de grises) | 800×480 |
 
 ---
 
+<a id="reterminal-e1001"></a>
 ### reTerminal E1001
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/24.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -44,7 +47,7 @@ SenseCraft HMI es compatible con una gama cada vez mayor de dispositivos con pan
 </div><br />
 
 #### Introducción
-El reTerminal E1001 cuenta con una **pantalla ePaper de 7.5 pulgadas y 800×480** con **4 niveles de escala de grises**. Ofrece una visualización nítida y muy legible con un consumo de energía mínimo, lo que lo hace ideal para aplicaciones donde la autonomía de batería es prioritaria.
+El reTerminal E1001 cuenta con una **pantalla ePaper de 7.5 pulgadas y 800×480** con **4 niveles de escala de grises**. Ofrece una visualización nítida y muy legible con un consumo de energía mínimo, lo que lo hace ideal para aplicaciones donde la autonomía de la batería es fundamental.
 
 #### Características principales
 - Pantalla ePaper monocroma de 7.5 pulgadas con 4 niveles de escala de grises
@@ -52,6 +55,7 @@ El reTerminal E1001 cuenta con una **pantalla ePaper de 7.5 pulgadas y 800×480*
 - Consumo ultra bajo para una mayor duración de batería
 - Ideal para aplicaciones basadas en texto, como calendarios, listas de tareas y paneles informativos
 
+<a id="reterminal-e1002"></a>
 ### reTerminal E1002
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/25.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -74,6 +78,7 @@ El reTerminal E1002 incorpora una **pantalla ePaper a color ACeP de 7.3 pulgadas
 - Rica representación del color manteniendo un bajo consumo energético
 - Ideal para exhibiciones de galería, paneles a color y aplicaciones orientadas a lo visual
 
+<a id="reterminal-e1003"></a>
 ### reTerminal E1003
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/e1003/2-reTerminal-E1003-Epaper-Display.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -95,6 +100,7 @@ El reTerminal E1003 es una **pantalla ePaper de 10.3 pulgadas (1404×1872) con 1
 - 16 niveles de escala de grises y alta resolución 1404×1872
 - Funcionamiento de ultra bajo consumo con hasta 6 meses de autonomía
 
+<a id="reterminal-e1004"></a>
 ### reTerminal E1004
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/e1004/2-reterminal-e1004-epaper-display.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -118,16 +124,20 @@ El reTerminal E1004 incorpora una **pantalla ePaper a color de 13.3 pulgadas** b
 
 ---
 
-### XIAO ePaper Display Board EE02
+<a id="xiao-epaper-display-board-ee02"></a>
+### XIAO ePaper DIY Kit EE02
 
 <div class="table-center">
 <table align="center">
     <tr>
-        <th>XIAO ePaper Display Board EE02</th>
+        <th>XIAO ePaper DIY Kit EE02</th>
     </tr>
     <tr>
     <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee02.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/getting_started_with_ee02/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE02 Wiki</font></span></strong>
+        </a>
         <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> Comprar ahora</font></span></strong>
         </a>
@@ -149,16 +159,20 @@ El reTerminal E1004 incorpora una **pantalla ePaper a color de 13.3 pulgadas** b
 
 ---
 
-### XIAO ePaper Display Board EE03
+<a id="xiao-epaper-display-board-ee03"></a>
+### XIAO ePaper DIY Kit EE03
 
 <div class="table-center">
 <table align="center">
     <tr>
-        <th>XIAO ePaper Display Board EE03</th>
+        <th>XIAO ePaper DIY Kit EE03</th>
     </tr>
     <tr>
     <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee03.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/getting_started_with_ee03/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE03 Wiki</font></span></strong>
+        </a>
         <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> Comprar ahora</font></span></strong>
         </a>
@@ -181,16 +195,20 @@ La placa controladora ePaper EE03, basada en **XIAO ESP32-S3 Plus**, es compatib
 
 ---
 
-### ePaper DIY Kit EE04
+<a id="epaper-diy-kit-ee04"></a>
+### XIAO ePaper DIY Kit EE04
 
 <div class="table-center">
 <table align="center">
     <tr>
-        <th>XIAO ePaper Display Board EE04</th>
+        <th>XIAO ePaper DIY Kit EE04</th>
     </tr>
     <tr>
     <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee04.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/epaper_ee04/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE04 Wiki</font></span></strong>
+        </a>
         <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-EE04-DIY-Bundle-Kit.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> Comprar ahora</font></span></strong>
         </a>
@@ -210,13 +228,78 @@ La placa de visualización EE04, basada en **XIAO ESP32-S3 Plus**, admite pantal
 - **Conector BAT con interruptor:** permite una conexión sencilla de batería y una gestión eficiente de la energía.
 - **Botones fáciles de usar:** incluye 1 botón de reset y 3 botones programables por el usuario para acelerar proyectos y personalizar funciones.
 
+#### Pantallas ePaper compatibles
+
+| Tamaño | Modo de color | Resolución |
+|---|---|---|
+| 1.54" | Monocromo | 200×200 |
+| 2.13" | Monocromo / Color | 250×122 |
+| 2.9" | Monocromo / Color | 296×128 |
+| 4.2" | Monocromo | 400×300 |
+| 4.26" | Monocromo | 800×480 |
+| 5.83" | Monocromo | 648×480 |
+| 7.3" | Color (Spectra 6) | 800×480 |
+| 7.5" | Monocromo | 800×480 |
+
 ---
 
+<a id="epaper-diy-kit-ee05"></a>
+### XIAO ePaper DIY Kit EE05
+
+<div class="table-center">
+<table align="center">
+    <tr>
+        <th>XIAO ePaper DIY Kit EE05</th>
+    </tr>
+    <tr>
+    <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee05.png"/></div>
+    <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/epaper_ee05/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE05 Wiki</font></span></strong>
+        </a>
+        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-ESP32-S3-EE05.html" target="_blank">
+                <strong><span><font color={'FFFFFF'} size={"4"}> Comprar ahora</font></span></strong>
+        </a>
+    </div></td>
+    </tr>
+ </table>
+</div>
+
+#### Introducción
+
+La placa de visualización EE05, basada en **XIAO ESP32-S3 Plus**, es compatible con una amplia gama de **pantallas ePaper de 24 pines** y funciona con SenseCraft HMI para diseñar y desplegar interfaces sin código. Gracias a su IO de expansión, conector de batería JST e interruptor de alimentación, resulta ideal para aplicaciones de pantallas inteligentes de bajo consumo.
+
+#### Características
+
+- **Basada en XIAO ESP32-S3 Plus:** funciona inmediatamente al conectarse a una pantalla ePaper compatible.
+- **Compatibilidad de pantalla versátil:** admite una amplia gama de pantallas ePaper de 24 pines para distintos tipos de proyecto.
+- **Puerto IO de expansión:** permite conectar sensores adicionales, como sensores de temperatura y humedad, para ampliar funciones.
+- **Conector BAT con interruptor:** permite una conexión sencilla de batería y una gestión eficiente de la energía.
+- **Compatibilidad con SenseCraft HMI:** te permite diseñar, configurar y desplegar paneles sin escribir código.
+
+#### Pantallas ePaper compatibles
+
+| Tamaño | Modo de color | Resolución |
+|---|---|---|
+| 1.54" | Monocromo | 200×200 |
+| 2.13" | Monocromo / Color | 250×122 |
+| 2.9" | Monocromo / Color | 296×128 |
+| 4.2" | Monocromo | 400×300 |
+| 4.26" | Monocromo | 800×480 |
+| 5.83" | Monocromo | 648×480 |
+| 7.5" | Monocromo | 800×480 |
+
+---
+
+<a id="trmnl-75-og-diy-kit"></a>
 ### TRMNL 7.5" (OG) DIY Kit
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/XIAO_Gadget/TRMNL_Kit_Pic/head.jpg" style={{width:1000, height:'auto'}}/></div>
 
 <div class="get_one_now_container" style={{textAlign: 'center'}}>
+    <a class="get_one_now_item" href="https://wiki.seeedstudio.com/trmnl_7inch5_diy_kit_main_page/" target="_blank" rel="noopener noreferrer">
+            <strong><span><font color={'FFFFFF'} size={"4"}>TRMNL 7.5" (OG) DIY Kit Wiki</font></span></strong>
+    </a>
     <a class="get_one_now_item" href="https://www.seeedstudio.com/TRMNL-7-5-Inch-OG-DIY-Kit-p-6481.html" target="_blank">
             <strong><span><font color={'FFFFFF'} size={"4"}> Comprar ahora</font></span></strong>
     </a>
@@ -225,7 +308,7 @@ La placa de visualización EE04, basada en **XIAO ESP32-S3 Plus**, admite pantal
 
 #### Introducción
 
-El **TRMNL 7.5" (OG) DIY Kit** es un kit ePaper de hardware abierto con una pantalla monocroma de 7.5 pulgadas. SenseCraft HMI puede flashearse en este kit como alternativa sin código al firmware predeterminado de TRMNL.
+El **TRMNL 7.5" (OG) DIY Kit** es un kit ePaper de hardware abierto con una pantalla monocroma de 7.5 pulgadas. SenseCraft HMI puede instalarse en este kit como alternativa sin código al firmware predeterminado de TRMNL.
 
 #### Características
 
