@@ -3,7 +3,7 @@ description: Introduction to SenseCraft HMI — a no-code UI platform for ePaper
 title: Overview
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 
 ---
 

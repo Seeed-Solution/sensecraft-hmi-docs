@@ -3,7 +3,7 @@ description: Introducción a SenseCraft HMI, una plataforma de UI sin código pa
 title: Descripción general
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 **[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** es la plataforma en la nube de diseño de UI de Seeed Studio, creada específicamente para dispositivos con pantallas ePaper. Con ella, puedes diseñar páginas, ajustar contenido y desplegarlo en tu dispositivo rápidamente, sin escribir código.

@@ -3,7 +3,7 @@ description: Learn how to use the SenseCraft HMI Canvas Designer, including basi
 title: Canvas Designer
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 <a id="overview"></a>

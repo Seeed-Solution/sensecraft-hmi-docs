@@ -3,7 +3,7 @@ title: AI Generation
 description: 介绍 SenseCraft HMI 平台中的 AI 生成功能。
 last_update:
   date: 11/05/2026
-  author:dimo
+  author: dimo
 ---
 
 <a id="overview"></a>

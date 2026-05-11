@@ -116,7 +116,6 @@ export default defineConfig({
 				items: [
 					{
 						label: 'Getting Started',
-						link: '/guides/getting_started/',
 						collapsed: true,
 						translations: {
 							'zh-CN': '快速入门',
@@ -164,7 +163,6 @@ export default defineConfig({
 					},
 					{
 						label: 'Canvas Designer',
-						link: '/guides/workspace/',
 						collapsed: true,
 						translations: {
 							'zh-CN': 'Canvas Designer',
@@ -230,7 +228,6 @@ export default defineConfig({
 					},
 					{
 						label: 'AI Generation',
-						link: '/guides/ai_gen/',
 						collapsed: true,
 						translations: {
 							'zh-CN': 'AI 生成',
