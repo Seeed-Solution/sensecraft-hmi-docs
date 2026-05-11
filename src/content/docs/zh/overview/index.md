@@ -1,18 +1,20 @@
 ---
 description: SenseCraft HMI 简介：一个面向 ePaper 显示设备的无代码 UI 平台。了解平台特性、注册方式、固件更新，以及如何部署您的第一个页面。
 title: 概览
+last_update:
+  date: 11/05/2026
+  author: dimo
 ---
 
-### 平台简介
-
-**[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** 是 Seeed Studio 专为 ePaper 显示设备打造的云端 UI 设计平台。它让您**无需编写任何一行代码**，即可创建、自定义并部署专业的可视化界面。
+**[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** 是 Seeed Studio 专为 ePaper 显示设备打造的云端 UI 设计平台。借助它，您无需编写代码，也可以快速完成页面设计、内容调整和设备部署。
 
 <div style={{textAlign:'center'}}>
   <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_overview_1.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
 </div>
 
 ---
-### 核心特性：
+<a id="features"></a>
+### 核心特性
 
 - **无代码拖拽设计器**：通过组件、数据源和自定义元素，以可视化方式构建布局
 - **社区模板库**：浏览并复用社区发布的设计模板
@@ -21,42 +23,44 @@ title: 概览
 - **一键部署**：通过 Wi-Fi 直接将设计推送到设备
 
 ---
+<a id="pricing"></a>
 ### 价格
 
 SenseCraft HMI 当前处于 **Beta** 阶段，并且 **免费** 使用。
 
-虽然平台本身免费，但 AI 生成功能有一定的使用限制。
+虽然平台本身免费，但 AI 生成功能有使用限制。
 
 - **每日限额**：每个账户每天最多可生成 10 次 AI 内容，其中包括 5 次图像生成/调整和 5 次画布生成/调整
 - **重置时间**：每 24 小时重置一次
 ---
-### 平台注册
+<a id="sign-up-and-log-in"></a>
+### 注册与登录
 
-SenseCraft HMI 使用统一的 SenseCraft 账户系统。您可以使用已有的 SenseCraft / SenseCAP / Google / GitHub 账户登录，也可以注册新账户。
+SenseCraft HMI 使用统一的 SenseCraft 账户系统。您可以使用已有的 SenseCraft、SenseCAP、Google 或 GitHub 账户登录；如果您还没有账户，也可以在同一个登录页面完成注册。
 
-**步骤 1.** 访问 [sensecraft.seeed.cc/hmi](https://sensecraft.seeed.cc/hmi)，点击左下角的 **Log in**。
+点击左下角的 **Log in** 进入登录页面，并根据您的情况选择对应方式：
 
-<div style={{textAlign:'center'}}>
-  <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_overview_2.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
-</div> 
-
-**步骤 2.** 您可以直接使用 SenseCraft / SenseCAP 登录，也可以通过 Google 或 GitHub 账户登录。
+- **如果您已经有账户**，可以直接使用已有的 SenseCraft、SenseCAP、Google 或 GitHub 账户登录。
 
 <div style={{textAlign:'center'}}>
-  <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_overview_3.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
-</div> 
+  <img src="https://files.seeedstudio.com/wiki/hmi/img/111.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
+</div>
 
-**步骤 3.** 如果您还没有账户，请点击登录页底部的 **Sign up**，输入邮箱和密码，并完成邮箱验证。
+如果您忘记了密码，可以在登录页面点击 **Forgot Password**，并按照提示重置密码。
 
 <div style={{textAlign:'center'}}>
-  <img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/start_2.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
-</div> 
+  <img src="https://files.seeedstudio.com/wiki/hmi/img/112.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
+</div>
 
-**步骤 4.** 登录成功后，您将进入 SenseCraft HMI 的 **Home** 页面。
+- **如果您还没有账户**，请点击 **Sign up** 创建新账户。输入邮箱地址、验证码、用户名和密码后，点击注册按钮即可完成注册。
 
----
-### 快速开始
-[快速开始指南](/zh/guides/getting_started/)
+<div style={{textAlign:'center'}}>
+  <img src="https://files.seeedstudio.com/wiki/hmi/img/113.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
+</div>
+
+登录成功后，您将进入 SenseCraft HMI 的 **Home** 页面，并可以开始探索平台功能。
+
+开始使用时，建议您先按照 [快速开始指南](/zh/guides/getting_started/) 的步骤搭建您的第一个页面。
 
 ### 文档目录
 

@@ -1,7 +1,12 @@
 ---
 title: はじめに
 description: SenseCraft HMI で最初のデバイスをペアリングし、デバイス状態を確認し、必要に応じてファームウェアを更新するための実践ガイド。
+last_update:
+  date: 11/05/2026
+  author: dimo
 ---
+
+<a id="overview"></a>
 
 このガイドでは、SenseCraft HMI の初回利用における主要な流れとして、対応デバイスの接続、アカウントとのペアリング、デバイス状態の確認、必要に応じたファームウェア更新を順に説明します。
 
@@ -9,25 +14,22 @@ description: SenseCraft HMI で最初のデバイスをペアリングし、デ�
 
 以下では、**reTerminal E1002** を例に、SenseCraft HMI の基本的なワークフローを説明します。
 
----
-
-## デバイスガイド
-特定のデバイスについて詳しく知りたい場合は、以下のデバイス名をクリックして詳細ガイドをご覧ください。
-
-また、以下のステップに沿ってそのままクイックスタートすることもできます。
+別のデバイスを使っている場合でも、同じ基本的な流れで進められます。[対応ハードウェア](/ja/supported_hardware/) から該当デバイスのページを確認するか、以下のリンクから対応する wiki ガイドへ直接移動できます。
 
 * **[reTerminal E1001](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001)**
 * **[reTerminal E1002](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002)**
 * **[reTerminal E1003](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1003/)**
 * **[reTerminal E1004](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1004/)**
 * **[TRMNL 7.5" (OG) DIY Kit](https://wiki.seeedstudio.com/trmnl_7inch5_diy_kit_main_page/)**
-* **[XIAO EE02 ePaper DIY Kit](https://wiki.seeedstudio.com/getting_started_with_ee02/)**
-* **[XIAO EE03 ePaper DIY Kit](https://wiki.seeedstudio.com/getting_started_with_ee03/)**
+* **[XIAO ePaper DIY Kit EE02](https://wiki.seeedstudio.com/getting_started_with_ee02/)**
+* **[XIAO ePaper DIY Kit EE03](https://wiki.seeedstudio.com/getting_started_with_ee03/)**
 * **[XIAO ePaper DIY Kit EE04](https://wiki.seeedstudio.com/epaper_ee04/)**
+* **[XIAO ePaper DIY Kit EE05](https://wiki.seeedstudio.com/epaper_ee05/)**
 
 ---
 
-## ファームウェア更新
+<a id="firmware-update"></a>
+## デバイスのファームウェアを更新
 
 :::tip
 デバイスをペアリングする前に、最新のファームウェアへ更新しておくことをおすすめします。これにより、互換性の向上、不具合修正、新機能のサポートを最適な状態で利用できます。
@@ -60,19 +62,24 @@ USB ケーブルを使ってデバイスをコンピューターに接続しま�
 
 **Full Flash（チェック）**：Wi-Fi 認証情報や保存済み設定を含む、デバイスメモリ全体を消去します。トラブルシューティング、復旧、初期化に推奨されます。
 
-通常、**Connect Serial Monitor** ボタンを使う必要はありません。原因が分かりにくい問題が発生した場合は、この機能でデバイスポートに接続してデバッグログを確認できます。そのログを Seeed サポートへ共有すると、より効率的に問題解決が進みます。
+ほとんどの場合、**Connect Serial Monitor** ボタンを使う必要はありません。原因が分かりにくい問題が発生した場合は、この機能でデバイスポートに接続してデバッグログを確認できます。そのログを Seeed サポートへ共有すると、より効率的に問題解決が進みます。
 :::
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_getting_started_1.png" style={{width:600, height:'auto'}}/></div><br />
 
 ### 書き込み後
-デバイスが自動的に再起動するまで待ちます。
+デバイスが自動的に再起動するまで待ちます。これには少し時間がかかる場合があります。
 
-**Full Flash** を実行した場合は、Wi-Fi を再設定し、再度 SenseCraft HMI とペアリングしてください。
+**Full Flash** を実行した場合は、書き込み中に保存済み設定が消去されるため、再起動後にもう一度セットアップが必要です。再起動後、デバイスは設定モードに戻ります。まず Wi-Fi に再接続し、その後、次のセクションの手順に従って SenseCraft HMI と再度ペアリングしてください。
+
+たとえば reTerminal E1002 を使用している場合、**Full Flash** のあと、デバイス画面には次のように表示されます。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/155.png" style={{width:600, height:'auto'}}/></div><br />
 
 ---
 
-## デバイスを接続
+<a id="connect-device"></a>
+## デバイスを接続する
 ### ステップ 1：設定モードに入り、デバイス Wi-Fi に接続
 新しいデバイス、または **Full Flash** 後のデバイスは、通常、起動後に自動で設定モードに入ります。このモードでは、スマートフォンまたはコンピューターで ePaper 画面に表示される Wi-Fi ホットスポットへ接続してください。
 
@@ -100,13 +107,15 @@ USB ケーブルを使ってデバイスをコンピューターに接続しま�
 
 ---
 
-## デバイス情報
-ペアリング完了後、**Device** ページで **Device Name** や **Battery Level** などの基本情報を確認できます。
+<a id="device-information"></a>
+## デバイスを管理する
+ペアリング後は、**Device** ページでデバイスの情報を確認できます。上部には設定したデバイス名が表示され、その下にデバイスモデル、対応画面サイズ、カラーモード、MAC アドレスまたは SN 番号、オンライン状態、バッテリー残量、ファームウェアバージョンなどが並びます。
+
+たとえば E1002 デバイスでは、カスタム名 `test`、モデル `reTerminal E1002`、対応画面サイズ `7.3"`、カラーモード `フルカラー`、SN 番号 `1049****0040`、`Offline` 状態、`0%` のバッテリー、`1.1.2` のファームウェアバージョンが表示される場合があります。
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_getting_started_5.png" style={{width:600, height:'auto'}}/></div><br />
 
-### 詳細管理
-デバイスをクリックすると **Details** ビューが開き、以下を確認・管理できます：
+デバイスカードをクリックすると **Details** ビューが開き、以下を確認・管理できます：
 * **Low Power Mode**：省電力動作の有効 / 無効
 * **Refresh Interval**：画面の更新頻度を制御
 * **Online Status**：デバイスが現在オンラインか確認
@@ -117,9 +126,31 @@ USB ケーブルを使ってデバイスをコンピューターに接続しま�
 
 ---
 
-## 次のステップ
+<a id="quick-deployment"></a>
+## コミュニティテンプレートをすばやくデプロイ
+次に、コミュニティテンプレートをデバイスへすばやくデプロイしてみましょう。
+
+**ステップ 1.** **Home** をクリックしてメインページに戻ります。
+
+**ステップ 2.** 他のユーザーが共有した任意のテンプレートを開き、詳細を確認します。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/114.png" style={{width:600, height:'auto'}}/></div><br />
+
+**ステップ 3.** 詳細ページ右側の **Add to My Page** をクリックし、そのテンプレートをページライブラリへ追加します。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/115.png" style={{width:600, height:'auto'}}/></div><br />
+
+**ステップ 4.** 次に開いたページで、右上の **Apply** をクリックしてテンプレートをデバイスへ送信します。
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/116.png" style={{width:600, height:'auto'}}/></div><br />
+
+**ステップ 5.** しばらく待つと、コンテンツがデバイスに反映されます。
+
+---
+
+## 次にすること
 デバイスがオンラインになったら、以下の機能も試してみてください：
 
-* [AI Gen](/ja/guides/ai_gen/) で AI を使ってコンテンツを生成する。
 * [Workspace](/ja/guides/workspace/) で独自のページを設計・デプロイする。
+* [AI Gen](/ja/guides/ai_gen/) で AI を使ってコンテンツを生成する。
 * [対応ハードウェア](/ja/supported_hardware/) で対応デバイスを確認する。

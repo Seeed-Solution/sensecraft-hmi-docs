@@ -1,18 +1,20 @@
 ---
 description: Introducción a SenseCraft HMI, una plataforma de UI sin código para pantallas ePaper. Conoce sus funciones, registro, actualización de firmware y cómo desplegar tu primera página.
 title: Descripción general
+last_update:
+  date: 11/05/2026
+  author: dimo
 ---
 
-### Introducción a la plataforma
-
-**[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** es la plataforma en la nube de diseño de UI de Seeed Studio, creada específicamente para dispositivos con pantallas ePaper. Te permite crear, personalizar y desplegar interfaces visuales profesionales **sin escribir una sola línea de código**.
+**[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** es la plataforma en la nube de diseño de UI de Seeed Studio, creada específicamente para dispositivos con pantallas ePaper. Con ella, puedes diseñar páginas, ajustar contenido y desplegarlo en tu dispositivo rápidamente, sin escribir código.
 
 <div style={{textAlign:'center'}}>
   <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_overview_1.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
 </div>
 
 ---
-### Funciones principales:
+<a id="features"></a>
+### Funciones principales
 
 - **Diseñador visual sin código con arrastrar y soltar**: crea diseños de forma visual con widgets, fuentes de datos y elementos personalizados
 - **Biblioteca de plantillas de la comunidad**: explora y reutiliza diseños publicados por la comunidad
@@ -21,42 +23,44 @@ title: Descripción general
 - **Despliegue con un clic**: envía tu diseño directamente al dispositivo mediante Wi-Fi
 
 ---
+<a id="pricing"></a>
 ### Precios
 
 SenseCraft HMI se encuentra actualmente en **Beta** y su uso es **gratuito**.
 
-Aunque la plataforma es gratuita, las funciones de generación con IA están sujetas a ciertos límites de uso.
+Aunque la plataforma es gratuita, las funciones de generación con IA están sujetas a límites de uso.
 
 - **Límite diario**: cada cuenta dispone de 10 creaciones con IA por día, incluyendo 5 generaciones/ajustes de imágenes y 5 generaciones/ajustes de lienzo
 - **Hora de reinicio**: los límites se reinician cada 24 horas
 ---
-### Registro en la plataforma
+<a id="sign-up-and-log-in"></a>
+### Registro e inicio de sesión
 
-SenseCraft HMI utiliza el sistema unificado de cuentas SenseCraft. Puedes iniciar sesión con una cuenta existente de SenseCraft / SenseCAP / Google / GitHub, o registrar una nueva.
+SenseCraft HMI utiliza un sistema de cuenta unificado. Puedes iniciar sesión con una cuenta existente de SenseCraft, SenseCAP, Google o GitHub. Si todavía no tienes una cuenta, también puedes crear una desde la misma página de inicio de sesión.
 
-**Paso 1.** Visita [sensecraft.seeed.cc/hmi](https://sensecraft.seeed.cc/hmi) y haz clic en **Log in** en la esquina inferior izquierda.
+Haz clic en **Log in** en la esquina inferior izquierda para abrir la página de acceso y elige la opción que corresponda a tu situación:
 
-<div style={{textAlign:'center'}}>
-  <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_overview_2.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
-</div> 
-
-**Paso 2.** Puedes iniciar sesión directamente con SenseCraft / SenseCAP o mediante tu cuenta de Google o GitHub.
+- **Si ya tienes una cuenta**, inicia sesión directamente con tu cuenta de SenseCraft, SenseCAP, Google o GitHub.
 
 <div style={{textAlign:'center'}}>
-  <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_overview_3.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
-</div> 
+  <img src="https://files.seeedstudio.com/wiki/hmi/img/111.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
+</div>
 
-**Paso 3.** Si todavía no tienes una cuenta, haz clic en **Sign up** al final de la página de inicio de sesión, introduce tu correo y contraseña, y completa la verificación por correo.
+Si olvidaste tu contraseña, haz clic en **Forgot Password** en la página de inicio de sesión y sigue las instrucciones para restablecerla.
 
 <div style={{textAlign:'center'}}>
-  <img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/sensecraft_hmi/start_2.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
-</div> 
+  <img src="https://files.seeedstudio.com/wiki/hmi/img/112.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
+</div>
 
-**Paso 4.** Después de iniciar sesión, accederás a la página **Home** de SenseCraft HMI.
+- **Si aún no tienes una cuenta**, haz clic en **Sign up** para crear una. Introduce tu dirección de correo, código de verificación, nombre de usuario y contraseña, y luego haz clic en el botón de registro para completar el proceso.
 
----
-### Primeros pasos
-[Guía de inicio rápido](/es/guides/getting_started/)
+<div style={{textAlign:'center'}}>
+  <img src="https://files.seeedstudio.com/wiki/hmi/img/113.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
+</div>
+
+Después de iniciar sesión correctamente, accederás a la página **Home** de SenseCraft HMI, donde podrás empezar a explorar la plataforma.
+
+Para empezar, sigue la [Guía de inicio rápido](/es/guides/getting_started/) para crear tu primera página paso a paso.
 
 ### Directorio de documentación
 

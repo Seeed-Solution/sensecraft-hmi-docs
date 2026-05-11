@@ -1,7 +1,12 @@
 ---
 title: Primeros pasos
 description: Una guía práctica para emparejar tu primer dispositivo, comprobar su estado y actualizar el firmware en SenseCraft HMI cuando sea necesario.
+last_update:
+  date: 11/05/2026
+  author: dimo
 ---
+
+<a id="overview"></a>
 
 Esta guía te lleva por el flujo principal de primer uso en SenseCraft HMI, incluyendo cómo conectar un dispositivo compatible, emparejarlo con tu cuenta, comprobar su estado y actualizar el firmware cuando sea necesario.
 
@@ -9,25 +14,22 @@ Si eres nuevo en la plataforma, te recomendamos leer primero la [Descripción ge
 
 El siguiente recorrido usa **reTerminal E1002** como ejemplo para demostrar el flujo básico de SenseCraft HMI.
 
----
-
-## Guías de dispositivos
-Si quieres aprender más sobre un dispositivo específico, haz clic en su nombre a continuación para ver la guía detallada.
-
-También puedes seguir directamente el flujo paso a paso de abajo para comenzar rápidamente.
+Si estás usando otro dispositivo, puedes seguir el mismo flujo general. Puedes visitar [Hardware compatible](/es/supported_hardware/) para encontrar la página correspondiente de tu dispositivo, o usar los enlaces de abajo para ir directamente a la guía wiki adecuada.
 
 * **[reTerminal E1001](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1001)**
 * **[reTerminal E1002](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1002)**
 * **[reTerminal E1003](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1003/)**
 * **[reTerminal E1004](https://wiki.seeedstudio.com/getting_started_with_reterminal_e1004/)**
 * **[TRMNL 7.5" (OG) DIY Kit](https://wiki.seeedstudio.com/trmnl_7inch5_diy_kit_main_page/)**
-* **[XIAO EE02 ePaper DIY Kit](https://wiki.seeedstudio.com/getting_started_with_ee02/)**
-* **[XIAO EE03 ePaper DIY Kit](https://wiki.seeedstudio.com/getting_started_with_ee03/)**
+* **[XIAO ePaper DIY Kit EE02](https://wiki.seeedstudio.com/getting_started_with_ee02/)**
+* **[XIAO ePaper DIY Kit EE03](https://wiki.seeedstudio.com/getting_started_with_ee03/)**
 * **[XIAO ePaper DIY Kit EE04](https://wiki.seeedstudio.com/epaper_ee04/)**
+* **[XIAO ePaper DIY Kit EE05](https://wiki.seeedstudio.com/epaper_ee05/)**
 
 ---
 
-## Actualización de firmware
+<a id="firmware-update"></a>
+## Actualiza el firmware de tu dispositivo
 
 :::tip
 Antes de emparejar un dispositivo, recomendamos actualizarlo a la versión más reciente del firmware para obtener la mejor compatibilidad, correcciones de errores y soporte de funciones.
@@ -60,19 +62,24 @@ Elige el modo de flasheo según tus necesidades:
 
 **Full Flash (marcado)**: borra por completo la memoria del dispositivo, incluyendo credenciales Wi-Fi y ajustes guardados. Recomendado para solución de problemas, recuperación o reinicio limpio.
 
-Normalmente, el botón **Connect Serial Monitor** no es necesario. Si tu dispositivo presenta un problema difícil de diagnosticar, puedes usarlo para conectarte al puerto del dispositivo y ver los registros de depuración. Compartir esos registros con el soporte de Seeed puede ayudar a resolver el problema con mayor eficiencia.
+En la mayoría de los casos, no necesitas usar el botón **Connect Serial Monitor**. Si tu dispositivo presenta un problema difícil de diagnosticar, puedes usarlo para conectarte al puerto del dispositivo y ver los registros de depuración. Compartir esos registros con el soporte de Seeed puede ayudar a resolver el problema con mayor eficiencia.
 :::
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_getting_started_1.png" style={{width:600, height:'auto'}}/></div><br />
 
 ### Después del flasheo
-Espera a que el dispositivo se reinicie automáticamente.
+Espera a que el dispositivo se reinicie automáticamente. Esto puede tardar un momento.
 
-Si realizaste un **Full Flash**, vuelve a configurar el Wi-Fi del dispositivo y empareja de nuevo con SenseCraft HMI.
+Si realizaste un **Full Flash**, el dispositivo tendrá que configurarse de nuevo después del reinicio porque sus ajustes guardados se borraron durante el flasheo. Tras reiniciarse, volverá al modo de configuración. Vuelve a conectarlo al Wi-Fi y, a continuación, empareja de nuevo con SenseCraft HMI siguiendo los pasos de la siguiente sección.
+
+Por ejemplo, si estás usando un reTerminal E1002, la pantalla se verá así después de un **Full Flash**:
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/155.png" style={{width:600, height:'auto'}}/></div><br />
 
 ---
 
-## Conectar el dispositivo
+<a id="connect-device"></a>
+## Conecta tu dispositivo
 ### Paso 1: Entra en modo de configuración y conéctate al Wi-Fi del dispositivo
 De forma predeterminada, los dispositivos nuevos, o los dispositivos después de un **Full Flash**, entran automáticamente en modo de configuración tras arrancar. En este modo, usa tu teléfono o computadora para conectarte al punto de acceso Wi-Fi que aparece en la pantalla ePaper.
 
@@ -100,13 +107,15 @@ Introduce un nombre personalizado para el dispositivo y el código de emparejami
 
 ---
 
-## Información del dispositivo
-Después del emparejamiento, podrás ver tu dispositivo en la página **Device**, incluyendo información básica como **Device Name** y **Battery Level**.
+<a id="device-information"></a>
+## Gestiona tu dispositivo
+Después del emparejamiento, podrás ver tu dispositivo en la página **Device**. En la parte superior se muestra el nombre que le asignaste, seguido de detalles como el modelo del dispositivo, el tamaño de pantalla compatible, el modo de color, la dirección MAC o el número SN, el estado en línea, el nivel de batería y la versión del firmware.
+
+Por ejemplo, un dispositivo E1002 puede mostrar un nombre personalizado como `test`, el modelo `reTerminal E1002`, un tamaño de pantalla compatible de `7.3"`, el modo de color `Full color`, un número SN como `1049****0040`, estado `Offline`, batería al `0%` y firmware `1.1.2`.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_getting_started_5.png" style={{width:600, height:'auto'}}/></div><br />
 
-### Gestión detallada
-Haz clic sobre un dispositivo para abrir la vista **Details**. Desde allí puedes revisar y gestionar:
+Haz clic en la tarjeta del dispositivo para abrir la vista **Details**. Desde allí puedes revisar y gestionar:
 * **Low Power Mode**: activar o desactivar el comportamiento de ahorro de energía
 * **Refresh Interval**: controlar con qué frecuencia se actualiza la pantalla
 * **Online Status**: comprobar si el dispositivo está conectado actualmente
@@ -117,9 +126,31 @@ Haz clic sobre un dispositivo para abrir la vista **Details**. Desde allí puede
 
 ---
 
-## Siguientes pasos
+<a id="quick-deployment"></a>
+## Despliega rápidamente plantillas de la comunidad
+A continuación, vamos a desplegar rápidamente una plantilla de la comunidad en tu dispositivo.
+
+**Paso 1.** Haz clic en **Home** para volver a la página principal.
+
+**Paso 2.** Abre cualquier plantilla compartida por otro usuario para ver sus detalles.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/114.png" style={{width:600, height:'auto'}}/></div><br />
+
+**Paso 3.** En el lado derecho de la página de detalles, haz clic en **Add to My Page** para añadir la plantilla a tu biblioteca de páginas.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/115.png" style={{width:600, height:'auto'}}/></div><br />
+
+**Paso 4.** En la página que se abre a continuación, haz clic en **Apply** en la esquina superior derecha para enviar la plantilla a tu dispositivo.
+
+<div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/116.png" style={{width:600, height:'auto'}}/></div><br />
+
+**Paso 5.** Espera un momento mientras el contenido se envía al dispositivo.
+
+---
+
+## ¿Qué sigue?
 Una vez que tu dispositivo esté en línea, puedes continuar con el resto del flujo de la plataforma:
 
-* Visita [AI Gen](/es/guides/ai_gen/) para crear contenido con ayuda de IA.
 * Explora [Workspace](/es/guides/workspace/) para diseñar y desplegar tus propias páginas.
+* Visita [AI Gen](/es/guides/ai_gen/) para crear contenido con ayuda de IA.
 * Consulta [Hardware compatible](/es/supported_hardware/) para ver más dispositivos compatibles.

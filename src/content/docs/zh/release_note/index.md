@@ -1,7 +1,12 @@
 ---
 title: 发布说明
 description: SenseCraft HMI 平台迭代记录与版本历史
+last_update:
+  date: 11/05/2026
+  author: dimo
 ---
+
+<a id="latest-update"></a>
 
 ## SenseCraft HMI v1.4.0 发布说明
 发布时间：2026.04.10
