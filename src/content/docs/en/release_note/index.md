@@ -3,6 +3,8 @@ title: Release Notes
 description: SenseCraft HMI platform iteration records and version history
 ---
 
+<a id="latest-update"></a>
+
 
 ## SenseCraft HMI v1.4.0 Release Notes
 Release time: 2026.04.10

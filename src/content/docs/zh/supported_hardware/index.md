@@ -6,21 +6,24 @@ description: SenseCraft HMI 兼容设备完整列表，包括规格、产品预�
 SenseCraft HMI 支持越来越多的 ePaper 显示设备。以下是按产品系列整理的完整兼容性概览。
 
 ## 兼容性表格
+<a id="compatibility-table"></a>
 
 | 设备 | 显示尺寸 | 颜色 | 分辨率 |
 |---|---|---|---|
-| reTerminal E1001 | 7.5" | 单色（4 级灰度） | 800×480 |
-| reTerminal E1002 | 7.3" | 全彩（Spectra 6） | 800×480 |
-| reTerminal E1003 | 10.3" | 单色（16 级灰度） | 1404×1872 |
-| reTerminal E1004 | 13.3" | 全彩（Spectra 6） | 1200×1600 |
-| XIAO ePaper DIY Kit EE02 | 13.3" | 全彩（Spectra 6） | 1200×1600 |
-| XIAO ePaper DIY Kit EE03 | 10.3" | 单色（16 级灰度） | 1404×1872 |
-| XIAO ePaper DIY Kit EE04 | 1.54"-7.5" | 多色 | 200×200 至 800×480 |
-| TRMNL 7.5" (OG) DIY Kit | 7.5" | 单色（4 级灰度） | 800×480 |
+| [reTerminal E1001](https://www.seeedstudio.com/reTerminal-E1001-p-6534.html) | 7.5" | 单色（4 级灰度） | 800×480 |
+| [reTerminal E1002](https://www.seeedstudio.com/reTerminal-E1002-p-6533.html) | 7.3" | 全彩（Spectra 6） | 800×480 |
+| [reTerminal E1003](https://www.seeedstudio.com/catalogsearch/result/?q=e1003) | 10.3" | 单色（16 级灰度） | 1404×1872 |
+| [reTerminal E1004](https://www.seeedstudio.com/reTerminal-E1004-p-6692.html) | 13.3" | 全彩（Spectra 6） | 1200×1600 |
+| [XIAO ePaper DIY Kit EE02](https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html) | 13.3" | 全彩（Spectra 6） | 1200×1600 |
+| [XIAO ePaper DIY Kit EE03](https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html) | 10.3" | 单色（16 级灰度） | 1404×1872 |
+| [XIAO ePaper DIY Kit EE04](https://www.seeedstudio.com/XIAO-ePaper-EE04-DIY-Bundle-Kit.html) | 1.54"/2.13"/2.9"/4.2"/4.26"/5.83"/7.3"/7.5" | 因屏幕型号而异 | 因屏幕型号而异 |
+| [XIAO ePaper DIY Kit EE05](https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-ESP32-S3-EE05.html) | 支持多种 24-pin ePaper 尺寸 | 因屏幕型号而异 | 因屏幕型号而异 |
+| [TRMNL 7.5" (OG) DIY Kit](https://www.seeedstudio.com/TRMNL-7-5-Inch-OG-DIY-Kit-p-6481.html) | 7.5" | 单色（4 级灰度） | 800×480 |
 
 ---
 
 
+<a id="reterminal-e1001"></a>
 ### reTerminal E1001
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/24.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -54,6 +57,7 @@ reTerminal E1001 配备 **7.5 英寸 800×480 ePaper 显示屏**，支持 **4 �
 - 非常适合日历、待办事项和信息展示等以文本为主的应用
 
 
+<a id="reterminal-e1002"></a>
 ### reTerminal E1002
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/25.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -76,6 +80,7 @@ reTerminal E1002 配备 **7.3 英寸 ACeP 全彩 ePaper 显示屏**。它在保�
 - 在保持低功耗的同时提供丰富色彩表现
 - 适用于画廊展示、彩色仪表板和更注重视觉效果的应用
 
+<a id="reterminal-e1003"></a>
 ### reTerminal E1003
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/e1003/2-reTerminal-E1003-Epaper-Display.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -97,6 +102,7 @@ reTerminal E1003 是一款 **10.3 英寸（1404×1872）16 级灰度 ePaper 显�
 - 16 级灰度，1404×1872 高分辨率
 - 超低功耗，续航最高可达 6 个月
 
+<a id="reterminal-e1004"></a>
 ### reTerminal E1004
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/e1004/2-reterminal-e1004-epaper-display.jpg" style={{width:700, height:'auto'}}/></div><br />
@@ -120,16 +126,20 @@ reTerminal E1004 配备 **13.3 英寸全彩 ePaper 显示屏**，基于 **ESP32-
 
 ---
 
-### XIAO ePaper Display Board EE02
+<a id="xiao-epaper-display-board-ee02"></a>
+### XIAO ePaper DIY Kit EE02
 
 <div class="table-center">
 <table align="center">
     <tr>
-        <th>XIAO ePaper Display Board EE02</th>
+        <th>XIAO ePaper DIY Kit EE02</th>
     </tr>
     <tr>
     <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee02.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/getting_started_with_ee02/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE02 Wiki</font></span></strong>
+        </a>
         <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE02-for-13-3-Spectratm-6-E-Ink.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> 立即购买</font></span></strong>
         </a>
@@ -139,7 +149,7 @@ reTerminal E1004 配备 **13.3 英寸全彩 ePaper 显示屏**，基于 **ESP32-
 </div>
 
 #### 简介
-**EE02** 是一款高性能 **ESP32-S3** 驱动板，专为 **13.3 英寸** E-Ink 显示屏优化。它集成了 Wi-Fi 和蓝牙，可在 IoT 应用中实现便捷的无线连接。EE02 简化了大尺寸屏幕的驱动流程，并完整支持 **SenseCraft HMI** 平台，方便进行无代码内容管理。
+**EE02** 是一款高性能 **ESP32-S3** 驱动板，专为 **13.3 英寸** E-Ink 显示屏优化。它集成了 Wi-Fi 和蓝牙，可在 IoT 应用中实现便捷的无线连接。EE02 简化了大尺寸显示屏的控制流程，并完整支持 **SenseCraft HMI** 平台，方便进行无代码内容管理。
 
 #### 特性
 
@@ -151,16 +161,20 @@ reTerminal E1004 配备 **13.3 英寸全彩 ePaper 显示屏**，基于 **ESP32-
 
 ---
 
-### XIAO ePaper Display Board EE03
+<a id="xiao-epaper-display-board-ee03"></a>
+### XIAO ePaper DIY Kit EE03
 
 <div class="table-center">
 <table align="center">
     <tr>
-        <th>XIAO ePaper Display Board EE03</th>
+        <th>XIAO ePaper DIY Kit EE03</th>
     </tr>
     <tr>
     <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee03.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/getting_started_with_ee03/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE03 Wiki</font></span></strong>
+        </a>
         <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-EE03-for-10-3-Monochrome-ePaper-Display.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> 立即购买</font></span></strong>
         </a>
@@ -183,16 +197,20 @@ reTerminal E1004 配备 **13.3 英寸全彩 ePaper 显示屏**，基于 **ESP32-
 
 ---
 
-### ePaper DIY Kit EE04
+<a id="epaper-diy-kit-ee04"></a>
+### XIAO ePaper DIY Kit EE04
 
 <div class="table-center">
 <table align="center">
     <tr>
-        <th>XIAO ePaper Display Board EE04</th>
+        <th>XIAO ePaper DIY Kit EE04</th>
     </tr>
     <tr>
     <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee04.png"/></div>
     <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/epaper_ee04/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE04 Wiki</font></span></strong>
+        </a>
         <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-EE04-DIY-Bundle-Kit.html" target="_blank">
                 <strong><span><font color={'FFFFFF'} size={"4"}> 立即购买</font></span></strong>
         </a>
@@ -212,13 +230,78 @@ EE04 显示驱动板采用 **XIAO ESP32-S3 Plus**，支持 **24-pin** 和 **50-p
 - **带开关的 BAT 接口：** 方便连接电池，并支持高效电源管理和节能。
 - **便捷用户按键：** 配备 1 个复位按键和 3 个用户可编程按键，便于项目开发和功能扩展。
 
+#### 支持的 ePaper 屏幕
+
+| 尺寸 | 颜色模式 | 分辨率 |
+|---|---|---|
+| 1.54" | 单色 | 200×200 |
+| 2.13" | 单色 / 彩色 | 250×122 |
+| 2.9" | 单色 / 彩色 | 296×128 |
+| 4.2" | 单色 | 400×300 |
+| 4.26" | 单色 | 800×480 |
+| 5.83" | 单色 | 648×480 |
+| 7.3" | 彩色（Spectra 6） | 800×480 |
+| 7.5" | 单色 | 800×480 |
+
 ---
 
+<a id="epaper-diy-kit-ee05"></a>
+### XIAO ePaper DIY Kit EE05
+
+<div class="table-center">
+<table align="center">
+    <tr>
+        <th>XIAO ePaper DIY Kit EE05</th>
+    </tr>
+    <tr>
+    <td><div align="center"><img width ={300} src="https://files.seeedstudio.com/wiki/hmi/img/ee05.png"/></div>
+    <div class="get_one_now_container" style={{textAlign: 'center'}}>
+        <a class="get_one_now_item" href="https://wiki.seeedstudio.com/epaper_ee05/" target="_blank" rel="noopener noreferrer">
+                <strong><span><font color={'FFFFFF'} size={"4"}>XIAO ePaper DIY Kit EE05 Wiki</font></span></strong>
+        </a>
+        <a class="get_one_now_item" href="https://www.seeedstudio.com/XIAO-ePaper-DIY-Kit-ESP32-S3-EE05.html" target="_blank">
+                <strong><span><font color={'FFFFFF'} size={"4"}> 立即购买</font></span></strong>
+        </a>
+    </div></td>
+    </tr>
+ </table>
+</div>
+
+#### 简介
+
+EE05 显示驱动板采用 **XIAO ESP32-S3 Plus**，支持多种 **24-pin ePaper 显示屏**，并可配合 SenseCraft HMI 进行无代码界面设计与下发。它配备扩展 IO、JST 电池接口和电源开关，非常适合低功耗智能显示应用。
+
+#### 特性
+
+- **采用 XIAO ESP32-S3 Plus：** 连接兼容的 ePaper 显示屏后即可使用。
+- **广泛的显示兼容性：** 兼容多种 24-pin ePaper 显示屏，可满足不同项目需求。
+- **扩展 IO 接口：** 可连接温湿度等额外传感器，进一步扩展功能。
+- **带开关的 BAT 接口：** 方便连接电池，并支持高效电源管理和节能。
+- **支持 SenseCraft HMI：** 您可以借助 SenseCraft HMI 在无需编写代码的情况下完成设计、配置和下发。
+
+#### 支持的 ePaper 屏幕
+
+| 尺寸 | 颜色模式 | 分辨率 |
+|---|---|---|
+| 1.54" | 单色 | 200×200 |
+| 2.13" | 单色 / 彩色 | 250×122 |
+| 2.9" | 单色 / 彩色 | 296×128 |
+| 4.2" | 单色 | 400×300 |
+| 4.26" | 单色 | 800×480 |
+| 5.83" | 单色 | 648×480 |
+| 7.5" | 单色 | 800×480 |
+
+---
+
+<a id="trmnl-75-og-diy-kit"></a>
 ### TRMNL 7.5" (OG) DIY Kit
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/XIAO_Gadget/TRMNL_Kit_Pic/head.jpg" style={{width:1000, height:'auto'}}/></div>
 
 <div class="get_one_now_container" style={{textAlign: 'center'}}>
+    <a class="get_one_now_item" href="https://wiki.seeedstudio.com/trmnl_7inch5_diy_kit_main_page/" target="_blank" rel="noopener noreferrer">
+            <strong><span><font color={'FFFFFF'} size={"4"}>TRMNL 7.5" (OG) DIY Kit Wiki</font></span></strong>
+    </a>
     <a class="get_one_now_item" href="https://www.seeedstudio.com/TRMNL-7-5-Inch-OG-DIY-Kit-p-6481.html" target="_blank">
             <strong><span><font color={'FFFFFF'} size={"4"}> 立即购买</font></span></strong>
     </a>
@@ -226,7 +309,7 @@ EE04 显示驱动板采用 **XIAO ESP32-S3 Plus**，支持 **24-pin** 和 **50-p
 
 #### 简介
 
-**TRMNL 7.5" (OG) DIY Kit** 是一款开放硬件 ePaper 套件，配备 7.5 英寸单色显示屏。您可以将 SenseCraft HMI 刷入该套件，作为默认 TRMNL 固件的无代码替代方案。
+**TRMNL 7.5" (OG) DIY Kit** 是一款开放硬件 ePaper 套件，配备 7.5 英寸单色显示屏。您可以在该套件上安装 SenseCraft HMI，作为默认 TRMNL 固件的无代码替代方案。
 
 #### 特性
 

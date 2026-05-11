@@ -3,6 +3,8 @@ title: Notas de versión
 description: Historial de iteraciones y versiones de la plataforma SenseCraft HMI
 ---
 
+<a id="latest-update"></a>
+
 ## Notas de la versión SenseCraft HMI v1.4.0
 Fecha de lanzamiento: 2026.04.10
 

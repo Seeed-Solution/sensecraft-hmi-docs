@@ -3,6 +3,8 @@ title: リリースノート
 description: SenseCraft HMI プラットフォームの更新履歴とバージョン履歴
 ---
 
+<a id="latest-update"></a>
+
 ## SenseCraft HMI v1.4.0 リリースノート
 リリース日：2026.04.10
 
