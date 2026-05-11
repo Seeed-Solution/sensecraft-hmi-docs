@@ -49,7 +49,6 @@ export default defineConfig({
 		sidebar: [
 			{
 				label: 'Overview',
-				link: '/overview/',
 				collapsed: true,
 				translations: {
 					'zh-CN': '概览',
@@ -88,7 +87,6 @@ export default defineConfig({
 			},
 			{
 				label: 'Supported Hardware',
-				link: '/supported_hardware/',
 				collapsed: true,
 				translations: {
 					'zh-CN': '支持的硬件',
@@ -109,7 +107,6 @@ export default defineConfig({
 			},
 			{
 				label: 'Guides',
-				link: '/guides/getting_started/',
 				collapsed: true,
 				translations: {
 					'zh-CN': '指南',
@@ -274,7 +271,6 @@ export default defineConfig({
 			},
 			{
 				label: 'Release Notes',
-				link: '/release_note/',
 				collapsed: true,
 				translations: {
 					'zh-CN': '发布说明',
