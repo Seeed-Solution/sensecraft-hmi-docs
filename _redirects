@@ -1,8 +1,0 @@
-# Cloudflare Pages redirects configuration
-# Note: Root path (/) is handled by Cloudflare Functions for language detection
-
-# Handle client-side routing for Astro
-/*    /index.html   200
-
-# Redirect old paths if needed
-# /old-path    /new-path    301

@@ -1,0 +1,26 @@
+# Cloudflare Pages redirects configuration
+# Note: Root path (/) is handled by Cloudflare Functions for language detection
+
+# Release Notes canonical paths
+/en/release-note    /en/release-notes/    301
+/en/release-note/   /en/release-notes/    301
+/en/release_note    /en/release-notes/    301
+/en/release_note/   /en/release-notes/    301
+/zh/release-note    /zh/release-notes/    301
+/zh/release-note/   /zh/release-notes/    301
+/zh/release_note    /zh/release-notes/    301
+/zh/release_note/   /zh/release-notes/    301
+/ja/release-note    /ja/release-notes/    301
+/ja/release-note/   /ja/release-notes/    301
+/ja/release_note    /ja/release-notes/    301
+/ja/release_note/   /ja/release-notes/    301
+/es/release-note    /es/release-notes/    301
+/es/release-note/   /es/release-notes/    301
+/es/release_note    /es/release-notes/    301
+/es/release_note/   /es/release-notes/    301
+
+# Handle client-side routing for Astro
+/*    /index.html   200
+
+# Redirect old paths if needed
+# /old-path    /new-path    301

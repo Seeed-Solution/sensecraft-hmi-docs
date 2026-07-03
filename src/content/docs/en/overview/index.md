@@ -73,6 +73,5 @@ To get started, follow the [Quick Start Guide](/en/guides/getting_started/) to b
 | **[Overview](/en/overview/)** | Platform introduction, features, pricing, registration, and quick start guide. |
 | **[Supported Hardware](/en/supported_hardware/)** | A complete list of compatible devices with purchase links and shortcuts to featured showcases/cases. |
 | **[Guides](/en/guides/getting_started/)** | Comprehensive tutorials covering quick start, device management, firmware flashing, canvas designer, and AI generation. |
-| **[Release Notes](/en/release_note/)** | Version history, latest updates, and changelogs. |
-
+| **[Release Notes](/en/release-notes/)** | Version history, latest updates, and changelogs. |
 

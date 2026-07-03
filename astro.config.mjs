@@ -277,7 +277,7 @@ export default defineConfig({
 				items: [
 					{
 						label: 'Latest Update',
-						link: '/release_note/#latest-update',
+						link: '/release-notes/#latest-update',
 						translations: {
 							'zh-CN': '最新更新',
 							'ja': '最新アップデート',
@@ -377,6 +377,5 @@ export default defineConfig({
 		},
 	},
 });
-
 
 
