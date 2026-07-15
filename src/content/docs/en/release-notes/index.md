@@ -31,7 +31,7 @@ Release time: 2026.07.15
 - Sticky now appears in the device tab, with separate playlists for designs and photos in the device details view.
 - Sticky is also added to the Products page with links, and shown on the Device page when there is no added device with a direct link.
 
-## What’s Still in Progress
+### What’s Still in Progress
 This release took longer than expected. Some Google Calendar improvements that were previously requested are still pending, as the team prioritized Sticky support and the Seeedash mobile app. We’ve been tracking your feedback and will continue to address it.
 
 Moving forward, feel free to share feature requests or bug reports via our [SenseCraft Seeedash Open Roadmap](https://docs.google.com/document/d/18xcOUtQjN6NweaFFQ7ZZEqQ3Hoaqs0XX7PX74HbDv4s/edit?usp=sharing) or our [Discord channel](https://discord.com/invite/Jj2CBXCjtf).
