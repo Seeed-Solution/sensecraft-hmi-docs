@@ -8,7 +8,40 @@ last_update:
 
 <a id="latest-update"></a>
 
+## SenseCraft HMI v1.5.0 Release Notes
+Release time: 2026.07.15
 
+>To better support the upcoming launch of [reTerminal Sticky (our 3.97" monochrome ePaper AI Sticky Note)](https://www.seeedstudio.com/sticky/) at the end of July, we've made several major updates across the platform.
+
+### Key Changes
+- **SenseCraft HMI is now SenseCraft Seeedash** – with a new icon. The mobile app and web platform are now fully connected, allowing Sticky users to access their web‑saved designs and uploaded photos directly from the Seeedash mobile app. You can also upload images and create simple dashboards using the Seeedash mobile app on the go.
+- **Home Page** – added template search, sorting options (Newest, Most Added, Most Viewed, Most Liked), and device‑based filtering to quickly find compatible templates.
+
+### Workspace & Designer Updates
+- Workspace now organizes content into three categories: My Designs, My Photos, and My Playlists – making it easier to create album‑style slideshows.
+- One‑click deployment on the web Designer now filters compatible devices based on design resolution.
+- When publishing a template, the design preview is automatically used as the cover image – but you can replace it with your own photo.
+
+### Sidebar & Navigation
+- Language settings moved to Account & Security under user profile avatar – defaults to your browser language.
+- All documentation links are now grouped under a single Docs entry in the sidebar.
+- Added a Products entry, linking to the full list of all compatible products: https://sensecraft.seeed.cc/hmi/products
+
+### New Product Support
+- Sticky now appears in the device tab, with separate playlists for designs and photos in the device details view.
+- Sticky is also added to the Products page with links, and shown on the Device page when there is no added device with a direct link.
+
+## What’s Still in Progress
+This release took longer than expected. Some Google Calendar improvements that were previously requested are still pending, as the team prioritized Sticky support and the Seeedash mobile app. We’ve been tracking your feedback and will continue to address it.
+
+Moving forward, feel free to share feature requests or bug reports via our [SenseCraft Seeedash Open Roadmap](https://docs.google.com/document/d/18xcOUtQjN6NweaFFQ7ZZEqQ3Hoaqs0XX7PX74HbDv4s/edit?usp=sharing) or our [Discord channel](https://discord.com/invite/Jj2CBXCjtf).
+
+Thank you for your patience and support – and we look forward to the next release!
+SenseCraft Seeedash Team
+
+
+
+---
 ## SenseCraft HMI v1.4.0 Release Notes
 Release time: 2026.04.10
 
