@@ -2,8 +2,8 @@
 description: Learn how to use the SenseCraft HMI Canvas Designer, including basic drawing, advanced components, data integration, and custom widgets.
 title: Canvas Designer
 last_update:
-  date: 11/05/2026
-  author: dimo
+  date: 03/09/2026
+  author: meilily
 ---
 
 <a id="overview"></a>
@@ -11,6 +11,7 @@ last_update:
 This section shows you how to use the Canvas Designer to create designs. We will first walk through the interface layout, then build a simple design step by step, and finally introduce the function of each widget to help you get started more smoothly.
 
 <a id="workspace-layout"></a>
+
 ## Get to Know the Canvas Designer
 
 When you first open the Canvas Designer, it helps to think of it as five main areas: the Sidebar, Top Toolbar, Inspector Panel, canvas actions, and canvas settings. Once you know what each area is for, building designs becomes much easier.
@@ -31,6 +32,81 @@ You can also right-click on the canvas to quickly access many of these tools.
 4. Canvas actions: In the top-right corner, you will find the main action buttons. From here, you can preview your design, apply changes, or publish it to the community.
 
 5. Canvas settings: At the bottom of the canvas, you can adjust display-related settings such as dithering colors, portrait or landscape mode, canvas pixel size, and zoom level, making it easier to check how the design will look on your target device.
+
+Last but not least, the **Essential Canvas Designer Shortcuts (Mac / Windows / Linux)**
+While designing your UI, mastering these shortcuts will speed up your workflow significantly! (Note: Mac uses ⌘, Windows/Linux uses Ctrl. Shortcuts are active when the pointer is on the canvas. They won't trigger if you are typing in an input field.)
+
+**Undo / Redo**
+
+| Feature | Mac | Windows |
+| --- | --- | --- |
+| Undo | ⌘Z | Ctrl+Z |
+| Redo | ⌘⇧Z | Ctrl+Shift+Z |
+
+
+**Clipboard**
+| Feature | Mac | Windows | Notes |
+| --- | --- | --- | --- |
+| Copy | ⌘C | Ctrl+C | Requires selected elements |
+| Cut | ⌘X | Ctrl+X | Requires selected elements |
+| Paste | ⌘V | Ctrl+V | Offset +20px from previous position |
+| Duplicate | ⌘D | Ctrl+D | Offset +10px; requires copy/cut first |
+
+
+**Select & Delete**	
+| Feature | Mac | Windows |
+| --- | --- | --- |
+| Select All | ⌘A | Ctrl+A |
+| Delete | Delete / Backspace | Delete / Backspace |
+| Cancel / Exit Mode | Esc | Esc |
+
+> **Esc priority** (First match executes first): Exit Format Painter -> Exit Free Drawing -> Exit current group -> Clear selection
+
+
+**Grouping**
+| Feature | Mac | Windows | Notes |
+| --- | --- | --- | --- |
+| Group | ⌘G | Ctrl+G | Select at least 2 elements |
+| Ungroup | ⌘⇧G | Ctrl+Shift+G |  |
+
+
+**Text Styling (Selected text widgets)**
+| Feature | Mac | Windows |
+| --- | --- | --- |
+| Bold | ⌘B | Ctrl+B |
+| Italic | ⌘I | Ctrl+I |
+
+
+**Layer Management**
+| Feature | Mac | Windows |
+| --- | --- | --- |
+| Bring Forward | ⌘] | Ctrl+] |
+| Send Backward | ⌘[ | Ctrl+[ |
+| Bring to Front | ⌘⇧] | Ctrl+Shift+] |
+| Send to Back | ⌘⇧[ | Ctrl+Shift+[ |
+
+
+**Fine Tune Position**
+| Feature | Keys |
+| --- | --- |
+| Move 1px | ↑ ↓ ← → |
+| Move 10px | Shift + Arrow Keys |
+
+
+**Canvas Pan & Zoom**
+| Feature | Actions |
+| --- | --- |
+| Pan | Space + Left Mouse Drag / Middle Mouse Drag / Touchpad Two-finger swipe |
+| Zoom | Touchpad pinch, or Ctrl/⌘ + Mouse Scroll |
+
+
+**Inline Editing (Double-click text to edit)**
+| Feature | Actions |
+| --- | --- |
+| Confirm & Exit | ⌘Enter / Ctrl+Enter (Clicking outside also saves) |
+| Cancel (Don't save) | Esc |
+| Canvas Title | Enter saves, Esc cancels |
+
 
 ---
 
