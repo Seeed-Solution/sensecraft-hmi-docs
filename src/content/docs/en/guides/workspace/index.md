@@ -1,5 +1,5 @@
 ---
-description: Learn how to use the SenseCraft HMI Canvas Designer, including basic drawing, advanced components, data integration, and custom widgets.
+description: Learn how to use the SenseCraft Seeedash (used to be known as SenseCraft HMI) Canvas Designer, including basic drawing, advanced components, data integration, and custom widgets.
 title: Canvas Designer
 last_update:
   date: 03/09/2026
