@@ -1,6 +1,6 @@
 ---
 title: AI Generation
-description: Introduction to AI Generation features within the SenseCraft Seeedash (used to be known as SenseCraft Seeedash) platform.
+description: Introduction to AI Generation features within the SenseCraft Seeedash (used to be known as SenseCraft HMI) platform.
 last_update:
   date: 11/05/2026
   author: dimo
