@@ -1,6 +1,6 @@
 ---
 title: AI Generation
-description: Introduction to AI Generation features within the SenseCraft HMI platform.
+description: Introduction to AI Generation features within the SenseCraft Seeedash (used to be known as SenseCraft Seeedash) platform.
 last_update:
   date: 11/05/2026
   author: dimo
@@ -9,11 +9,11 @@ last_update:
 
 <a id="overview"></a>
 
-[SenseCraft HMI](https://sensecraft.seeed.cc/hmi) is Seeed Studio's interactive interface design platform for display-based devices. One of its most powerful features is **AI Generation**, which allows you to create images and UI layouts simply by describing what you want in natural language. In [SenseCraft HMI](https://sensecraft.seeed.cc/hmi), AI Generation is available in two modes: 
+[SenseCraft Seeedash, used to be known as SenseCraft HMI](https://sensecraft.seeed.cc/hmi) is Seeed Studio's interactive interface design platform for display-based devices. One of its most powerful features is **AI Generation**, which allows you to create images and UI layouts simply by describing what you want in natural language. In [SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi), AI Generation is available in two modes: 
 * **AI Image Generator**, which creates a standalone custom image based on your description.
 * **AI Layout Generator**, which builds a complete UI layout with functional components such as text, buttons, and data displays.
 
-You can follow the steps below to start exploring the AI Generation features in SenseCraft HMI.
+You can follow the steps below to start exploring the AI Generation features in SenseCraft Seeedash.
 
 ---
 
