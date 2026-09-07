@@ -1,5 +1,5 @@
 ---
-description: Introduction to SenseCraft HMI — a no-code UI platform for ePaper displays. Learn about features, registration, firmware update, and how to deploy your first page.
+description: Introduction to SenseCraft Seeedash (used to be known as SenseCraft HMI) — a no-code UI platform for ePaper displays. Learn about features, registration, firmware update, and how to deploy your first page.
 title: Overview
 last_update:
   date: 11/05/2026
@@ -7,7 +7,7 @@ last_update:
 
 ---
 
-**[SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** is Seeed Studio's cloud-based UI design platform built specifically for ePaper display devices. With it, you can quickly design pages, adjust content, and deploy to your device without writing code.
+**[SenseCraft Seeedash, used to be known as SenseCraft HMI](https://sensecraft.seeed.cc/hmi)** is Seeed Studio's cloud-based UI design platform built specifically for ePaper display devices. With it, you can quickly design pages, adjust content, and deploy to your device without writing code.
 
 <div style={{textAlign:'center'}}>
   <img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_overview_1.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
@@ -27,7 +27,7 @@ last_update:
 <a id="pricing"></a>
 ### Pricing
 
-[SenseCraft HMI](https://sensecraft.seeed.cc/hmi) is currently in **Beta** and is **free** to use.
+[SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi) is currently in **Beta** and is **free** to use.
 
 While our platform is free to use, AI generation features are subject to usage limits.
 
@@ -38,7 +38,7 @@ While our platform is free to use, AI generation features are subject to usage l
 <a id="sign-up-and-log-in"></a>
 ### Sign Up and Log In
 
-[SenseCraft HMI](https://sensecraft.seeed.cc/hmi) uses the unified SenseCraft account system. You can sign in with an existing SenseCraft, SenseCAP, Google, or GitHub account. If you do not have an account yet, you can create one from the same login page.
+[SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi) uses the unified SenseCraft account system. You can sign in with an existing SenseCraft, SenseCAP, Google, or GitHub account. If you do not have an account yet, you can create one from the same login page.
 
 Click **Log in** in the bottom-left corner. On the login page, choose the option that matches your situation:
 
@@ -60,7 +60,7 @@ If you forget your password, click **Forgot Password** on the login page and fol
   <img src="https://files.seeedstudio.com/wiki/hmi/img/113.png" style={{width:'100%', maxWidth:'900px', height:'auto', borderRadius:'8px'}}/>
 </div>
 
-After signing in successfully, you will be taken to the **Home** page of [SenseCraft HMI](https://sensecraft.seeed.cc/hmi), where you can start exploring the platform.
+After signing in successfully, you will be taken to the **Home** page of [SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi), where you can start exploring the platform.
 
 To get started, follow the [Quick Start Guide](/en/guides/getting_started/) to build your first page step by step.
 
