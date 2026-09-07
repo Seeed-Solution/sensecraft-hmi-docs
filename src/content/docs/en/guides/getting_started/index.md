@@ -1,18 +1,18 @@
 ---
 title: Getting Started
-description: A practical guide to pairing your first device, checking device status, and updating firmware in SenseCraft HMI.
+description: A practical guide to pairing your first device, checking device status, and updating firmware in SenseCraft Seeedash (used to be known as SenseCraft HMI).
 last_update:
-  date: 11/05/2026
-  author: dimo
+  date: 07/09/2026
+  author: meilily
 ---
 
 <a id="overview"></a>
 
-This guide walks you through the core first-use workflow in [SenseCraft HMI](https://sensecraft.seeed.cc/hmi), including connecting a compatible device, pairing it with your account, checking device status, and updating firmware when needed.
+This guide walks you through the core first-use workflow in [SenseCraft Seeedash, used to be known as SenseCraft HMI](https://sensecraft.seeed.cc/hmi), including connecting a compatible device, pairing it with your account, checking device status, and updating firmware when needed.
 
 If you are new to the platform, we recommend reading the [Overview](/en/overview/) first for platform introduction, account registration, and feature details.
 
-The following walkthrough uses **reTerminal E1002** as an example to demonstrate the basic [SenseCraft HMI](https://sensecraft.seeed.cc/hmi) workflow.
+The following walkthrough uses **reTerminal E1002** as an example to demonstrate the basic [SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi) workflow.
 
 If you are using a different device, you can still follow the same general process. Visit [Supported Hardware](/en/supported_hardware/) to find the matching device page, or use the links below to jump directly to the corresponding wiki guide.
 
@@ -34,7 +34,7 @@ If you are using a different device, you can still follow the same general proce
 :::tip
 Before pairing a device, we recommend updating it to the latest firmware version for the best compatibility, bug fixes, and feature support.
 
-If you prefer to start exploring the [SenseCraft HMI](https://sensecraft.seeed.cc/hmi) platform immediately, you can also skip this update section for now.
+If you prefer to start exploring the [SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi) platform immediately, you can also skip this update section for now.
 :::
 
 Before you begin, make sure you have:
@@ -42,7 +42,7 @@ Before you begin, make sure you have:
 * **A stable internet connection** to download firmware files
 * **A supported browser** such as Chrome, Firefox, Safari, or Edge
 * **Enough device power** to complete the flashing process safely
-* **A registered [SenseCraft HMI](https://sensecraft.seeed.cc/hmi) account** with access to the platform
+* **A registered [SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi) account** with access to the platform
 
 ### Step 1: Connect the Device via USB
 Connect your device to your computer with a USB cable.
@@ -71,7 +71,7 @@ In most cases, you do not need to use the **Connect Serial Monitor** button. If 
 ### After Flashing
 Wait for the device to restart automatically. This may take a short moment.
 
-If you performed a **Full Flash**, the device will need to be set up again after the restart because its saved settings were erased during flashing. It will return to configuration mode after restarting. Reconnect it to Wi-Fi, then pair it with [SenseCraft HMI](https://sensecraft.seeed.cc/hmi) again by following the steps in the next section.
+If you performed a **Full Flash**, the device will need to be set up again after the restart because its saved settings were erased during flashing. It will return to configuration mode after restarting. Reconnect it to Wi-Fi, then pair it with [SenseCraft Seeedash](https://sensecraft.seeed.cc/hmi) again by following the steps in the next section.
 
 For example, if you are using a reTerminal E1002, the screen will look like this after a **Full Flash**:
 
@@ -96,7 +96,7 @@ After the device connects successfully, a **6-digit pairing code** will appear a
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/reterminal_e10xx/img/136.png" style={{width:600, height:'auto'}}/></div>
 
-### Step 4: Add the Device in SenseCraft HMI
+### Step 4: Add the Device in SenseCraft Seeedash
 On the **Device** page, click **+ Add NEW Device**.
 
 <div style={{textAlign:'center'}}><img src="https://files.seeedstudio.com/wiki/hmi/img/hmi_getting_started_4.png" style={{width:600, height:'auto'}}/></div><br />
