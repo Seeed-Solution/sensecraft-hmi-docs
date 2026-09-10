@@ -13,7 +13,7 @@ Release time: 2026.09.10
 
 This update focuses on more reliable screen refreshes, consistent update schedules, and reduced battery drain caused by refresh issues.
 
-### Bug Fixed
+### Bug Fixes
 - Resolved occasional screen freezes during refresh and related battery drain.
 - Automatic refresh schedules now stay on track after the daily 4:30 AM screen maintenance.
 - Fixed the issue where saved content failed to refresh after wake-up despite Wi-Fi being connected.
