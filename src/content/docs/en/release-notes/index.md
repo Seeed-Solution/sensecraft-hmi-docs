@@ -8,6 +8,18 @@ last_update:
 
 <a id="latest-update"></a>
 
+## reTerminal E1003 & E1004 v1.2.2 Stock Firmware Release Notes
+Release time: 2026.09.10
+
+This update focuses on more reliable screen refreshes, consistent update schedules, and reduced battery drain caused by refresh issues.
+
+### Bug Fixed
+- Resolved occasional screen freezes during refresh and related battery drain.
+- Automatic refresh schedules now stay on track after the daily 4:30 AM screen maintenance.
+- Fixed the issue where saved content failed to refresh after wake-up despite Wi-Fi being connected.
+
+Thank you for sharing your feedback! If you experience any issues, please let us know in our [Discord channel](https://discord.com/invite/Jj2CBXCjtf).
+
 ## SenseCraft HMI v1.5.0 Release Notes
 Release time: 2026.07.15
 
