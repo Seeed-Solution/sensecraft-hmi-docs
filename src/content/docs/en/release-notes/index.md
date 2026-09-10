@@ -8,7 +8,7 @@ last_update:
 
 <a id="latest-update"></a>
 
-## reTerminal E1003 & E1004 v1.2.2 Stock Firmware Release Notes
+## reTerminal E1001-E1004 v1.2.2 Stock Firmware Release Notes
 Release time: 2026.09.10
 
 This update focuses on more reliable screen refreshes, consistent update schedules, and reduced battery drain caused by refresh issues.
