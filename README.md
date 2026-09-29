@@ -1,8 +1,8 @@
 <div align="center">
 
-# 📚 SenseCraft HMI Documentation
+# 📚 SenseCraft Seeedash （used to be named as SenseCraft HMI) Documentation
 
-**Official Documentation for SenseCraft HMI Platform**
+**Official Documentation for SenseCraft Seeedash Platform**
 
 *A no-code UI builder for e-paper and e-ink displays*
 
@@ -18,11 +18,11 @@
 
 ## 🎯 About This Project
 
-This repository contains the **official documentation** for **SenseCraft HMI** - an innovative no-code platform that empowers users to design beautiful user interfaces for e-paper and e-ink displays without writing a single line of code.
+This repository contains the **official documentation** for **SenseCraft Seeedash** - an innovative no-code platform that empowers users to design beautiful user interfaces for e-paper and e-ink displays without writing a single line of code.
 
-### 🌟 What is SenseCraft HMI?
+### 🌟 What is SenseCraft Seeedash?
 
-SenseCraft HMI is a comprehensive platform that includes:
+SenseCraft Seeedash is a comprehensive platform that includes:
 
 - 🎨 **Canvas Editor** - Drag-and-drop UI design tool
 - 🤖 **AI Generator** - AI-powered layout generation
