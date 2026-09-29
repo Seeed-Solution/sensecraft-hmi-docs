@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 SenseCraft Seeedash （used to be named as SenseCraft HMI) Documentation
+# 📚 SenseCraft Seeedash (formerly SenseCraft HMI) Documentation
 
 **Official Documentation for SenseCraft Seeedash Platform**
 
