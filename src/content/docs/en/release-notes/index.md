@@ -11,6 +11,7 @@ last_update:
 ---
 ## SenseCraft Seeedash (SenseCraft HMI) v1.6.0 Release Notes
 Release time: 2026.09.23
+
 We are excited to announce a new version of the SenseCraft Seeedash Web platform. This update brings powerful new widget features, enhanced customization, multi-language support, and critical bug fixes to improve your dashboard design experience.
 
 ### 🚀New Features
@@ -20,13 +21,13 @@ We are excited to announce a new version of the SenseCraft Seeedash Web platform
 - **Schedule/List View**: Added a schedule display mode that lists events chronologically (list format) instead of a traditional grid/table format.
 
 #### Stock / Crypto Price Widget
-- **Preset Previews**: Added preset preview effects, allowing users to quickly apply and call the widget.
+- **Preset Previews**: Added preset previews, allowing users to quickly apply and call the widget in the Group View.
 
 #### Third-Party External Data Sources Widget
 - **Group Data Import**: Now supports importing returned data groups directly into the Designer as a Group.
 
 #### Weather Widget
-- **Pure White Icons**: Added a Reverse Feature for the weather icons to the right Inspector Panel, designed to cover applications with dark or colorful backgrounds.
+- **Pure White Icons**: Added a Reverse Feature for the weather icons to the right Inspector Panel, designed to cover designs with dark backgrounds.
 
 #### Gauge Widget
 - **Onboard Sensor Integration**: The Gauge component now supports displaying onboard temperature, humidity, and battery level.
