@@ -1,13 +1,65 @@
 ---
 title: Release Notes
-description: SenseCraft HMI platform iteration records and version history
+description: SenseCraft Seeedash (used to be named as SenseCraft HMI) platform iteration records and version history
 last_update:
-  date: 11/05/2026
-  author: dimo
+  date: 29/09/2026
+  author: meilily
 ---
 
 <a id="latest-update"></a>
 
+---
+## SenseCraft Seeedash (SenseCraft HMI) v1.6.0 Release Notes
+Release time: 2026.09.23
+We are excited to announce a new version of the SenseCraft Seeedash Web platform. This update brings powerful new widget features, enhanced customization, multi-language support, and critical bug fixes to improve your dashboard design experience.
+
+### 🚀New Features
+#### Google Calendar Widget
+- **Multi-Calendar Support**: Now supports multiple calendars under the same Google account, including shared calendars.
+- **Monthly View**: Added a new monthly view mode to display all events within a month, optimized for large screens.
+- **Schedule/List View**: Added a schedule display mode that lists events chronologically (list format) instead of a traditional grid/table format.
+
+#### Stock / Crypto Price Widget
+- **Preset Previews**: Added preset preview effects, allowing users to quickly apply and call the widget.
+
+#### Third-Party External Data Sources Widget
+- **Group Data Import**: Now supports importing returned data groups directly into the Designer as a Group.
+
+#### Weather Widget
+- **Pure White Icons**: Added a Reverse Feature for the weather icons to the right Inspector Panel, designed to cover applications with dark or colorful backgrounds.
+
+#### Gauge Widget
+- **Onboard Sensor Integration**: The Gauge component now supports displaying onboard temperature, humidity, and battery level.
+
+#### Multi-Language Interface Support
+- **Extended Language Options**: In addition to Chinese and English, we have added support for Japanese, German, French, Dutch, Spanish, and Polish in the User Center under Account & Security.
+- **Widget Localization**: Widgets (including 30-day Calendar, Weather, and Weekday) now support following the user interface language settings, displaying content in the user's selected language.
+
+#### Designer Enhancements
+- **Position & Size**: The adjustment options for size and coordinates have returned. You can now find these fine-grained control options under Position & Size in the right Inspector Panel, visible when needed.
+- **Touchpad Gestures for Canvas Pan**: Added touchpad gesture support to pan the entire canvas, making navigation easier when the canvas is zoomed in.
+- **Canvas Rotation**: Added a canvas rotation feature, allowing you to adjust the display content for development boards with a single click.
+
+#### Improved Device Page/Photo Management
+- **Deployed pages and photos are now displayed as clear cards** within the device detail view. Click any card to edit and adjust it directly.
+
+#### Other Improvements
+- **The main menu bar** is updated to show icons only; text labels appear on hover for better multi‑language support. 
+- Within Workspace, multi‑selection is enabled for My Designs and My Photos. **Bulk deployment of selected items to multiple devices** streamlines content management for multi‑device users. My Playlist also supports pushing the same playlist to multiple devices of identical resolution.
+
+### 🐛 Bug Fixes
+- **HTML Widget Optimization**:
+  - Increased the loading timeout to 3 seconds to capture a screenshot for the preview.
+  - Added a note in the "HTML live iframe" component description regarding the timeout duration.
+  - An error prompt will now be displayed upon timeout instead of showing a blank frame.
+- **Top Toolbar Duplicate Fix**: Fixed an issue where images could not adjust their layers, and shapes could not adjust their position coordinates after using the "Duplicate" function in the top toolbar.
+- **External API Currency Symbol**: Fixed an issue where the currency symbol for imported data from External APIs always displayed as "$", regardless of the currencyUnit setting.
+- **External API Image Resizing**: Fixed an issue where images returned by the External API component would automatically reset to an incorrect size when reopening the design or canvas view.
+- **Text Box Auto-Sizing**: Fixed an issue where data-type text boxes (such as time) would experience number truncation after the data values changed, ensuring the text box adapts to the length correctly.
+
+
+
+---
 ## reTerminal E1001-E1004 v1.2.2 Stock Firmware Release Notes
 Release time: 2026.09.10
 
@@ -20,7 +72,7 @@ This firmware update focuses on more reliable screen refreshes, consistent updat
 
 Thank you for sharing your feedback! If you experience any issues, please let us know in our [Discord channel](https://discord.com/invite/Jj2CBXCjtf).
 
-## SenseCraft HMI v1.5.0 Release Notes
+## SenseCraft Seeedash (SenseCraft HMI) v1.5.0 Release Notes
 Release time: 2026.07.15
 
 >To better support the upcoming launch of [reTerminal Sticky (our 3.97" monochrome ePaper AI Sticky Note)](https://www.seeedstudio.com/sticky/) at the end of July, we've made several major updates across the platform.
