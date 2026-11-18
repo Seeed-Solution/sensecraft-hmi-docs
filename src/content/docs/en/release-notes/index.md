@@ -2,11 +2,60 @@
 title: Release Notes
 description: SenseCraft Seeedash (used to be named as SenseCraft HMI) platform iteration records and version history
 last_update:
-  date: 29/09/2026
+  date: 18/11/2026
   author: meilily
 ---
 
 <a id="latest-update"></a>
+
+---
+## SenseCraft Seeedash (SenseCraft HMI) Web v1.7.0 Release Notes
+Release time: 2026.11.18
+
+This release brings a full upgrade to the template reuse experience, social enhancements to the template community, Workspace shortcuts, and more natural AI integration — making dashboard creation faster and more enjoyable than ever.
+
+### 🚀What's New
+#### 01 One-Click Template Setup — Reuse with Ease
+To make it simpler to swap template data with your own APIs and data sources, we've upgraded the experience for all data widget templates.
+- **Widgets included**: Date/Time, Calendar, Day Counter, Clock, Weather, Device Sensors, Google Calendar, Todoist, Stock, CoinMarketCap, HTML, and all widgets in the Data section.
+- **How it works**: After clicking "Add to my page", a Quick Setup prompt guides you through configuring all data widgets in one place — no more jumping back and forth in the Designer's Inspector panel.
+- For example: a published template showing Singapore weather, date, and crypto stats can now be customized in the setup page — switch the city, time zone, and plug in your own crypto data API, all in one go.
+
+#### 02 Template Community Overhaul
+- **Comments on Template Detail Page**：A new comment section below the template description lets you view historical comments and share your thoughts on templates you love.
+- **Enhanced Social Sharing**：Template detail pages now highlight social features like likes and shares. Share your favorite templates to Facebook, Reddit, Twitter, Pinterest, Threads, BlueSky, or copy the link with one click.
+- **Home Template Card Improvements**：Default template covers now use a mockup display for a more intuitive preview; user-uploaded covers remain as-is.
+Card info is streamlined — showing only template name, creator, likes, and downloads for cleaner browsing.
+
+#### 03 User Center Upgrade
+The profile page gets several new social features:
+- **@User ID**: User ID display on personal profiles, making it easy to mention others.
+- **Following / Followers Lists**: View who you follow and who follows you, complete with data cards and template showcases.
+- **Direct Message Button**: Message creators directly from their profile page.
+- **Message Center**: A new notification hub above your avatar, consolidating incoming comments and direct messages in one place.
+
+#### 04 Workspace Shortcuts
+On My Designs / My Photos / My Playlists pages, we've introduced faster bulk operations:
+- Click-and-drag to select single or multiple items
+- Right-click for a quick action menu: Duplicate / Apply to Device / Share / Publish / Download JSON / Delete
+- Managing your work just got a whole lot more efficient.
+
+#### 05 Smarter, More Natural AI Integration
+- **Image Generation Upgrade**: Tailored for e-ink displays, we now offer 10 preset image styles (E-ink, Flat, Pixel, Ink Wash, Line Art, Woodcut, Sketch, and more) to help you generate images that perfectly match your needs.
+- **Layout Generation Improvements**: Three new quick-start prompts make it easier to try layout generation, with improved accuracy.
+- **AI Directly Embedded in Designer**: AI Canvas Layout in the Top Toolbar: Free AI fine-tuning capabilities — align multiple widgets, unify font sizes in one click, and more.
+AI Image Generation in Image Widget: In addition to local upload, URL import, and preset icons, you can now generate images directly with LLM and embed them into your design.
+
+### 📝 Other Improvements
+- Overall performance and stability enhancements
+- Various bug fixes mentioned in the [SenseCraft Seeedash Open Roadmap](https://docs.google.com/document/d/18xcOUtQjN6NweaFFQ7ZZEqQ3Hoaqs0XX7PX74HbDv4s/edit?usp=sharing).
+
+💚 That's everything in V1.7.0 — go check it out! As always, we'd love to hear your feedback in [Discord channel](https://discord.com/invite/Jj2CBXCjtf), or you can report bugs here via our [SenseCraft Seeedash Open Roadmap](https://docs.google.com/document/d/18xcOUtQjN6NweaFFQ7ZZEqQ3Hoaqs0XX7PX74HbDv4s/edit?usp=sharing).
+
+
+
+
+
 
 ---
 ## SenseCraft Seeedash (SenseCraft HMI) v1.6.0 Release Notes
